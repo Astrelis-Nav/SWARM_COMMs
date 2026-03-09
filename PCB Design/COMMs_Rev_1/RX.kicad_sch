@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "69726bb6-fc64-446e-8657-a79359d88835")
 	(paper "A4")
 	(lib_symbols
@@ -90,6 +90,24 @@
 				)
 			)
 			(symbol "INA333xxDGK_1_1"
+				(pin input line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -101,6 +119,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "Rg"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -126,17 +162,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 5.08 0)
-					(length 2.54)
-					(name "+"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 3.81)
+					(name "V+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -198,43 +234,8 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "Rg"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "COMMS:AD5246BKSZ100-RL7"
 			(pin_names
@@ -318,18 +319,6 @@
 			(symbol "AD5246BKSZ100-RL7_0_1"
 				(polyline
 					(pts
-						(xy 7.62 -6.985) (xy 19.05 -6.985)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 1.905) (xy 7.62 -6.985)
 					)
 					(stroke
@@ -342,7 +331,7 @@
 				)
 				(polyline
 					(pts
-						(xy 19.05 -6.985) (xy 19.05 1.905)
+						(xy 7.62 -6.985) (xy 19.05 -6.985)
 					)
 					(stroke
 						(width 0.127)
@@ -355,6 +344,18 @@
 				(polyline
 					(pts
 						(xy 19.05 1.905) (xy 7.62 1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 -6.985) (xy 19.05 1.905)
 					)
 					(stroke
 						(width 0.127)
@@ -439,24 +440,6 @@
 			)
 			(symbol "AD5246BKSZ100-RL7_1_1"
 				(pin passive line
-					(at 26.67 -2.54 180)
-					(length 7.62)
-					(name "W"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 26.67 0 180)
 					(length 7.62)
 					(name "B"
@@ -474,7 +457,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 26.67 -2.54 180)
+					(length 7.62)
+					(name "W"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "COMMS:OPA2322AID"
 			(pin_names
@@ -662,18 +664,6 @@
 			(symbol "OPA2322AID_1_0"
 				(polyline
 					(pts
-						(xy -2.54 -5.08) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.54 5.08) (xy -2.54 -5.08)
 					)
 					(stroke
@@ -686,7 +676,19 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 -2.54) (xy -0.635 -2.54)
+						(xy -2.54 -5.08) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 2.54) (xy -0.635 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -698,7 +700,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 2.54) (xy -0.635 2.54)
+						(xy -1.905 -2.54) (xy -0.635 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -750,24 +752,6 @@
 						(justify right top)
 					)
 				)
-				(pin output line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 5.08)
@@ -805,24 +789,6 @@
 					)
 				)
 				(pin power_in line
-					(at 2.54 -7.62 90)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 2.54 7.62 270)
 					(length 5.08)
 					(name "~"
@@ -840,20 +806,44 @@
 						)
 					)
 				)
-			)
-			(symbol "OPA2322AID_2_0"
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy 7.62 0)
+				(pin power_in line
+					(at 2.54 -7.62 90)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
 					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
 					)
 				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA2322AID_2_0"
 				(polyline
 					(pts
 						(xy -2.54 5.08) (xy -2.54 -5.08)
@@ -868,7 +858,19 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 -2.54) (xy -0.635 -2.54)
+						(xy -2.54 -5.08) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 2.54) (xy -0.635 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -880,7 +882,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 2.54) (xy -0.635 2.54)
+						(xy -1.905 -2.54) (xy -0.635 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -915,24 +917,6 @@
 					)
 				)
 				(pin input line
-					(at -7.62 -2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -7.62 2.54 0)
 					(length 5.08)
 					(name "~"
@@ -943,6 +927,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -969,11 +971,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1071,9 +1078,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1146,7 +1156,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1158,7 +1168,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1207,10 +1217,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Potentiometer"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1276,12 +1289,11 @@
 				)
 			)
 			(symbol "R_Potentiometer_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1300,11 +1312,12 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1332,24 +1345,6 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "3"
@@ -1367,10 +1362,31 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1441,18 +1457,6 @@
 			(symbol "R_US_0_1"
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
@@ -1465,7 +1469,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -1489,7 +1493,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1538,10 +1554,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Diode:1N4148WS"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1639,10 +1660,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1651,10 +1672,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1700,12 +1721,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+12V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1777,7 +1803,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1789,7 +1815,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1820,12 +1846,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1897,7 +1928,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1909,7 +1940,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1940,12 +1971,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2036,7 +2072,272 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 173.99 67.31)
+		(end 261.62 111.76)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 24 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 025badfa-a047-4615-9905-9cd7d0e12f0b)
+	)
+	(rectangle
+		(start 119.38 67.31)
+		(end 172.72 111.76)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 24 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0bb59349-9644-45b2-b7e7-208daefde576)
+	)
+	(rectangle
+		(start 12.7 113.03)
+		(end 87.63 153.67)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 24 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0ebd06dd-48c9-41c7-84bb-56038959db3a)
+	)
+	(rectangle
+		(start 71.12 12.7)
+		(end 168.91 66.04)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 24 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 14fe6566-e205-4900-83eb-8c1d2157c68a)
+	)
+	(rectangle
+		(start 12.7 67.056)
+		(end 118.11 111.76)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 24 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2be42df0-3068-4889-a4c3-9f36241830d9)
+	)
+	(rectangle
+		(start 88.9 113.03)
+		(end 120.65 152.4)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 24 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6f2cfd90-82e0-4ea3-beb1-be9fd0257b7d)
+	)
+	(rectangle
+		(start 170.18 12.7)
+		(end 284.48 66.04)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 24 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 76c11ced-2ef1-456c-a218-b968a56b8497)
+	)
+	(rectangle
+		(start 121.92 113.03)
+		(end 153.67 152.4)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 24 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a6781787-f305-4a37-9cad-b4650289e2c3)
+	)
+	(rectangle
+		(start 12.7 12.7)
+		(end 69.85 66.04)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 24 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e80056f0-cbbc-465c-839f-10aa14f6451b)
+	)
+	(text "Series Damping Resistor\nModify sizing with testing"
+		(exclude_from_sim no)
+		(at 31.242 41.402 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+				(color 255 10 14 1)
+			)
+			(justify right)
+		)
+		(uuid "034563aa-cfdc-433b-bcfe-9d28651b4a69")
+	)
+	(text "LOW NOISE AMPLIFIER"
+		(exclude_from_sim no)
+		(at 92.71 15.494 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "5301d04c-d0e8-48f4-b2e0-a809df8bdd29")
+	)
+	(text "BAND PASS FILTER"
+		(exclude_from_sim no)
+		(at 170.434 15.494 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "57ccd88e-ba84-497d-8978-a584555e5c83")
+	)
+	(text "INPUT PROTECTION NETWORK"
+		(exclude_from_sim no)
+		(at 40.894 15.494 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "71da62be-1a9d-47bf-b7a8-2d6c00b0a896")
+	)
+	(text "PHASE SHIFT"
+		(exclude_from_sim no)
+		(at 186.944 70.104 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "880cda90-8f86-4248-b39c-62807904fae1")
+	)
+	(text "CONNECTIONS"
+		(exclude_from_sim no)
+		(at 135.636 115.824 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "895c0d3b-3f5d-40a2-b47b-7e1a3f5cf874")
+	)
+	(text "SUMMING NODE"
+		(exclude_from_sim no)
+		(at 27.686 115.824 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "8f4687e0-5516-4b31-83c2-40785889705c")
+	)
+	(text "Change resistor and capacitor\nsizing based on testing"
+		(exclude_from_sim no)
+		(at 77.216 46.482 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+				(color 255 10 14 1)
+			)
+			(justify left)
+		)
+		(uuid "9180e699-d957-4ed9-a38f-751e8ebdb03b")
+	)
+	(text "Potentially add ESD and a mosfet for quicker blanking"
+		(exclude_from_sim no)
+		(at 12.954 64.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 12 14 255 1)
+			)
+			(justify left)
+		)
+		(uuid "9c84bf6f-a2da-4a19-8a3d-d150648cfdf2")
+	)
+	(text "OFFSET NETWORK"
+		(exclude_from_sim no)
+		(at 136.398 69.85 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "c3fb3802-55af-4fd8-83c7-6da43480d893")
+	)
+	(text "TEST POINTS"
+		(exclude_from_sim no)
+		(at 101.6 115.824 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "cac5dfa4-2e54-465b-aeb0-6d49c321dbfb")
+	)
+	(text "VARIABLE GAIN AMPLIFIER"
+		(exclude_from_sim no)
+		(at 37.846 69.85 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "d2844845-64f7-4371-a5c0-76a6aa6891c1")
 	)
 	(junction
 		(at 143.51 96.52)
@@ -4026,273 +4327,8 @@
 		)
 		(uuid "ff654522-d02b-4896-9a40-c22b42a4a51d")
 	)
-	(rectangle
-		(start 173.99 67.31)
-		(end 261.62 111.76)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 0 24 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 025badfa-a047-4615-9905-9cd7d0e12f0b)
-	)
-	(rectangle
-		(start 119.38 67.31)
-		(end 172.72 111.76)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 0 24 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0bb59349-9644-45b2-b7e7-208daefde576)
-	)
-	(rectangle
-		(start 12.7 113.03)
-		(end 87.63 153.67)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 0 24 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0ebd06dd-48c9-41c7-84bb-56038959db3a)
-	)
-	(rectangle
-		(start 71.12 12.7)
-		(end 168.91 66.04)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 0 24 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 14fe6566-e205-4900-83eb-8c1d2157c68a)
-	)
-	(rectangle
-		(start 12.7 67.056)
-		(end 118.11 111.76)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 0 24 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2be42df0-3068-4889-a4c3-9f36241830d9)
-	)
-	(rectangle
-		(start 88.9 113.03)
-		(end 120.65 152.4)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 0 24 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6f2cfd90-82e0-4ea3-beb1-be9fd0257b7d)
-	)
-	(rectangle
-		(start 170.18 12.7)
-		(end 284.48 66.04)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 0 24 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 76c11ced-2ef1-456c-a218-b968a56b8497)
-	)
-	(rectangle
-		(start 121.92 113.03)
-		(end 153.67 152.4)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 0 24 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a6781787-f305-4a37-9cad-b4650289e2c3)
-	)
-	(rectangle
-		(start 12.7 12.7)
-		(end 69.85 66.04)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 0 24 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e80056f0-cbbc-465c-839f-10aa14f6451b)
-	)
-	(text "Series Damping Resistor\nModify sizing with testing"
-		(exclude_from_sim no)
-		(at 31.242 41.402 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-				(color 255 10 14 1)
-			)
-			(justify right)
-		)
-		(uuid "034563aa-cfdc-433b-bcfe-9d28651b4a69")
-	)
-	(text "LOW NOISE AMPLIFIER"
-		(exclude_from_sim no)
-		(at 92.71 15.494 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "5301d04c-d0e8-48f4-b2e0-a809df8bdd29")
-	)
-	(text "BAND PASS FILTER"
-		(exclude_from_sim no)
-		(at 170.434 15.494 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "57ccd88e-ba84-497d-8978-a584555e5c83")
-	)
-	(text "INPUT PROTECTION NETWORK"
-		(exclude_from_sim no)
-		(at 40.894 15.494 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "71da62be-1a9d-47bf-b7a8-2d6c00b0a896")
-	)
-	(text "PHASE SHIFT"
-		(exclude_from_sim no)
-		(at 186.944 70.104 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "880cda90-8f86-4248-b39c-62807904fae1")
-	)
-	(text "CONNECTIONS"
-		(exclude_from_sim no)
-		(at 135.636 115.824 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "895c0d3b-3f5d-40a2-b47b-7e1a3f5cf874")
-	)
-	(text "SUMMING NODE"
-		(exclude_from_sim no)
-		(at 27.686 115.824 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "8f4687e0-5516-4b31-83c2-40785889705c")
-	)
-	(text "Change resistor and capacitor\nsizing based on testing"
-		(exclude_from_sim no)
-		(at 77.216 46.482 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-				(color 255 10 14 1)
-			)
-			(justify left)
-		)
-		(uuid "9180e699-d957-4ed9-a38f-751e8ebdb03b")
-	)
-	(text "Potentially add ESD and a mosfet for quicker blanking"
-		(exclude_from_sim no)
-		(at 12.954 64.516 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 12 14 255 1)
-			)
-			(justify left)
-		)
-		(uuid "9c84bf6f-a2da-4a19-8a3d-d150648cfdf2")
-	)
-	(text "OFFSET NETWORK"
-		(exclude_from_sim no)
-		(at 136.398 69.85 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "c3fb3802-55af-4fd8-83c7-6da43480d893")
-	)
-	(text "TEST POINTS"
-		(exclude_from_sim no)
-		(at 101.6 115.824 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "cac5dfa4-2e54-465b-aeb0-6d49c321dbfb")
-	)
-	(text "VARIABLE GAIN AMPLIFIER"
-		(exclude_from_sim no)
-		(at 37.846 69.85 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "d2844845-64f7-4371-a5c0-76a6aa6891c1")
-	)
 	(label "TX_TAP"
 		(at 184.15 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4303,7 +4339,6 @@
 	)
 	(label "ADC_OUT"
 		(at 170.18 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4314,7 +4349,6 @@
 	)
 	(label "ADC_OUT"
 		(at 127 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4325,7 +4359,6 @@
 	)
 	(label "VGA_OUT"
 		(at 92.71 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4337,7 +4370,6 @@
 	)
 	(label "BPF_OUT"
 		(at 92.71 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4349,7 +4381,6 @@
 	)
 	(label "TX_TAP"
 		(at 127 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4360,7 +4391,6 @@
 	)
 	(label "SCL"
 		(at 69.85 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4371,7 +4401,6 @@
 	)
 	(label "VGA_OUT"
 		(at 121.92 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4382,7 +4411,6 @@
 	)
 	(label "RX_F_A"
 		(at 60.96 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4393,7 +4421,6 @@
 	)
 	(label "RX_B"
 		(at 16.51 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4404,7 +4431,6 @@
 	)
 	(label "SDA"
 		(at 127 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4415,7 +4441,6 @@
 	)
 	(label "RX_F_A"
 		(at 76.2 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4426,7 +4451,6 @@
 	)
 	(label "VGA_OUT"
 		(at 116.84 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4437,7 +4461,6 @@
 	)
 	(label "RX_A"
 		(at 16.51 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4448,7 +4471,6 @@
 	)
 	(label "SDA"
 		(at 106.68 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4459,7 +4481,6 @@
 	)
 	(label "RX_F_A"
 		(at 92.71 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4471,7 +4492,6 @@
 	)
 	(label "RX_F_B"
 		(at 92.71 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4483,7 +4503,6 @@
 	)
 	(label "RX_F_B"
 		(at 60.96 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4494,7 +4513,6 @@
 	)
 	(label "BPF_MID_TP"
 		(at 92.71 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4506,7 +4524,6 @@
 	)
 	(label "LNA_OUT"
 		(at 124.46 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4517,7 +4534,6 @@
 	)
 	(label "LNA_OUT"
 		(at 92.71 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4529,7 +4545,6 @@
 	)
 	(label "RX_A"
 		(at 127 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4540,7 +4555,6 @@
 	)
 	(label "RX_F_B"
 		(at 76.2 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4551,7 +4565,6 @@
 	)
 	(label "TX_PHASED_OUT"
 		(at 13.97 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4562,7 +4575,6 @@
 	)
 	(label "BPF_MID_TP"
 		(at 229.87 20.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4573,7 +4585,6 @@
 	)
 	(label "SCL"
 		(at 127 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4584,7 +4595,6 @@
 	)
 	(label "SUM_OUT"
 		(at 48.26 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4595,7 +4605,6 @@
 	)
 	(label "BPF_OUT"
 		(at 269.24 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4606,7 +4615,6 @@
 	)
 	(label "LNA_OUT"
 		(at 172.72 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4617,7 +4625,6 @@
 	)
 	(label "SUM_OUT"
 		(at 92.71 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4629,7 +4636,6 @@
 	)
 	(label "SUM_OUT"
 		(at 86.36 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4640,7 +4646,6 @@
 	)
 	(label "TX_PHASED_OUT"
 		(at 92.71 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4652,7 +4657,6 @@
 	)
 	(label "BPF_OUT"
 		(at 13.97 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4663,7 +4667,6 @@
 	)
 	(label "TX_PHASED_OUT"
 		(at 248.92 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4674,7 +4677,6 @@
 	)
 	(label "RX_B"
 		(at 127 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4686,7 +4688,6 @@
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 139.7 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4698,7 +4699,6 @@
 	(hierarchical_label "ADC_OUT"
 		(shape input)
 		(at 139.7 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4710,7 +4710,6 @@
 	(hierarchical_label "RX_A"
 		(shape input)
 		(at 139.7 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4722,7 +4721,6 @@
 	(hierarchical_label "RX_B"
 		(shape input)
 		(at 139.7 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4734,7 +4732,6 @@
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 139.7 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4746,7 +4743,6 @@
 	(hierarchical_label "TX_TAP"
 		(shape input)
 		(at 139.7 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
