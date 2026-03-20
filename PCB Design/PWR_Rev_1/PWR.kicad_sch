@@ -13585,7 +13585,7 @@
 	)
 	(symbol
 		(lib_id "Diode:PTVS5V0Z1USK")
-		(at 148.59 105.41 90)
+		(at 148.59 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13593,7 +13593,7 @@
 		(dnp no)
 		(uuid "f824faea-62d3-48c9-a8ba-0e7cd8257b72")
 		(property "Reference" "D5"
-			(at 149.86 105.41 90)
+			(at 147.32 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13602,7 +13602,7 @@
 			)
 		)
 		(property "Value" "SMBJ18A"
-			(at 148.844 107.95 90)
+			(at 148.082 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13611,7 +13611,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 153.035 105.41 0)
+			(at 144.145 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2303,6 +2303,16 @@
 		)
 		(uuid "9c84bf6f-a2da-4a19-8a3d-d150648cfdf2")
 	)
+	(text "Should be a 100k ohm resistor"
+		(exclude_from_sim no)
+		(at 53.848 150.368 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b35ead3d-a6fb-4197-aef0-590f662c3bf5")
+	)
 	(text "OFFSET NETWORK"
 		(exclude_from_sim no)
 		(at 136.398 69.85 0)
