@@ -541,7 +541,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "CONTROL_BOARD_OUTPUT_08_018_2026/",
+      "plot": "CONTROL_BOARD_OUTPUT_08_022_2026/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -552,7 +552,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "C:\\Users\\samch\\Downloads\\CONTROL.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

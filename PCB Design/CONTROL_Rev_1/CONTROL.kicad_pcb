@@ -74,7 +74,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "CONTROL_BOARD_OUTPUT_08_018_2026/")
+			(outputdirectory "CONTROL_BOARD_OUTPUT_08_022_2026/")
 		)
 	)
 	(net 0 "")
@@ -13910,7 +13910,7 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "CONTROL BOARD \nREV1 03/2026\nBy Samantha Chong"
+	(gr_text "CONTROL BOARD \nREV1.1 03/2026\nBy Samantha Chong"
 		(at 67 176.9 0)
 		(layer "B.SilkS")
 		(uuid "41f2b6be-4bbd-451d-a5de-a04445c1eeb1")
