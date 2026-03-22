@@ -74,7 +74,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "SENSOR_BOARD_OUTPUT_08_19_2026/")
+			(outputdirectory "SENSOR_BOARD_OUTPUT_08_22_2026/")
 		)
 	)
 	(net 0 "")
@@ -6248,7 +6248,7 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "SENSOR BOARD \nREV1 03/2026\nBy Samantha Chong"
+	(gr_text "SENSOR BOARD \nREV1.1 03/2026\nBy Samantha Chong"
 		(at 158.25 128.5 0)
 		(layer "B.SilkS")
 		(uuid "e7b6339b-b465-4e58-82c7-f5145d6eda74")
