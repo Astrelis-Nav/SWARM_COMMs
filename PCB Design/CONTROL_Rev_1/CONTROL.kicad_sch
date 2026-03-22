@@ -8167,7 +8167,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 193.04) (xy 134.62 193.04)
+			(xy 113.03 193.04) (xy 134.62 193.04)
 		)
 		(stroke
 			(width 0)
@@ -8807,7 +8807,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 195.58) (xy 139.7 195.58)
+			(xy 113.03 195.58) (xy 139.7 195.58)
 		)
 		(stroke
 			(width 0)
@@ -11095,8 +11095,8 @@
 		)
 		(uuid "33d85fc1-a034-4263-9bfa-60cb72adcd21")
 	)
-	(label "USB_D+"
-		(at 114.3 193.04 0)
+	(label "USB_D+IN"
+		(at 113.03 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11385,8 +11385,8 @@
 		)
 		(uuid "63e870b3-b0f3-41a3-87b7-59c3a726b885")
 	)
-	(label "USB_D-"
-		(at 114.3 195.58 0)
+	(label "USB_D-IN"
+		(at 113.03 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16818,6 +16818,72 @@
 			(project "CONTROL"
 				(path "/0692d2c3-ddc7-44ef-a4e6-56d2a9ee62f1"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 160.02 176.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88755893-36fc-4f96-97e7-64f8eabf8969")
+		(property "Reference" "#FLG05"
+			(at 160.02 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 160.02 180.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 160.02 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "752a22e2-2825-46a1-8251-7289a24f869a")
+		)
+		(instances
+			(project "CONTROL"
+				(path "/0692d2c3-ddc7-44ef-a4e6-56d2a9ee62f1"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
