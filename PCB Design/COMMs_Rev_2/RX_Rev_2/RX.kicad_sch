@@ -5845,7 +5845,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "04b047c1-6f34-472c-a293-2d62fb094753")
 		(property "Reference" "R13"
 			(at 47.244 157.988 0)
