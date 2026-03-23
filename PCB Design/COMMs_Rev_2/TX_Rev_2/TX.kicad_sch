@@ -5462,7 +5462,7 @@
 		)
 		(uuid "0d13b68f-5128-4ff8-ad62-cfab0895389e")
 	)
-	(label "TX_A"
+	(label "H_A"
 		(at 86.36 35.56 180)
 		(effects
 			(font
@@ -5752,7 +5752,7 @@
 		)
 		(uuid "cf7a83c8-c5fe-4349-b03f-8dd8d2116dc7")
 	)
-	(label "TX_B"
+	(label "H_B"
 		(at 86.36 81.28 180)
 		(effects
 			(font
@@ -12445,7 +12445,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-5030"
 			(at 132.08 113.03 0)
 			(effects
 				(font
@@ -13704,7 +13704,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-5030"
 			(at 132.08 119.38 0)
 			(effects
 				(font

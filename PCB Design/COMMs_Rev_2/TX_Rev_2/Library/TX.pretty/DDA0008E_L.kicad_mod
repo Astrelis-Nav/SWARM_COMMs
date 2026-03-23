@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "UCC27211AQDDARQ1 ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -0.38 -3.28 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "0d331e02-bf89-4a2a-b3bb-1b15395c7657")
@@ -243,13 +243,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "881c9009-da55-4990-a2c2-8cac69674bba")
 	)
-	(pad "9" smd rect
-		(at 0 0)
-		(size 2.949999 4.900001)
-		(layers "F.Cu")
-		(uuid "c4f768ce-4d1c-44bd-b65d-053953a32b34")
-	)
-	(pad "V" thru_hole circle
+	(pad "9" thru_hole circle
 		(at -0.549999 -1.950001)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
@@ -257,7 +251,7 @@
 		(remove_unused_layers no)
 		(uuid "77e95564-b7bc-4960-9982-588f4dfef17b")
 	)
-	(pad "V" thru_hole circle
+	(pad "9" thru_hole circle
 		(at -0.549999 -0.650001)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
@@ -265,7 +259,7 @@
 		(remove_unused_layers no)
 		(uuid "8e29205e-1110-427f-9563-7fa3bcb00c34")
 	)
-	(pad "V" thru_hole circle
+	(pad "9" thru_hole circle
 		(at -0.549999 0.650001)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
@@ -273,7 +267,7 @@
 		(remove_unused_layers no)
 		(uuid "fba2b13f-d09c-49a2-bb3d-c3665fbe0542")
 	)
-	(pad "V" thru_hole circle
+	(pad "9" thru_hole circle
 		(at -0.549999 1.950001)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
@@ -281,7 +275,13 @@
 		(remove_unused_layers no)
 		(uuid "839c52bb-329c-452c-95fa-0740557a16d8")
 	)
-	(pad "V" thru_hole circle
+	(pad "9" smd rect
+		(at 0 0)
+		(size 2.949999 4.900001)
+		(layers "F.Cu")
+		(uuid "c4f768ce-4d1c-44bd-b65d-053953a32b34")
+	)
+	(pad "9" thru_hole circle
 		(at 0.550001 -1.950001)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
@@ -289,7 +289,7 @@
 		(remove_unused_layers no)
 		(uuid "c4af1e06-4bec-4aec-8208-f01c90796667")
 	)
-	(pad "V" thru_hole circle
+	(pad "9" thru_hole circle
 		(at 0.550001 -0.650001)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
@@ -297,7 +297,7 @@
 		(remove_unused_layers no)
 		(uuid "0d697608-42af-425d-a2b3-e57163f821ec")
 	)
-	(pad "V" thru_hole circle
+	(pad "9" thru_hole circle
 		(at 0.550001 0.650001)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
@@ -305,7 +305,7 @@
 		(remove_unused_layers no)
 		(uuid "5ff24021-b147-48e0-b723-b781c20ddfce")
 	)
-	(pad "V" thru_hole circle
+	(pad "9" thru_hole circle
 		(at 0.550001 1.950001)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
