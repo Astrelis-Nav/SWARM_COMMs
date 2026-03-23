@@ -1891,7 +1891,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS"
+		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1902,16 +1902,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "L"
+				(at -1.27 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "D_TVS"
-				(at 0 -2.54 0)
+			(property "Value" "L"
+				(at 1.905 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1936,7 +1936,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(property "Description" "Inductor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1945,7 +1945,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode TVS thyrector"
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1954,7 +1954,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1963,35 +1963,47 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_TVS_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
 					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -2001,11 +2013,11 @@
 					)
 				)
 			)
-			(symbol "D_TVS_1_1"
+			(symbol "L_1_1"
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2021,9 +2033,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3246,6 +3258,18 @@
 		)
 		(uuid cddd3594-bb17-42d0-aabd-b164377d084f)
 	)
+	(rectangle
+		(start 111.76 105.41)
+		(end 154.94 123.19)
+		(stroke
+			(width 0.254)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cf772795-098e-4f30-a2a6-4b377ac3dbba)
+	)
 	(text "50V"
 		(exclude_from_sim no)
 		(at 105.41 131.572 0)
@@ -3384,6 +3408,19 @@
 			)
 		)
 		(uuid "8471fc7a-a244-431a-a2de-eba9ae110e8b")
+	)
+	(text "IMPEDANCE MATCHING"
+		(exclude_from_sim no)
+		(at 112.268 107.95 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ab85e2a8-bdba-444c-be8f-8fb8bf42629c")
 	)
 	(text "BULK DECOUPLING"
 		(exclude_from_sim no)
@@ -3940,16 +3977,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 127) (xy 46.99 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c63e728-8f98-4062-9e5b-0d75a9176f4d")
-	)
-	(wire
-		(pts
 			(xy 26.67 88.9) (xy 29.21 88.9)
 		)
 		(stroke
@@ -4077,16 +4104,6 @@
 			(type default)
 		)
 		(uuid "31dd7ae5-42de-4cf6-8631-e5f2940fd10b")
-	)
-	(wire
-		(pts
-			(xy 54.61 127) (xy 59.69 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32b78667-da7f-4a83-9ccd-9b81b2123d8b")
 	)
 	(wire
 		(pts
@@ -4417,6 +4434,16 @@
 			(type default)
 		)
 		(uuid "5e2880d6-972e-417b-9e80-2578609e9ad0")
+	)
+	(wire
+		(pts
+			(xy 135.89 113.03) (xy 143.51 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e905645-005e-4585-9eac-1ca593b2c3a6")
 	)
 	(wire
 		(pts
@@ -4970,6 +4997,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 119.38) (xy 128.27 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af78b25a-b26c-4418-a377-557546246fca")
+	)
+	(wire
+		(pts
 			(xy 90.17 35.56) (xy 90.17 34.29)
 		)
 		(stroke
@@ -5080,6 +5117,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 113.03) (xy 128.27 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c59d1d62-73e3-4c5c-b304-34986c5d23f3")
+	)
+	(wire
+		(pts
 			(xy 35.56 25.4) (xy 35.56 35.56)
 		)
 		(stroke
@@ -5087,6 +5134,16 @@
 			(type default)
 		)
 		(uuid "c6f81c6b-234f-4d27-89be-1428dcf81954")
+	)
+	(wire
+		(pts
+			(xy 135.89 119.38) (xy 143.51 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c76d11fe-4de6-451e-887e-a38cf80db4f2")
 	)
 	(wire
 		(pts
@@ -5478,8 +5535,8 @@
 		)
 		(uuid "36a5ca66-9b32-4d43-a167-6739c7a253a2")
 	)
-	(label "TX_B"
-		(at 73.66 127 180)
+	(label "H_B"
+		(at 64.77 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5528,6 +5585,16 @@
 		)
 		(uuid "5ba978b7-4c53-48c3-9b14-498ecd08aa81")
 	)
+	(label "H_B"
+		(at 121.92 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bf29436-715e-4baa-88ce-cbc9007f6cca")
+	)
 	(label "SHUNT_P"
 		(at 46.99 139.7 0)
 		(effects
@@ -5567,6 +5634,16 @@
 			(justify right bottom)
 		)
 		(uuid "8461d7fb-0f2d-4f1e-b796-e8c7f2d188e2")
+	)
+	(label "TX_B"
+		(at 143.51 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87c2a7ba-c249-4870-951e-74bc938cf5b2")
 	)
 	(label "LO_A"
 		(at 30.48 134.62 0)
@@ -5608,8 +5685,8 @@
 		)
 		(uuid "a986b72c-289c-4d00-b578-823e177d2577")
 	)
-	(label "TX_A"
-		(at 29.21 127 0)
+	(label "H_A"
+		(at 38.1 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5627,6 +5704,16 @@
 			(justify right bottom)
 		)
 		(uuid "b396c4d5-0d07-464c-bb0d-3462fd5d7f1d")
+	)
+	(label "H_A"
+		(at 121.92 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b41c6789-483c-4c78-95bb-2a0b866d3926")
 	)
 	(label "ADC_CURRENT"
 		(at 76.2 163.83 180)
@@ -5667,6 +5754,16 @@
 			(justify right bottom)
 		)
 		(uuid "d57801fe-e142-4cf4-922a-2ba05ff9a6fb")
+	)
+	(label "TX_A"
+		(at 143.51 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d57ba354-325d-4402-b41a-70c76f252504")
 	)
 	(label "HI_A"
 		(at 15.24 25.4 0)
@@ -10772,73 +10869,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 50.8 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "925f364e-de06-478b-a623-6b1587c98e51")
-		(property "Reference" "D1"
-			(at 50.8 124.206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMBJ30A"
-			(at 50.8 129.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 50.8 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 50.8 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc8baee8-0bfd-4cf8-8c3c-a78161ec4f59")
-		)
-		(pin "2"
-			(uuid "130015ff-c3c4-4ee3-913a-7ed00bdd85a0")
-		)
-		(instances
-			(project ""
-				(path "/db628952-7712-4c33-95ca-df895d26f0e8"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 109.22 77.47 0)
 		(unit 1)
@@ -12384,6 +12414,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 132.08 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be805958-03f0-4f6c-adaf-e0f93e648c20")
+		(property "Reference" "L1"
+			(at 132.08 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 132.08 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 132.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ec23f5e-16c0-4fbd-aabf-63744b5e0219")
+		)
+		(pin "2"
+			(uuid "3aa61b9f-0cfc-43a6-b471-969123b8b8e0")
+		)
+		(instances
+			(project ""
+				(path "/db628952-7712-4c33-95ca-df895d26f0e8"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 195.58 63.5 0)
 		(unit 1)
@@ -13570,6 +13667,73 @@
 			(project "TX"
 				(path "/db628952-7712-4c33-95ca-df895d26f0e8"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 132.08 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e28b7d18-51d4-40ef-904c-067f11c482e3")
+		(property "Reference" "L2"
+			(at 132.08 117.602 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 132.08 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a456f9b-3dc6-4644-9278-5ade1efd0fa1")
+		)
+		(pin "2"
+			(uuid "7551e593-2c5b-4620-b875-111f1bbd47d6")
+		)
+		(instances
+			(project "TX"
+				(path "/db628952-7712-4c33-95ca-df895d26f0e8"
+					(reference "L2")
 					(unit 1)
 				)
 			)

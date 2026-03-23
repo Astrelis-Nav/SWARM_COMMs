@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "SWARM PWR BOARD")
-		(date "2026-03-21")
+		(date "2026-03-23")
 		(rev "1.1")
 		(company "CAPSTONE")
 		(comment 1 "By Samantha Chong")
@@ -12310,7 +12310,7 @@
 				)
 			)
 		)
-		(property "Value" "15u"
+		(property "Value" "N/A"
 			(at 73.66 108.966 90)
 			(effects
 				(font

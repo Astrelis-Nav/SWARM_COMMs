@@ -74,7 +74,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "PWR_BOARD_OUTPUT_08_03_2026/")
+			(outputdirectory "PWR_BOARD_OUTPUT_08_23_2026/")
 		)
 	)
 	(net 0 "")
