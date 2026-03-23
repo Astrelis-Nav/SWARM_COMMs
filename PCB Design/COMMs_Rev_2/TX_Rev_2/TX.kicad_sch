@@ -6857,7 +6857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IPD50N10S3L16ATMA1"
+		(property "Value" "IPD50N10S3L16ATMA2"
 			(at 39.116 135.636 0)
 			(effects
 				(font
@@ -13106,7 +13106,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IPD50N10S3L16ATMA1"
+		(property "Value" "IPD50N10S3L16ATMA2"
 			(at 39.116 120.396 0)
 			(effects
 				(font
@@ -13964,7 +13964,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IPD50N10S3L16ATMA1"
+		(property "Value" "IPD50N10S3L16ATMA2"
 			(at 63.754 120.396 0)
 			(effects
 				(font
@@ -14331,7 +14331,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IPD50N10S3L16ATMA1"
+		(property "Value" "IPD50N10S3L16ATMA2"
 			(at 63.754 135.636 0)
 			(effects
 				(font
