@@ -13315,7 +13315,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TX BOARD \nREV2 03/2026\nBy Samantha Chong"
+	(gr_text "TX BOARD \nREV2.1 03/2026\nBy Samantha Chong"
 		(at 157.9 108.8 0)
 		(layer "B.SilkS")
 		(uuid "6995f690-b206-4173-b723-06bc2efe1148")
