@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "db628952-7712-4c33-95ca-df895d26f0e8")
 	(paper "A4")
+	(title_block
+		(title "SWARM TX COMMs")
+		(date "2026-03-23")
+		(rev "2.1")
+		(company "Capstone")
+		(comment 1 "By SAMANTHA CHONG")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Current:INA240A2D"
 			(pin_names
