@@ -2949,7 +2949,7 @@
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST VH vertical")
 		(property "Reference" "J5"
-			(at 1.98 -4.9 0)
+			(at -1.75 -2.874999 0)
 			(layer "F.SilkS")
 			(uuid "79b4c899-cb0f-4202-992f-5d6b49a76fa5")
 			(effects
@@ -3274,15 +3274,15 @@
 			(uuid "24259a59-da91-49fb-a6af-96c2c8767723")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_VH_B2P-VH_1x02_P3.96mm_Vertical.step"
+		(model "${KIPRJMOD}/Library/B2P-VH--3DModel-STEP-56544.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
