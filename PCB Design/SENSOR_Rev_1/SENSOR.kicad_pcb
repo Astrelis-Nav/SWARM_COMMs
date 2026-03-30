@@ -4021,7 +4021,7 @@
 			)
 		)
 	)
-	(footprint "Sensor_Pressure:TE_MS5837-xxBA"
+	(footprint "SENSOR:TE_MS5837-xxBA"
 		(layer "F.Cu")
 		(uuid "be69907f-e145-47e9-a01e-981e23ecf175")
 		(at 151.6 71)
@@ -4090,7 +4090,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "1e4e1d50-7771-4a89-9888-2f8ffcda0643")
+			(uuid "dfdd4900-2ce5-4294-88a5-2e4833408b51")
 		)
 		(fp_line
 			(start -1.5 -1.85)
@@ -4100,7 +4100,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "05afcb68-19e7-4953-a8f4-ae2c516e5b8d")
+			(uuid "9c46e26b-5b38-4cd0-b946-90d80876a8ec")
 		)
 		(fp_line
 			(start 1.85 -1.85)
@@ -4110,7 +4110,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5a73acc2-ab25-46dc-ad29-26460200ad1d")
+			(uuid "5c544146-169b-4360-8348-cee358174fc5")
 		)
 		(fp_line
 			(start 1.85 1.85)
@@ -4120,7 +4120,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "133237c2-f77b-459f-9d43-e185c81aaa1e")
+			(uuid "e9e1cddc-8a97-47ea-bd99-bf10d49030ca")
 		)
 		(fp_poly
 			(pts
@@ -4132,7 +4132,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "f5c76ee1-e185-4d52-94f0-d513c206fabc")
+			(uuid "ed63abc4-05b1-4ae7-9e26-c3c39800d29e")
 		)
 		(fp_rect
 			(start 1.95 1.95)
@@ -4143,7 +4143,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "9567439d-f13f-4767-8740-6e2663a16d8b")
+			(uuid "e8edea4e-64de-4a1e-816b-d01ba0d03bdb")
 		)
 		(fp_line
 			(start -1.7 -0.85)
@@ -4153,7 +4153,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dd056d90-3fe3-42b6-807f-afa63adab3d8")
+			(uuid "10ed9b79-2896-4d3f-bdd6-fb7f71e2affc")
 		)
 		(fp_line
 			(start -1.7 1.7)
@@ -4163,7 +4163,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ce6417c1-c07b-40c6-8bc5-f5653a22200a")
+			(uuid "ce9763a5-c595-4f8a-990a-e1cfd9891b65")
 		)
 		(fp_line
 			(start -0.85 -1.7)
@@ -4173,7 +4173,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "722ea96f-3033-44ac-afa0-3de7c18b2b1c")
+			(uuid "7bae8575-3a5b-45f3-9b24-b77f2d3c6480")
 		)
 		(fp_line
 			(start 1.7 -1.7)
@@ -4183,7 +4183,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6bad9eed-bcaf-4fdd-89a9-494417607529")
+			(uuid "709d292d-8432-4634-9700-d98fd1b9dafc")
 		)
 		(fp_line
 			(start 1.7 1.7)
@@ -4193,7 +4193,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "60a0bdb9-d97a-48fb-9d4d-f50e08c0c9de")
+			(uuid "1dadbff5-672e-4a68-a7af-58c3cab627dc")
 		)
 		(fp_circle
 			(center 0 0)
@@ -4204,7 +4204,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "c384af81-ce41-41ec-be55-5c8d1f0ab8f2")
+			(uuid "840f4ce1-f0a1-4b7f-a413-054d2bc4b5fc")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
@@ -4254,7 +4254,7 @@
 			(uuid "5c178cae-2509-4f10-9807-ba84ad9acadc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Sensor_Pressure.3dshapes/TE_MS5837-xxBA.step"
+		(model "${KIPRJMOD}/Library/MS583730BA01-50--3DModel-STEP-510211.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4262,7 +4262,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)

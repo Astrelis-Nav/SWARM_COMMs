@@ -6203,7 +6203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sensor_Pressure:TE_MS5837-xxBA"
+		(property "Footprint" "SENSOR:TE_MS5837-xxBA"
 			(at 171.45 74.93 0)
 			(effects
 				(font
