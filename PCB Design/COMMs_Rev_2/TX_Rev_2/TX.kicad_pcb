@@ -585,7 +585,7 @@
 			(uuid "53c4da72-6e52-4ba3-9b87-1adf68d0ae84")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_MAPI-5030.step"
+		(model "${KIPRJMOD}/Library/STP_WE-MXGI_5030+%28rev1%29.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7297,7 +7297,7 @@
 			(uuid "42957775-0fcf-4570-94d4-dd59816624dd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_MAPI-5030.step"
+		(model "${KIPRJMOD}/Library/STP_WE-MXGI_5030+%28rev1%29.stp"
 			(offset
 				(xyz 0 0 0)
 			)
