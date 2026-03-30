@@ -544,7 +544,7 @@
       "plot": "CONTROL_BOARD_OUTPUT_08_022_2026/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "CONTROL.step",
       "svg": "",
       "vrml": ""
     },

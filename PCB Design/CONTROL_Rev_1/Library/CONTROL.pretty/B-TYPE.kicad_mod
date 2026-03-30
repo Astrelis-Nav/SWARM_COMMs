@@ -194,4 +194,15 @@
 		(uuid "df73767b-1da3-480e-8db6-536bb300f51e")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Library/CJS-1200TB1.stp"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

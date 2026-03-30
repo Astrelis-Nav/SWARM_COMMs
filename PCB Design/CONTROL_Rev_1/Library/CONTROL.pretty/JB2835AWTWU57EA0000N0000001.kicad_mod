@@ -188,4 +188,15 @@
 		(uuid "e04c3dbc-fd84-433a-8546-8cdcd9ef31c4")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Library/LED_JE2835_CRW.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -180 -0)
+		)
+	)
 )

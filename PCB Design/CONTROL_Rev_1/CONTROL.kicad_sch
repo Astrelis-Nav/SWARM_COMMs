@@ -14704,7 +14704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_RGB_PLCC-6"
+		(property "Footprint" "CONTROL:LED_RGB_PLCC-6"
 			(at 208.28 86.36 0)
 			(effects
 				(font
