@@ -436,4 +436,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/PWR_Library.pretty/LED_JE2835_CRW/LED_JE2835_CRW.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

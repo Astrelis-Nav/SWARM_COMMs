@@ -508,7 +508,7 @@
       "plot": "PWR_BOARD_OUTPUT_08_23_2026/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PWR.step",
       "svg": "",
       "vrml": ""
     },

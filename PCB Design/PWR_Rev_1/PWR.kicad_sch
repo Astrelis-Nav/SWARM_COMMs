@@ -5797,7 +5797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
+		(property "Footprint" "PWR_Library:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
 			(at 50.8 91.44 0)
 			(effects
 				(font
@@ -8076,7 +8076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-5030"
+		(property "Footprint" "PWR_Library:L_Wuerth_MAPI-5030"
 			(at 73.66 66.04 0)
 			(effects
 				(font
@@ -8404,7 +8404,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_Bourns_MF-RHT300"
+		(property "Footprint" "PWR_Library:Fuse_Bourns_MF-RHT300"
 			(at 143.51 99.06 0)
 			(effects
 				(font
@@ -9881,7 +9881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
+		(property "Footprint" "PWR_Library:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
 			(at 50.8 49.53 0)
 			(effects
 				(font
@@ -11301,7 +11301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-5030"
+		(property "Footprint" "PWR_Library:L_Wuerth_MAPI-5030"
 			(at 73.66 24.13 0)
 			(effects
 				(font
@@ -12318,7 +12318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-5030"
+		(property "Footprint" "PWR_Library:L_Wuerth_MAPI-5030"
 			(at 73.66 107.95 0)
 			(effects
 				(font
@@ -13585,7 +13585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
+		(property "Footprint" "PWR_Library:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
 			(at 50.8 133.35 0)
 			(effects
 				(font

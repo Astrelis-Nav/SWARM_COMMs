@@ -1,0 +1,243 @@
+(footprint "L_Wuerth_MAPI-5030"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Wuerth, MAPI-5030, 5.4x5.4x3.1mm, (https://www.we-online.com/en/components/products/WE-MAPI?kicad), generated with kicad-footprint-generator gen_inductor.py")
+	(tags "Würth -SMT")
+	(property "Reference" "REF**"
+		(at 0 -3.65 0)
+		(layer "F.SilkS")
+		(uuid "ae946d80-3792-42ba-ac90-27f5a2964d87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Wuerth_MAPI-5030"
+		(at 0 3.65 0)
+		(layer "F.Fab")
+		(uuid "d88bd127-50b4-4518-b2e6-64c1e43b238e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6c68434-eaac-42e8-b8da-61814d31f35b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebc46f77-3358-46da-84be-ab7f39ce4258")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.81 -3.06)
+		(end 2.81 -3.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14b5a3b1-e0bd-425f-b7e6-2889a329b0c4")
+	)
+	(fp_line
+		(start 2.81 3.06)
+		(end -2.81 3.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3a02e0b-e1f2-40a3-bfa9-96502140b02e")
+	)
+	(fp_line
+		(start -3.05 -3.05)
+		(end -0.85 -3.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "70d54b62-fe95-4735-9aaf-52117743e3a1")
+	)
+	(fp_line
+		(start -3.05 3.05)
+		(end -3.05 -3.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b5807303-d646-4881-835b-d3830d93b161")
+	)
+	(fp_line
+		(start -0.85 -3.05)
+		(end -0.85 -2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ff2baca-410a-4be8-86d4-43f94862d248")
+	)
+	(fp_line
+		(start -0.85 -2.95)
+		(end 0.85 -2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "909829c7-bb1e-43bc-9503-f7bd52debd76")
+	)
+	(fp_line
+		(start -0.85 2.95)
+		(end -0.85 3.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8000ec4e-2d1e-43b4-9b8a-079f048fcb3b")
+	)
+	(fp_line
+		(start -0.85 3.05)
+		(end -3.05 3.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d138822b-c1aa-4321-ab25-1d6faf0c63b7")
+	)
+	(fp_line
+		(start 0.85 -3.05)
+		(end 3.05 -3.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6476baa9-357d-4e89-b96d-aa12bfdeba89")
+	)
+	(fp_line
+		(start 0.85 -2.95)
+		(end 0.85 -3.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ca87328-04d9-4b4b-ac82-f8f732e15c7a")
+	)
+	(fp_line
+		(start 0.85 2.95)
+		(end -0.85 2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff0dd466-8b6b-4549-b669-0cebed540177")
+	)
+	(fp_line
+		(start 0.85 3.05)
+		(end 0.85 2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0838c993-f5a2-40b0-b8ed-324a5e61bf36")
+	)
+	(fp_line
+		(start 3.05 -3.05)
+		(end 3.05 3.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f42e1df-e15b-4477-97e0-66f0636acc23")
+	)
+	(fp_line
+		(start 3.05 3.05)
+		(end 0.85 3.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "186b956a-431e-457d-969c-b1dee74dfd26")
+	)
+	(fp_rect
+		(start -2.7 -2.7)
+		(end 2.7 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9204367b-c865-4ff0-a7f5-0a478d52f058")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d99dd031-0815-443d-93e9-283c89e04d93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.95 0)
+		(size 1.7 5.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.147059)
+		(uuid "7996b729-6f37-4a0c-850c-7be2b56e8302")
+	)
+	(pad "2" smd roundrect
+		(at 1.95 0)
+		(size 1.7 5.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.147059)
+		(uuid "4dafbf6b-d760-44b3-a3d4-a7083f692222")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/PWR_Library.pretty/STP_WE-MXGI_5030+%28rev1%29.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

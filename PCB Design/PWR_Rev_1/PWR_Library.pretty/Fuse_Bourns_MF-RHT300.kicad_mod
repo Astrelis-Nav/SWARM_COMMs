@@ -1,0 +1,234 @@
+(footprint "Fuse_Bourns_MF-RHT300"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PTC Resettable Fuse, Ihold = 3.0A, Itrip=6.0A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf")
+	(tags "ptc resettable fuse polyfuse THT")
+	(property "Reference" "REF**"
+		(at 2.55 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "4e43aa63-42d2-4a99-80a8-e91ec17dbcb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse_Bourns_MF-RHT300"
+		(at 2.55 3.1 0)
+		(layer "F.Fab")
+		(uuid "623e4662-e10e-432c-89c7-88b5b9481e58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd8f5f5c-8808-4779-8267-b25ea8608681")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "514d26ef-1f07-48d2-9f38-76a27fa611e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.95 -1)
+		(end -0.838 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b84373e4-e827-4f1c-866f-43cdfb885703")
+	)
+	(fp_line
+		(start -1.95 2.2)
+		(end -1.95 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2582c98-c3c6-4fb3-9cbc-d1619d7d0309")
+	)
+	(fp_line
+		(start 0.838 -1)
+		(end 7.05 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a95a5cd-5d01-4633-b41a-26046531cb77")
+	)
+	(fp_line
+		(start 4.262 2.2)
+		(end -1.95 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c7c871f-5fbb-4e49-a827-82c6b06fa1eb")
+	)
+	(fp_line
+		(start 7.05 -1)
+		(end 7.05 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f379a164-fde5-4688-a74c-c78cc0338719")
+	)
+	(fp_line
+		(start 7.05 2.2)
+		(end 5.938 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6152ea93-1870-44fd-94d5-d789f7056384")
+	)
+	(fp_line
+		(start -2.1 -1.15)
+		(end -2.1 2.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b085070-65ac-4ba8-beb5-df3df8dd4cf3")
+	)
+	(fp_line
+		(start -2.1 2.35)
+		(end 7.2 2.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d453ab95-ef4c-4993-b80c-f17a7a7b0787")
+	)
+	(fp_line
+		(start 7.2 -1.15)
+		(end -2.1 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c048ec0-e230-4209-8722-6b8bbacffd02")
+	)
+	(fp_line
+		(start 7.2 2.35)
+		(end 7.2 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "93480c1e-40ae-4764-8f68-206fbd8c977e")
+	)
+	(fp_line
+		(start -1.85 -0.9)
+		(end -1.85 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13ddb071-b8da-44af-8167-5a562879615f")
+	)
+	(fp_line
+		(start -1.85 2.1)
+		(end 6.95 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "95305c16-7930-481a-8ead-a38bac195390")
+	)
+	(fp_line
+		(start 6.95 -0.9)
+		(end -1.85 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d8af382-105b-4c68-a9b0-531e6d5983c2")
+	)
+	(fp_line
+		(start 6.95 2.1)
+		(end 6.95 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf36d331-969e-48c9-8b9d-d169586702c7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.55 0.6 0)
+		(layer "F.Fab")
+		(uuid "42acafcf-6ea4-47e4-88b1-b4620e7fdaea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.01 2.01)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "435b9b09-8830-40dc-92c8-19121cd6c152")
+	)
+	(pad "2" thru_hole circle
+		(at 5.1 1.2)
+		(size 2.01 2.01)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "29fc78a5-203d-4c31-91dc-fe4aea9c2255")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/PWR_Library.pretty/MF-R300.stp"
+		(offset
+			(xyz -3.5 0 15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
