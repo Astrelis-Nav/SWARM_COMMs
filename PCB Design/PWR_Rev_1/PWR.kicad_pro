@@ -102,7 +102,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -244,7 +244,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|584200|1422400|36e187d6-a4e9-46e5-beae-a26da09e720c|a30b9d80-1ea3-4f58-8d45-1e7abe8c6bf4|/bd0f0cb6-aaec-4134-9f85-c487be561dba|/bd0f0cb6-aaec-4134-9f85-c487be561dba|/bd0f0cb6-aaec-4134-9f85-c487be561dba",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -476,7 +481,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.165,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -505,7 +510,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "PWR_BOARD_OUTPUT_08_23_2026/",
+      "plot": "PWR_BOARD_OUTPUT_04_15_2026/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "PWR.step",
