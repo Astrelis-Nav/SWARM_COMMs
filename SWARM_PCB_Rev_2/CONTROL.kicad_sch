@@ -7051,7 +7051,7 @@
 	)
 	(rectangle
 		(start 146.05 127)
-		(end 175.26 147.32)
+		(end 170.18 147.32)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -7288,18 +7288,6 @@
 		)
 		(uuid "574572d5-c4d6-485a-8fb5-3c79d1464453")
 	)
-	(text "UART4"
-		(exclude_from_sim no)
-		(at 18.034 81.534 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "57bcd2f6-9f1f-4107-945b-65d8099e0e85")
-	)
 	(text "STM32 programming"
 		(exclude_from_sim no)
 		(at 119.888 132.588 0)
@@ -7332,18 +7320,6 @@
 			(justify left)
 		)
 		(uuid "5edd7587-cb82-4cc6-8b8f-c7e84875e5b1")
-	)
-	(text "UART0"
-		(exclude_from_sim no)
-		(at 104.902 44.196 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "647e2172-6c60-424f-bc3c-abcd7121692e")
 	)
 	(text "USB-C"
 		(exclude_from_sim no)
@@ -7776,6 +7752,10 @@
 		(uuid "c080e1f0-88d4-4188-9855-953a1c146f9e")
 	)
 	(no_connect
+		(at 162.56 85.09)
+		(uuid "d07a5e8d-2a63-4c62-8592-b7789b5af3df")
+	)
+	(no_connect
 		(at 134.62 24.13)
 		(uuid "dac1c6c2-64bf-46a8-b25b-eb3645325297")
 	)
@@ -7885,7 +7865,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 22.86) (xy 180.34 24.13)
+			(xy 187.96 22.86) (xy 187.96 24.13)
 		)
 		(stroke
 			(width 0)
@@ -8025,7 +8005,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 31.75) (xy 180.34 33.02)
+			(xy 187.96 31.75) (xy 187.96 33.02)
 		)
 		(stroke
 			(width 0)
@@ -8045,7 +8025,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 40.64) (xy 180.34 41.91)
+			(xy 187.96 40.64) (xy 187.96 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8232,16 +8212,6 @@
 			(type default)
 		)
 		(uuid "2abe8eb0-13f5-4112-87b8-3b5ed4f23640")
-	)
-	(wire
-		(pts
-			(xy 104.14 49.53) (xy 116.84 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d102706-0eeb-4dc5-9769-83da16139370")
 	)
 	(wire
 		(pts
@@ -8455,16 +8425,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 85.09) (xy 116.84 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44697786-63a7-4605-b085-57096d9b56bf")
-	)
-	(wire
-		(pts
 			(xy 116.84 114.3) (xy 116.84 111.76)
 		)
 		(stroke
@@ -8532,16 +8492,6 @@
 			(type default)
 		)
 		(uuid "479663d7-7fc5-4130-9da4-b5c7c991cbf6")
-	)
-	(wire
-		(pts
-			(xy 195.58 22.86) (xy 195.58 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47e14b85-156c-4adf-84a3-af9709186296")
 	)
 	(wire
 		(pts
@@ -8622,16 +8572,6 @@
 			(type default)
 		)
 		(uuid "4c8bcd2f-43da-4f35-bc01-bf12113e4cbf")
-	)
-	(wire
-		(pts
-			(xy 104.14 46.99) (xy 116.84 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d53af87-bf8e-4cf5-87cf-a249262946a1")
 	)
 	(wire
 		(pts
@@ -8912,16 +8852,6 @@
 			(type default)
 		)
 		(uuid "6786078b-b37a-455d-9c45-e171d094b0b8")
-	)
-	(wire
-		(pts
-			(xy 21.59 83.82) (xy 35.56 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ab79d17-3685-46e5-af6f-bed6d7e9b44e")
 	)
 	(wire
 		(pts
@@ -9275,16 +9205,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 138.43) (xy 151.13 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91a8ddae-bf6d-4de3-af8b-d22a61fc9dd9")
-	)
-	(wire
-		(pts
 			(xy 209.55 16.51) (xy 209.55 22.86)
 		)
 		(stroke
@@ -9302,16 +9222,6 @@
 			(type default)
 		)
 		(uuid "927474b3-8f22-4def-9eae-0ea6065190a1")
-	)
-	(wire
-		(pts
-			(xy 163.83 86.36) (xy 163.83 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92a992c8-3fe3-43b9-9824-67449dafc680")
 	)
 	(wire
 		(pts
@@ -9362,16 +9272,6 @@
 			(type default)
 		)
 		(uuid "94eea1de-33fc-4a9f-8711-6cedd745a86d")
-	)
-	(wire
-		(pts
-			(xy 203.2 22.86) (xy 195.58 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "954b35b4-c68a-426e-9594-1b425faa6cea")
 	)
 	(wire
 		(pts
@@ -9435,7 +9335,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 22.86) (xy 180.34 22.86)
+			(xy 198.12 22.86) (xy 187.96 22.86)
 		)
 		(stroke
 			(width 0)
@@ -9445,7 +9345,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 138.43) (xy 168.91 140.97)
+			(xy 162.56 138.43) (xy 162.56 140.97)
 		)
 		(stroke
 			(width 0)
@@ -9542,16 +9442,6 @@
 			(type default)
 		)
 		(uuid "a3cb15df-7353-484e-910a-71883c3854f0")
-	)
-	(wire
-		(pts
-			(xy 195.58 31.75) (xy 195.58 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3d7f047-7f95-41da-8a89-3035ce41f16c")
 	)
 	(wire
 		(pts
@@ -9825,16 +9715,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 85.09) (xy 162.56 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3f76c90-6630-4027-8173-fd312f8fc510")
-	)
-	(wire
-		(pts
 			(xy 24.13 99.06) (xy 24.13 100.33)
 		)
 		(stroke
@@ -9912,16 +9792,6 @@
 			(type default)
 		)
 		(uuid "d16e5acf-9afd-48af-85ac-21010b1cb3ea")
-	)
-	(wire
-		(pts
-			(xy 195.58 40.64) (xy 195.58 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d19c7b0f-518f-4828-8384-06e4fcbbb52d")
 	)
 	(wire
 		(pts
@@ -10315,7 +10185,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 138.43) (xy 160.02 140.97)
+			(xy 153.67 138.43) (xy 153.67 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10485,16 +10355,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 81.28) (xy 35.56 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff26ea1b-d31c-4eb3-acc3-9e137669392d")
-	)
-	(wire
-		(pts
 			(xy 270.51 46.99) (xy 281.94 46.99)
 		)
 		(stroke
@@ -10634,7 +10494,7 @@
 		(uuid "0dae81cc-78bf-46af-a1ec-5328a375226a")
 	)
 	(label "HEARTBEAT"
-		(at 190.5 22.86 180)
+		(at 198.12 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10702,16 +10562,6 @@
 			(justify left bottom)
 		)
 		(uuid "1b865ef1-5571-4bd0-8a12-1a22ef457f57")
-	)
-	(label "STM_UART_RX"
-		(at 104.14 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1bf3b61d-35bb-4359-a0a9-009579ac05c9")
 	)
 	(label "GPIO_10"
 		(at 106.68 72.39 0)
@@ -11013,16 +10863,6 @@
 			(justify right bottom)
 		)
 		(uuid "4e7756f7-4bd0-44cd-9af2-a030fb6c79f4")
-	)
-	(label "STM_UART_TX"
-		(at 21.59 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4fac1e0e-4070-46ec-9efa-a5fd216e9978")
 	)
 	(label "SPI2_MISO"
 		(at 208.28 132.08 0)
@@ -11374,16 +11214,6 @@
 		)
 		(uuid "890be05e-e2a5-4505-a3d1-26957b616f25")
 	)
-	(label "STM_UART_RX"
-		(at 21.59 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8931dfdf-c57e-4af2-8581-37ee0b40c261")
-	)
 	(label "ADC1_IN0"
 		(at 237.49 57.15 0)
 		(effects
@@ -11677,16 +11507,6 @@
 		)
 		(uuid "b913dd9e-10d8-47e5-925d-8670c7d741da")
 	)
-	(label "STM_UART_TX"
-		(at 104.14 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd91b55e-12c5-4e8b-9cd2-2a9c4214dba3")
-	)
 	(label "DAT1"
 		(at 254 162.56 0)
 		(effects
@@ -11726,16 +11546,6 @@
 			(justify left bottom)
 		)
 		(uuid "c7cee358-99ed-449d-8c8a-97d6eb87d339")
-	)
-	(label "GPIO_15"
-		(at 106.68 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c8d582df-1905-4532-b854-2406dedaa3cd")
 	)
 	(label "LSE_OUT"
 		(at 109.22 166.37 180)
@@ -12008,16 +11818,6 @@
 		)
 		(uuid "ee06fcc6-a0d9-4c38-8f25-3d8090ca2baf")
 	)
-	(label "GPIO_15"
-		(at 203.2 22.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eede9b2a-5064-4255-9413-5cd5c48b415d")
-	)
 	(label "SPI_SCK"
 		(at 106.68 52.07 0)
 		(effects
@@ -12120,7 +11920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0137ccc9-b3a7-4f3a-b7bc-20c0ab345041")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR039"
 			(at 27.94 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12180,7 +11980,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR010")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -12197,7 +11997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0549b1b1-1274-4213-81de-654d00d00b21")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR055"
 			(at 36.83 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -12257,7 +12057,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR013")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -12275,7 +12075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05d45fbb-b5d7-46b5-9c66-d005ab95c354")
-		(property "Reference" "J1"
+		(property "Reference" "aJ1"
 			(at 15.875 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12296,7 +12096,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 15.24 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12338,7 +12138,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "J1")
+					(reference "aJ1")
 					(unit 1)
 				)
 			)
@@ -12355,7 +12155,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0825f41a-9aaa-45fd-a648-5b516d4c2b3a")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR037"
 			(at 264.16 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -12415,7 +12215,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR053")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -12432,7 +12232,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09c8c9c5-1a8b-425e-b9a0-a9b151ebd1f1")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR044"
 			(at 85.09 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -12492,7 +12292,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR031")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -12509,7 +12309,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cfccd10-c1a3-4bff-8ca2-cca9e2084293")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR054"
 			(at 27.94 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -12569,7 +12369,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR011")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -12586,7 +12386,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0eae8a53-ef02-47f7-a678-288d6ed0333a")
-		(property "Reference" "R11"
+		(property "Reference" "aR7"
 			(at 198.882 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12609,7 +12409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 196.596 63.246 90)
 			(hide yes)
 			(show_name no)
@@ -12651,7 +12451,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "R11")
+					(reference "aR7")
 					(unit 1)
 				)
 			)
@@ -12668,7 +12468,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ee9400f-42b1-4523-8e30-55804eb6212c")
-		(property "Reference" "R7"
+		(property "Reference" "aR1"
 			(at 209.804 23.368 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12691,7 +12491,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 208.534 26.416 90)
 			(hide yes)
 			(show_name no)
@@ -12733,86 +12533,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 151.13 140.97 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fe35909-bb48-4cb9-8b5b-f809e5bba373")
-		(property "Reference" "#FLG01"
-			(at 151.13 142.875 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 151.13 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 151.13 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c2b5902c-f3e1-48e0-82d3-76410b70b2b4")
-		)
-		(instances
-			(project "SWARM_PCB_Rev_2"
-				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#FLG01")
+					(reference "aR1")
 					(unit 1)
 				)
 			)
@@ -12829,7 +12550,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12455226-1e09-43b5-87d2-863ca92b463d")
-		(property "Reference" "R2"
+		(property "Reference" "aR5"
 			(at 114.554 30.988 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12852,7 +12573,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 113.284 34.036 90)
 			(hide yes)
 			(show_name no)
@@ -12894,7 +12615,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "R2")
+					(reference "aR5")
 					(unit 1)
 				)
 			)
@@ -12902,7 +12623,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 160.02 138.43 0)
+		(at 153.67 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12911,8 +12632,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1345e2f7-71be-4972-822f-ca7c08163300")
-		(property "Reference" "#PWR061"
-			(at 160.02 142.24 0)
+		(property "Reference" "#PWR035"
+			(at 153.67 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12923,7 +12644,7 @@
 			)
 		)
 		(property "Value" "+3.3VA_CONTROL"
-			(at 160.02 135.128 0)
+			(at 153.67 135.128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12933,7 +12654,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 138.43 0)
+			(at 153.67 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12944,7 +12665,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 138.43 0)
+			(at 153.67 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12955,7 +12676,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 160.02 138.43 0)
+			(at 153.67 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12971,7 +12692,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR061")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -12988,7 +12709,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13a8bdeb-95a9-452a-ac8d-5b5fb75aa90d")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR034"
 			(at 134.62 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -13048,7 +12769,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR062")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -13065,7 +12786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17b173a8-5f1e-4dc8-bbb8-7ceb192b19df")
-		(property "Reference" "R18"
+		(property "Reference" "aR9"
 			(at 141.732 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13088,7 +12809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 139.446 115.316 90)
 			(hide yes)
 			(show_name no)
@@ -13130,7 +12851,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "R18")
+					(reference "aR9")
 					(unit 1)
 				)
 			)
@@ -13147,7 +12868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17c1f5f6-3a83-4db8-8b01-f33bfc59144e")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR010"
 			(at 214.63 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -13207,7 +12928,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR041")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -13224,7 +12945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19d65c01-72f1-484f-923e-ad40594f710f")
-		(property "Reference" "R15"
+		(property "Reference" "aR15"
 			(at 250.444 152.908 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13247,7 +12968,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 249.174 155.956 90)
 			(hide yes)
 			(show_name no)
@@ -13289,7 +13010,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "R15")
+					(reference "aR15")
 					(unit 1)
 				)
 			)
@@ -13306,7 +13027,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19fd308f-bb55-443d-b0b9-f45aaa1f3166")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR053"
 			(at 19.05 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -13366,7 +13087,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR09")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -13383,7 +13104,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a2499a6-ebdf-4f00-b6dd-396b324cb9c8")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR021"
 			(at 139.7 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -13443,7 +13164,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR029")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13460,7 +13181,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b0b77a0-37a7-4ef0-9562-d8416d62f9ea")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR046"
 			(at 102.87 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13520,7 +13241,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR035")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -13558,7 +13279,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 175.26 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -13617,7 +13338,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fcc3258-5e14-4ced-b867-04901185307e")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR061"
 			(at 55.88 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -13677,7 +13398,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR024")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -13694,7 +13415,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "203bdbf0-aae9-4039-8341-7b8a7e6a97be")
-		(property "Reference" "C4"
+		(property "Reference" "aC10"
 			(at 28.194 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13717,7 +13438,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 26.9748 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -13759,7 +13480,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C4")
+					(reference "aC10")
 					(unit 1)
 				)
 			)
@@ -13776,7 +13497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25995839-1e21-4667-8b7b-6c6e7fd19e06")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR047"
 			(at 224.79 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -13836,7 +13557,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR056")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -13844,7 +13565,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 168.91 138.43 0)
+		(at 162.56 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13853,8 +13574,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26c0a72d-0c12-4ec6-9b5d-a4c000e5e69f")
-		(property "Reference" "#PWR063"
-			(at 168.91 142.24 0)
+		(property "Reference" "#PWR036"
+			(at 162.56 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13865,7 +13586,7 @@
 			)
 		)
 		(property "Value" "VBUS_CONTROL"
-			(at 168.91 135.128 0)
+			(at 162.56 135.128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13875,7 +13596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 138.43 0)
+			(at 162.56 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13886,7 +13607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 138.43 0)
+			(at 162.56 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13897,7 +13618,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 168.91 138.43 0)
+			(at 162.56 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13913,7 +13634,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR063")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -13930,7 +13651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29e9574d-6956-4c23-9fe0-582ca7015d3e")
-		(property "Reference" "R12"
+		(property "Reference" "aR8"
 			(at 198.882 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13953,7 +13674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 196.596 68.326 90)
 			(hide yes)
 			(show_name no)
@@ -13995,7 +13716,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "R12")
+					(reference "aR8")
 					(unit 1)
 				)
 			)
@@ -14012,7 +13733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2cd1c641-7317-48c5-a37b-a22757e320a9")
-		(property "Reference" "C6"
+		(property "Reference" "aC12"
 			(at 45.974 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14035,7 +13756,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 44.7548 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -14077,7 +13798,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C6")
+					(reference "aC12")
 					(unit 1)
 				)
 			)
@@ -14094,7 +13815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3111e6f9-8941-42f6-8e60-44f0e8b4a398")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR019"
 			(at 190.5 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -14154,7 +13875,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR046")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -14171,7 +13892,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3701c761-77e4-4590-8609-9dfd80014ad6")
-		(property "Reference" "C13"
+		(property "Reference" "aC19"
 			(at 104.394 180.848 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14194,7 +13915,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 103.1748 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -14236,7 +13957,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C13")
+					(reference "aC19")
 					(unit 1)
 				)
 			)
@@ -14244,7 +13965,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 180.34 36.83 90)
+		(at 187.96 36.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14253,8 +13974,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38d57f3c-33aa-4f1b-a4db-2365ac48b9b9")
-		(property "Reference" "D1"
-			(at 180.594 34.29 90)
+		(property "Reference" "aD1"
+			(at 188.214 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14265,7 +13986,7 @@
 			)
 		)
 		(property "Value" "PURPLE"
-			(at 182.118 36.83 90)
+			(at 189.738 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14276,8 +13997,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 180.34 36.83 0)
+		(property "Footprint" "SWARM_LIBRARY:LED_JE2835_CRW"
+			(at 187.96 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14288,7 +14009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 36.83 0)
+			(at 187.96 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14299,7 +14020,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 180.34 36.83 0)
+			(at 187.96 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14310,7 +14031,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 180.34 36.83 0)
+			(at 187.96 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14329,84 +14050,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 151.13 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3edf52f0-5177-4498-88ad-41313911e5ce")
-		(property "Reference" "#PWR037"
-			(at 151.13 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V_CONTROL"
-			(at 151.13 135.128 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 151.13 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c687bfc-b196-4b4f-9180-1eccb5ef8438")
-		)
-		(instances
-			(project "SWARM_PCB_Rev_2"
-				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR037")
+					(reference "aD1")
 					(unit 1)
 				)
 			)
@@ -14423,7 +14067,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4434649b-cf4c-48f1-a841-144e814cc8f9")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR016"
 			(at 181.61 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -14483,7 +14127,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR048")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -14500,7 +14144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "456d3e5e-2405-4f14-a9cb-6018c3cef352")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR014"
 			(at 190.5 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -14560,7 +14204,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR044")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -14577,7 +14221,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "464e7759-8c66-4e7b-885e-2dc5f28bcbb7")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR049"
 			(at 250.19 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -14637,7 +14281,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR058")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -14654,7 +14298,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46fea9f4-e8da-4da4-8f21-99621e663f12")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR020"
 			(at 223.52 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14714,84 +14358,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 163.83 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4859fb87-9dc8-4caa-a41a-79713ea4609d")
-		(property "Reference" "#PWR067"
-			(at 163.83 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_CONTROL"
-			(at 163.83 89.662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f802a41d-0f11-4515-a117-1f21d5e1a42e")
-		)
-		(instances
-			(project "SWARM_PCB_Rev_2"
-				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR067")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -14808,7 +14375,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d2b082c-77af-4afd-a515-2c96fae5562a")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR064"
 			(at 55.88 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -14868,7 +14435,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR025")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -14885,7 +14452,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4da5b6a7-e4c7-4f09-ae5c-b985ed19a20f")
-		(property "Reference" "R4"
+		(property "Reference" "aR11"
 			(at 117.094 114.808 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14908,7 +14475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.824 117.856 90)
 			(hide yes)
 			(show_name no)
@@ -14950,7 +14517,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "R4")
+					(reference "aR11")
 					(unit 1)
 				)
 			)
@@ -14967,7 +14534,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f92c955-0cb4-4a37-bbd0-cc023457c93d")
-		(property "Reference" "C3"
+		(property "Reference" "aC9"
 			(at 19.304 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14990,7 +14557,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 18.0848 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -15032,7 +14599,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C3")
+					(reference "aC9")
 					(unit 1)
 				)
 			)
@@ -15049,7 +14616,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f9bf33a-73ee-4f67-9778-f9d72f3aa6cc")
-		(property "Reference" "C11"
+		(property "Reference" "aC17"
 			(at 56.134 173.228 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15072,7 +14639,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 54.9148 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -15114,89 +14681,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 195.58 27.94 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "55b3e389-ad1e-435a-aa48-20869dee3e95")
-		(property "Reference" "R6"
-			(at 195.834 24.638 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 195.834 30.988 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(color 22 0 255 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.564 27.686 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 195.58 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d44e2709-c5df-4967-8ffd-42b80e09194f")
-		)
-		(pin "1"
-			(uuid "d099a6ea-63ff-47ae-956c-5213b8fa1ef0")
-		)
-		(instances
-			(project "SWARM_PCB_Rev_2"
-				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "R6")
+					(reference "aC17")
 					(unit 1)
 				)
 			)
@@ -15213,7 +14698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55fa9cae-b018-455e-b16c-e59ba138850a")
-		(property "Reference" "C14"
+		(property "Reference" "aC6"
 			(at 85.344 140.208 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15236,7 +14721,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 84.1248 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15278,7 +14763,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C14")
+					(reference "aC6")
 					(unit 1)
 				)
 			)
@@ -15295,7 +14780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cad1800-77f6-439b-885d-b4c5d2979c43")
-		(property "Reference" "C8"
+		(property "Reference" "aC14"
 			(at 63.754 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15318,7 +14803,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 62.5348 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -15360,7 +14845,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C8")
+					(reference "aC14")
 					(unit 1)
 				)
 			)
@@ -15377,7 +14862,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e693a6b-9116-4c09-8a66-10e9e67499ae")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR040"
 			(at 36.83 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -15437,7 +14922,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR012")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -15454,7 +14939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61158e08-83ec-4a4d-9867-479895488f17")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR045"
 			(at 93.98 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -15514,7 +14999,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR033")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -15531,7 +15016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "619846f7-ec46-45d7-b7ff-d8ce220ed6cb")
-		(property "Reference" "Y1"
+		(property "Reference" "aY1"
 			(at 95.25 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15552,7 +15037,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm"
 			(at 95.25 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -15594,7 +15079,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "Y1")
+					(reference "aY1")
 					(unit 1)
 				)
 			)
@@ -15611,7 +15096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "624db64d-e43f-4e4b-8ceb-c7ae2c27f7bd")
-		(property "Reference" "D3"
+		(property "Reference" "aD2"
 			(at 222.758 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15634,7 +15119,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_PLCC-6"
 			(at 215.9 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -15688,7 +15173,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "D3")
+					(reference "aD2")
 					(unit 1)
 				)
 			)
@@ -15705,7 +15190,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63847801-2f6b-41d4-ac85-fb844a43b675")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR022"
 			(at 24.13 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -15765,7 +15250,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR05")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -15782,7 +15267,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63859d15-a7c6-4faf-a968-6e9b5158ddd8")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR08"
 			(at 111.76 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15842,7 +15327,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR069")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -15859,7 +15344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63a0311d-141a-4cac-b6c4-9f52f37e8150")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR038"
 			(at 19.05 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -15919,7 +15404,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR08")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -15936,7 +15421,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6621a92a-ce06-4a66-b669-80886e31e886")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR062"
 			(at 26.67 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -15996,7 +15481,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR022")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -16013,7 +15498,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70a8a8a2-a4e5-4048-b054-3a9b670de332")
-		(property "Reference" "C5"
+		(property "Reference" "aC11"
 			(at 37.084 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16036,7 +15521,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 35.8648 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -16078,7 +15563,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C5")
+					(reference "aC11")
 					(unit 1)
 				)
 			)
@@ -16086,7 +15571,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 160.02 140.97 180)
+		(at 153.67 140.97 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16096,8 +15581,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71abfea6-2a31-4f0f-a6c3-5a1df0bc2ca3")
-		(property "Reference" "#FLG02"
-			(at 160.02 142.875 0)
+		(property "Reference" "#FLG01"
+			(at 153.67 142.875 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16108,7 +15593,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 160.02 146.05 0)
+			(at 153.67 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16119,7 +15604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 140.97 0)
+			(at 153.67 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16130,7 +15615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 140.97 0)
+			(at 153.67 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16141,7 +15626,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 160.02 140.97 0)
+			(at 153.67 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16157,84 +15642,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 195.58 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "722d0cb0-3e4a-49f0-b380-d26178281b0d")
-		(property "Reference" "#PWR040"
-			(at 195.58 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_CONTROL"
-			(at 195.58 45.212 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fed71d67-d332-4b6c-82c2-408737732a1a")
-		)
-		(instances
-			(project "SWARM_PCB_Rev_2"
-				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR040")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -16251,7 +15659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72ad9680-c112-485a-a5fd-4e5b9e92e5ea")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR024"
 			(at 57.15 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16311,7 +15719,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR07")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -16328,7 +15736,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74c911a0-d89d-452c-a2fd-cf29e8f4163d")
-		(property "Reference" "R19"
+		(property "Reference" "aR12"
 			(at 141.732 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16351,7 +15759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 139.446 121.666 90)
 			(hide yes)
 			(show_name no)
@@ -16393,7 +15801,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "R19")
+					(reference "aR12")
 					(unit 1)
 				)
 			)
@@ -16410,7 +15818,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77237c4e-10a0-4ae1-bc85-6cad762b7985")
-		(property "Reference" "C17"
+		(property "Reference" "aC2"
 			(at 181.864 64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16433,7 +15841,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 180.6448 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -16475,7 +15883,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C17")
+					(reference "aC2")
 					(unit 1)
 				)
 			)
@@ -16492,7 +15900,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77e07485-ac11-43bd-a6eb-260dd2c3d792")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 85.09 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -16552,7 +15960,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -16569,7 +15977,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79dde597-d12e-4396-88a2-63533eaacd51")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR029"
 			(at 269.24 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -16629,7 +16037,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR050")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -16646,7 +16054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7af72427-8ec3-4844-9ad2-c859d333bece")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR030"
 			(at 278.13 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -16706,7 +16114,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR052")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -16723,7 +16131,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c6b7a68-bc5d-494d-9d64-7d8a44b7e356")
-		(property "Reference" "C16"
+		(property "Reference" "aC8"
 			(at 103.124 140.208 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16746,7 +16154,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.9048 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -16788,7 +16196,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C16")
+					(reference "aC8")
 					(unit 1)
 				)
 			)
@@ -16805,7 +16213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d9b9153-e209-4a2c-ab54-2307c299f456")
-		(property "Reference" "C19"
+		(property "Reference" "aC5"
 			(at 278.384 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16828,7 +16236,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 277.1648 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -16870,7 +16278,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C19")
+					(reference "aC5")
 					(unit 1)
 				)
 			)
@@ -16887,7 +16295,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85872d2a-4170-483f-b6d1-cbf4bacc85c0")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR011"
 			(at 20.32 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -16947,7 +16355,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR04")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16964,7 +16372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "865eea89-035e-4efd-b388-7462e969993b")
-		(property "Reference" "R8"
+		(property "Reference" "aR2"
 			(at 214.884 23.368 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16987,7 +16395,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 213.614 26.416 90)
 			(hide yes)
 			(show_name no)
@@ -17029,7 +16437,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "R8")
+					(reference "aR2")
 					(unit 1)
 				)
 			)
@@ -17046,7 +16454,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b154608-0a2a-4664-9ed3-0aabd731ef57")
-		(property "Reference" "R1"
+		(property "Reference" "aR6"
 			(at 20.574 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17069,7 +16477,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 19.304 42.926 90)
 			(hide yes)
 			(show_name no)
@@ -17111,7 +16519,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "R1")
+					(reference "aR6")
 					(unit 1)
 				)
 			)
@@ -17119,7 +16527,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 180.34 27.94 180)
+		(at 187.96 27.94 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17128,8 +16536,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8daf8de8-6905-4ed4-915e-fc3750dd0036")
-		(property "Reference" "R5"
-			(at 180.594 24.638 0)
+		(property "Reference" "aR4"
+			(at 188.214 24.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17140,7 +16548,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 180.594 30.988 0)
+			(at 188.214 30.988 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17151,8 +16559,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 179.324 27.686 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 186.944 27.686 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17163,7 +16571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 27.94 0)
+			(at 187.96 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17174,7 +16582,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 180.34 27.94 0)
+			(at 187.96 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17193,7 +16601,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "R5")
+					(reference "aR4")
 					(unit 1)
 				)
 			)
@@ -17210,7 +16618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ea96692-57c2-4be0-8c05-061fc8a80481")
-		(property "Reference" "C9"
+		(property "Reference" "aC15"
 			(at 26.924 173.228 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17233,7 +16641,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 25.7048 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -17275,7 +16683,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C9")
+					(reference "aC15")
 					(unit 1)
 				)
 			)
@@ -17292,7 +16700,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90b06a39-cf44-4870-a53c-3f23d4e68634")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR056"
 			(at 45.72 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -17352,7 +16760,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR015")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -17369,7 +16777,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92435830-ca2e-4128-8b2a-e8cef8bd4e51")
-		(property "Reference" "R16"
+		(property "Reference" "aR16"
 			(at 259.334 152.908 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17392,7 +16800,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 258.064 155.956 90)
 			(hide yes)
 			(show_name no)
@@ -17434,7 +16842,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "R16")
+					(reference "aR16")
 					(unit 1)
 				)
 			)
@@ -17472,7 +16880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 175.26 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17531,7 +16939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93136899-1947-4ab5-a997-ff9ddfe6df63")
-		(property "Reference" "R13"
+		(property "Reference" "aR13"
 			(at 225.044 152.908 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17554,7 +16962,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 223.774 155.956 90)
 			(hide yes)
 			(show_name no)
@@ -17596,7 +17004,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "R13")
+					(reference "aR13")
 					(unit 1)
 				)
 			)
@@ -17613,7 +17021,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "965bc3b4-d149-4028-a0b1-a3e7748b3f19")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR050"
 			(at 259.08 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -17673,7 +17081,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR059")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -17690,7 +17098,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a4ae77a-a7e3-499d-a051-dc8ace8920da")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR027"
 			(at 204.47 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -17750,7 +17158,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR055")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -17767,7 +17175,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e8de1be-756e-4252-a6b2-0fb0c4fcbb36")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR043"
 			(at 63.5 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -17827,7 +17235,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR018")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -17865,7 +17273,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 175.26 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -17924,7 +17332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6495d77-4432-4a88-ab2d-268103eca943")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR059"
 			(at 26.67 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -17984,7 +17392,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR020")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -18001,7 +17409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7f6bb9d-9910-4bac-8852-07810e86a3f9")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR058"
 			(at 63.5 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -18061,7 +17469,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR019")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -18078,7 +17486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a880ab5b-483a-449c-8548-8217f1c627dc")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR026"
 			(at 278.13 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -18138,7 +17546,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR051")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -18155,7 +17563,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa0c57a7-502e-427f-a1e3-33fec0201292")
-		(property "Reference" "U1"
+		(property "Reference" "aU2"
 			(at 71.12 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18407,7 +17815,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "U1")
+					(reference "aU2")
 					(unit 1)
 				)
 			)
@@ -18424,7 +17832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa950eac-6771-42d6-860f-f493ac4b89f7")
-		(property "Reference" "A1"
+		(property "Reference" "aU1"
 			(at 156.21 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18447,7 +17855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:RaspberryPi_Pico_Common_Unspecified"
+		(property "Footprint" "Module:RaspberryPi_Pico_SMD"
 			(at 139.7 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -18603,100 +18011,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "A1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 195.58 36.83 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ad017feb-bc60-40f7-be95-f9c5b46fe3b2")
-		(property "Reference" "D2"
-			(at 195.834 34.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MINT"
-			(at 197.358 36.83 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(color 22 0 255 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 195.58 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 195.58 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6640b58c-77a4-4c07-b73d-609cfd8b3f0d")
-		)
-		(pin "2"
-			(uuid "979a6059-30b4-48df-9cc0-178d32337c23")
-		)
-		(instances
-			(project "SWARM_PCB_Rev_2"
-				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "D2")
+					(reference "aU1")
 					(unit 1)
 				)
 			)
@@ -18713,7 +18028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "adc28579-e3c0-4ff9-8500-0d1ab2ad95d5")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR017"
 			(at 190.5 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -18773,7 +18088,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR045")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -18790,7 +18105,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af6de684-7393-416f-aa83-5a37f932e229")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR012"
 			(at 204.47 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -18850,7 +18165,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR042")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -18867,7 +18182,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0336c25-6855-4b9d-a10f-f5304c1bfd55")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR048"
 			(at 237.49 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -18927,7 +18242,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR057")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -18944,7 +18259,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0fbb06f-5161-416c-bcd3-1ba5c83cd165")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 63.5 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -19004,7 +18319,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -19021,7 +18336,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b62420a5-1629-461d-8d73-a71817cec762")
-		(property "Reference" "C7"
+		(property "Reference" "aC13"
 			(at 54.864 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19044,7 +18359,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 53.6448 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -19086,7 +18401,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C7")
+					(reference "aC13")
 					(unit 1)
 				)
 			)
@@ -19103,7 +18418,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7442b90-783c-4eef-8498-34825fb5d39d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR041"
 			(at 45.72 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -19163,7 +18478,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR014")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -19180,7 +18495,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b77df7f2-e6bb-4bbf-bd4d-f24b4f272900")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR051"
 			(at 267.97 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -19240,7 +18555,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR060")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -19257,7 +18572,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7e0f69d-cd5a-4e82-b63c-d551730e340d")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR03"
 			(at 144.78 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -19317,7 +18632,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR068")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -19335,7 +18650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8544c19-8d3e-47fe-ab60-6fb2e83924ed")
-		(property "Reference" "U2"
+		(property "Reference" "aU3"
 			(at 191.008 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19415,7 +18730,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "U2")
+					(reference "aU3")
 					(unit 1)
 				)
 			)
@@ -19432,7 +18747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8d6514b-6472-432a-b9ca-373045846cfc")
-		(property "Reference" "C15"
+		(property "Reference" "aC7"
 			(at 94.234 140.208 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19455,7 +18770,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.0148 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -19497,7 +18812,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C15")
+					(reference "aC7")
 					(unit 1)
 				)
 			)
@@ -19514,7 +18829,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b91a4ea1-d7bb-4fbe-93ab-a42e9d19cb23")
-		(property "Reference" "C2"
+		(property "Reference" "aC3"
 			(at 29.21 97.536 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19537,7 +18852,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 31.75 98.0948 0)
 			(hide yes)
 			(show_name no)
@@ -19579,7 +18894,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C2")
+					(reference "aC3")
 					(unit 1)
 				)
 			)
@@ -19596,7 +18911,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd4cd8c5-5e79-443d-a86e-5eee392d0d8f")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR01"
 			(at 53.34 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -19656,7 +18971,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR06")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -19673,7 +18988,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c101cfbd-03cd-44ac-aed3-fdaa6d48c5a6")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR025"
 			(at 269.24 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -19733,7 +19048,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR049")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -19750,7 +19065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c146ce8a-ec8c-4ebd-8759-75552687d6d3")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR057"
 			(at 54.61 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -19810,7 +19125,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR017")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -19827,7 +19142,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6cf6a83-780d-4e88-977b-8858a386879e")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR05"
 			(at 114.3 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -19887,7 +19202,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR027")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -19904,7 +19219,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c722246b-c562-4fa9-b6c4-4fb2fd278452")
-		(property "Reference" "C18"
+		(property "Reference" "aC4"
 			(at 269.494 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19927,7 +19242,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 268.2748 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -19969,7 +19284,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C18")
+					(reference "aC4")
 					(unit 1)
 				)
 			)
@@ -19986,7 +19301,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c860e82b-6750-411d-b7f7-005d1302a3bf")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR023"
 			(at 113.03 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -20046,7 +19361,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR039")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -20063,7 +19378,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9c9cf97-6cab-4a35-af45-4e44a5422edf")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR028"
 			(at 204.47 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -20123,7 +19438,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR054")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -20140,7 +19455,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb4d92b1-8440-4e7c-a0ad-86c56de5b7d2")
-		(property "Reference" "R9"
+		(property "Reference" "aR3"
 			(at 219.964 23.368 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20163,7 +19478,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 218.694 26.416 90)
 			(hide yes)
 			(show_name no)
@@ -20205,7 +19520,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "R9")
+					(reference "aR3")
 					(unit 1)
 				)
 			)
@@ -20222,7 +19537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb64d54b-2b6a-44bc-92be-ccf49fc5c7c2")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR013"
 			(at 181.61 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -20282,7 +19597,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR047")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -20299,7 +19614,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc694c17-7b46-42cb-9f9d-eca983cda1b8")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR018"
 			(at 243.84 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -20359,7 +19674,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR065")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -20376,7 +19691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc91da1a-087e-41c0-8079-19f33fe09a0b")
-		(property "Reference" "R14"
+		(property "Reference" "aR14"
 			(at 237.744 152.908 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20399,7 +19714,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 236.474 155.956 90)
 			(hide yes)
 			(show_name no)
@@ -20441,7 +19756,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "R14")
+					(reference "aR14")
 					(unit 1)
 				)
 			)
@@ -20458,7 +19773,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cda03899-b3c7-41f5-a349-48e1cde8de3c")
-		(property "Reference" "C10"
+		(property "Reference" "aC16"
 			(at 35.814 173.228 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20481,7 +19796,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 34.5948 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -20523,7 +19838,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C10")
+					(reference "aC16")
 					(unit 1)
 				)
 			)
@@ -20540,7 +19855,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cff8d92a-75c4-4909-b291-8d910228113e")
-		(property "Reference" "FB1"
+		(property "Reference" "aFB1"
 			(at 44.45 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20563,7 +19878,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 45.72 171.958 90)
 			(hide yes)
 			(show_name no)
@@ -20605,7 +19920,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "FB1")
+					(reference "aFB1")
 					(unit 1)
 				)
 			)
@@ -20623,7 +19938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0d8ab52-5a07-474e-922f-dd387fd25ad7")
-		(property "Reference" "J6"
+		(property "Reference" "aJ2"
 			(at 227.584 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20646,7 +19961,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
 			(at 215.9 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -20733,7 +20048,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "J6")
+					(reference "aJ2")
 					(unit 1)
 				)
 			)
@@ -20750,7 +20065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1ce4288-fc76-4457-8fe8-77f6a29aadd9")
-		(property "Reference" "R3"
+		(property "Reference" "aR10"
 			(at 109.474 114.808 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20773,7 +20088,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 108.204 117.856 90)
 			(hide yes)
 			(show_name no)
@@ -20815,7 +20130,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "R3")
+					(reference "aR10")
 					(unit 1)
 				)
 			)
@@ -20823,7 +20138,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 41.91 0)
+		(at 187.96 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20832,8 +20147,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d30e1dac-084f-4ece-bcf5-3f3507ec4568")
-		(property "Reference" "#PWR038"
-			(at 180.34 48.26 0)
+		(property "Reference" "#PWR09"
+			(at 187.96 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20844,7 +20159,7 @@
 			)
 		)
 		(property "Value" "GND_CONTROL"
-			(at 180.34 45.212 0)
+			(at 187.96 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20854,7 +20169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 41.91 0)
+			(at 187.96 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20865,7 +20180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 41.91 0)
+			(at 187.96 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20876,7 +20191,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 41.91 0)
+			(at 187.96 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20892,7 +20207,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR038")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -20909,7 +20224,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d377d847-7b4b-4e54-8a5c-316a22140050")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR015"
 			(at 167.64 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -20969,7 +20284,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR036")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -20986,7 +20301,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d49f0e02-3dbf-407b-8178-2c61fb169c32")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR065"
 			(at 95.25 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -21046,7 +20361,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR026")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -21064,7 +20379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5b34f4f-0730-4f39-9f4c-bcc4a01905f2")
-		(property "Reference" "J8"
+		(property "Reference" "aJ4"
 			(at 126.365 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21085,7 +20400,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical"
 			(at 125.73 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -21139,7 +20454,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "J8")
+					(reference "aJ4")
 					(unit 1)
 				)
 			)
@@ -21156,7 +20471,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d99c0ab5-3a3a-4713-b52c-ffc0c234b149")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR06"
 			(at 243.84 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -21216,7 +20531,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR064")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -21233,7 +20548,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da099970-59d6-4edd-adaf-08e90ee9c3d0")
-		(property "Reference" "Y2"
+		(property "Reference" "aY2"
 			(at 95.25 174.498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21255,7 +20570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm"
 			(at 95.25 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -21325,7 +20640,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "Y2")
+					(reference "aY2")
 					(unit 1)
 				)
 			)
@@ -21342,7 +20657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dacbc25c-e538-408a-8cbf-b4c99869ee18")
-		(property "Reference" "R17"
+		(property "Reference" "aR17"
 			(at 268.224 152.908 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21365,7 +20680,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 266.954 155.956 90)
 			(hide yes)
 			(show_name no)
@@ -21407,7 +20722,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "R17")
+					(reference "aR17")
 					(unit 1)
 				)
 			)
@@ -21424,7 +20739,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc5ef9bd-265f-4870-89b6-aba4e753c77e")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR052"
 			(at 134.62 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -21484,7 +20799,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR066")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -21501,7 +20816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfdfbcde-7ded-40cb-b4c2-090937ede936")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR04"
 			(at 22.86 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -21561,7 +20876,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -21569,7 +20884,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 168.91 140.97 180)
+		(at 162.56 140.97 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21579,8 +20894,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e62703e9-ad9e-4782-80b7-92e1e5774899")
-		(property "Reference" "#FLG03"
-			(at 168.91 142.875 0)
+		(property "Reference" "#FLG02"
+			(at 162.56 142.875 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21591,7 +20906,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 168.91 146.05 0)
+			(at 162.56 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21602,7 +20917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 140.97 0)
+			(at 162.56 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21613,7 +20928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 140.97 0)
+			(at 162.56 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21624,7 +20939,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 168.91 140.97 0)
+			(at 162.56 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21640,7 +20955,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#FLG03")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -21657,7 +20972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb261cf2-f137-41dd-a94c-7639e77e17a2")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 102.87 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -21717,7 +21032,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -21734,7 +21049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef13c251-e7ad-445b-b616-274fa9a2be58")
-		(property "Reference" "C12"
+		(property "Reference" "aC18"
 			(at 86.614 180.848 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21757,7 +21072,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 85.3948 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -21799,7 +21114,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C12")
+					(reference "aC18")
 					(unit 1)
 				)
 			)
@@ -21816,7 +21131,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0932b0a-041b-408f-b24a-e37ac12bad01")
-		(property "Reference" "J7"
+		(property "Reference" "aJ3"
 			(at 241.3 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21837,7 +21152,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SWARM_LIBRARY:AMPHENOL_1140084168"
 			(at 270.51 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -21900,7 +21215,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "J7")
+					(reference "aJ3")
 					(unit 1)
 				)
 			)
@@ -21917,7 +21232,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f10c31bd-6c3f-4db9-9a6a-977b81fd1fb6")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR042"
 			(at 54.61 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -21977,7 +21292,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR016")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -21994,7 +21309,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6a49de6-1894-440c-b5f4-78c1638a75ef")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR060"
 			(at 35.56 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -22054,7 +21369,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR021")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -22071,7 +21386,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb06c13c-533c-4bf3-bf9e-daf0474d485b")
-		(property "Reference" "C1"
+		(property "Reference" "aC1"
 			(at 27.94 21.336 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22094,7 +21409,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 30.48 21.8948 0)
 			(hide yes)
 			(show_name no)
@@ -22136,7 +21451,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "C1")
+					(reference "aC1")
 					(unit 1)
 				)
 			)
@@ -22153,7 +21468,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe246b69-6753-4855-8088-c5aa536a5ea1")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR063"
 			(at 35.56 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -22213,7 +21528,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR023")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -22230,7 +21545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "feef140d-e239-4aa7-a100-59059e80724f")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR07"
 			(at 20.32 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -22290,7 +21605,7 @@
 		(instances
 			(project "SWARM_PCB_Rev_2"
 				(path "/d61c6b76-225f-4e7b-954b-419fd350b2a8/0ec9a5b8-e6af-498c-b79e-09f97163fe47"
-					(reference "#PWR02")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -22380,7 +21695,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
