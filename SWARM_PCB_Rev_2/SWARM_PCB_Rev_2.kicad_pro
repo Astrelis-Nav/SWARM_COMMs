@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.2,
-          "height": 2.2,
-          "width": 2.2
+          "drill": 0.0,
+          "height": 0.89,
+          "width": 0.26
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,7 +60,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|55955000|31595000|75278e31-9953-4db1-b1e5-9f9ec1549636|70a1b5c6-57c3-46d9-9430-b4d5d1af9f21",
+          ""
+        ],
+        [
+          "silk_edge_clearance|55999081|22404154|75278e31-9953-4db1-b1e5-9f9ec1549636|aad7ee52-cdad-4cd6-8bb9-03384e76d703",
+          ""
+        ],
+        [
+          "silk_edge_clearance|55999081|22404154|75278e31-9953-4db1-b1e5-9f9ec1549636|f5f400f5-1b51-4e27-a8e3-12a0a1ff57c8",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -140,7 +153,7 @@
         "min_microvia_drill": 0.15,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
@@ -262,7 +275,7 @@
   "erc": {
     "erc_exclusions": [
       [
-        "multiple_net_names|546100|1282700|f22349cf-5086-4bcb-b27a-d8be4e493bcb|4e95b237-87b9-4999-9572-ea3e0949e95e|/d61c6b76-225f-4e7b-954b-419fd350b2a8/650025eb-067f-40e3-8b03-3f7becff6fc6|/d61c6b76-225f-4e7b-954b-419fd350b2a8/650025eb-067f-40e3-8b03-3f7becff6fc6|/d61c6b76-225f-4e7b-954b-419fd350b2a8/650025eb-067f-40e3-8b03-3f7becff6fc6",
+        "multiple_net_names|546100|1282700|deb0b0e1-e713-4d2d-a1d4-d8bb8568ba27|aeea368b-86f6-4164-9c49-8a17baa3ed30|/d61c6b76-225f-4e7b-954b-419fd350b2a8/650025eb-067f-40e3-8b03-3f7becff6fc6|/d61c6b76-225f-4e7b-954b-419fd350b2a8/650025eb-067f-40e3-8b03-3f7becff6fc6|/d61c6b76-225f-4e7b-954b-419fd350b2a8/650025eb-067f-40e3-8b03-3f7becff6fc6",
         ""
       ]
     ],
@@ -743,7 +756,7 @@
         "uuid": "d61c6b76-225f-4e7b-954b-419fd350b2a8"
       }
     ],
-    "used_designators": "R8a1,R8a201,C14a1,C14a201,C1-37,C43-46,C51-52,C54-57,bC1-25,A1a1,A1a201,C12a1,C12a201,C9a1,C9a201,U1-7,C10a1,C10a201,C11a1,C11a201,C13a1,C13a201,R9a1,R9a201,C15a1,C15a201,C16a1,C16a201,C17a1,C17a201,R4a1,R4a201,C18a1,C18a201,R5a1,R5a201,D1-5,C19a1,C19a201,C1a1,C1a201,C2a1,C2a201,U1a1,U1a201,D2a1,D2a201,C3a1,C3a201,C4a1,C4a201,C5a1,C5a201,aA1,aA2001,JP1-3,JP2001-2003,C6a1,C6a201,C7a1,C7a201,C8a1,C8a201,U2a1,U2a201,D1a1,D1a201,#PWR1-162,#PWR2001-2065,FB1a1,FB1a201,J1a1,J1a201,aFB1,aFB2001,J2a1,J2a201,J3a1,J3a201,J4a1,J4a201,R10a1,R10a201,aJ1-4,aJ2001-2004,R11a1,R11a201,R12a1,R12a201,R13a1,R13a201,R14a1,R14a201,R15a1,R15a201,J1-14,R16a1,R16a201,R17a1,R17a201,R1a1,R1a201,R2a1,R2a201,Y2a1,Y2a201,R3a1,R3a201,R6a1,R6a201,R7a1,R7a201,aR1-17,aR2001-2017,Y1a1,Y1a201,R1-17,#FLG1-10,#FLG2001-2002,F1,L1-3,aC1-19,aC2001-2019,aD1-2,aD2001-2002,aU1-3,aU2001-2002,aY1-2,aY2001-2002,bL1-3,bR1-15,bU1-3,bD1-5,bF1,bJ1-2,cC1-8,cU1-4,cR1-2",
+    "used_designators": "R8a1,R8a201,C14a1,C14a201,C1-37,C43-46,C51-52,C54-57,bC1-25,A1a1,A1a201,C12a1,C12a201,C9a1,C9a201,U1-7,C10a1,C10a201,C11a1,C11a201,C13a1,C13a201,R9a1,R9a201,C15a1,C15a201,C16a1,C16a201,C17a1,C17a201,R4a1,R4a201,C18a1,C18a201,R5a1,R5a201,D1-5,C19a1,C19a201,C1a1,C1a201,C2a1,C2a201,U1a1,U1a201,D2a1,D2a201,C3a1,C3a201,C4a1,C4a201,C5a1,C5a201,aA1,aA2001,JP1-3,JP2001-2003,C6a1,C6a201,C7a1,C7a201,C8a1,C8a201,U2a1,U2a201,D1a1,D1a201,#PWR1-164,#PWR2001-2065,FB1a1,FB1a201,J1a1,J1a201,aFB1,aFB2001,J2a1,J2a201,J3a1,J3a201,J4a1,J4a201,R10a1,R10a201,aJ1-4,aJ2001-2004,R11a1,R11a201,R12a1,R12a201,R13a1,R13a201,R14a1,R14a201,R15a1,R15a201,J1-14,R16a1,R16a201,R17a1,R17a201,R1a1,R1a201,R2a1,R2a201,Y2a1,Y2a201,R3a1,R3a201,R6a1,R6a201,R7a1,R7a201,aR1-17,aR2001-2017,Y1a1,Y1a201,R1-17,#FLG1-10,#FLG2001-2002,F1,L1-3,aC1-19,aC2001-2019,aD1-2,aD2001-2002,aU1-3,aU2001-2002,aY1-2,aY2001-2002,bL1-3,bR1-15,bU1-3,bD1-5,bF1,bJ1-2,cC1-8,cU1-4,cR1-2",
     "variants": []
   },
   "sheets": [
@@ -768,11 +781,11 @@
       "HEADER_PINS"
     ],
     [
-      "a42f8ac8-cc52-4f3b-92dd-c989c8ae3b1f",
+      "36aa62ae-f438-4b52-bb23-34e67ba07575",
       "HEADER_PINS"
     ],
     [
-      "b1c6b7e5-51b4-4fee-a7e7-18155b2b4cfe",
+      "c6cc366a-301c-4c71-a414-f0baae6e558d",
       "HEADER_PINS"
     ]
   ],
