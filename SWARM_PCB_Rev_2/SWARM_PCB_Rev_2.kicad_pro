@@ -60,20 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|55955000|31595000|75278e31-9953-4db1-b1e5-9f9ec1549636|70a1b5c6-57c3-46d9-9430-b4d5d1af9f21",
-          ""
-        ],
-        [
-          "silk_edge_clearance|55999081|22404154|75278e31-9953-4db1-b1e5-9f9ec1549636|aad7ee52-cdad-4cd6-8bb9-03384e76d703",
-          ""
-        ],
-        [
-          "silk_edge_clearance|55999081|22404154|75278e31-9953-4db1-b1e5-9f9ec1549636|f5f400f5-1b51-4e27-a8e3-12a0a1ff57c8",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -274,6 +261,14 @@
   },
   "erc": {
     "erc_exclusions": [
+      [
+        "multiple_net_names|1473200|355600|81c6bdd8-e8de-4da8-aa23-a2596583d103|4fbd277a-d763-4196-a4bb-6ebf2b4de567|/d61c6b76-225f-4e7b-954b-419fd350b2a8/303cb209-0966-41c9-a4ba-f64f79dc9143|/d61c6b76-225f-4e7b-954b-419fd350b2a8/303cb209-0966-41c9-a4ba-f64f79dc9143|/d61c6b76-225f-4e7b-954b-419fd350b2a8/303cb209-0966-41c9-a4ba-f64f79dc9143",
+        ""
+      ],
+      [
+        "multiple_net_names|546100|1282700|90c636e4-7831-4d31-9177-977fb5b3c3ec|aeea368b-86f6-4164-9c49-8a17baa3ed30|/d61c6b76-225f-4e7b-954b-419fd350b2a8/650025eb-067f-40e3-8b03-3f7becff6fc6|/d61c6b76-225f-4e7b-954b-419fd350b2a8/650025eb-067f-40e3-8b03-3f7becff6fc6|/d61c6b76-225f-4e7b-954b-419fd350b2a8/650025eb-067f-40e3-8b03-3f7becff6fc6",
+        ""
+      ],
       [
         "multiple_net_names|546100|1282700|deb0b0e1-e713-4d2d-a1d4-d8bb8568ba27|aeea368b-86f6-4164-9c49-8a17baa3ed30|/d61c6b76-225f-4e7b-954b-419fd350b2a8/650025eb-067f-40e3-8b03-3f7becff6fc6|/d61c6b76-225f-4e7b-954b-419fd350b2a8/650025eb-067f-40e3-8b03-3f7becff6fc6|/d61c6b76-225f-4e7b-954b-419fd350b2a8/650025eb-067f-40e3-8b03-3f7becff6fc6",
         ""
@@ -552,7 +547,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 1
+      "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}_BOM_Rev1.csv",
     "bom_fmt_presets": [],
@@ -756,7 +751,7 @@
         "uuid": "d61c6b76-225f-4e7b-954b-419fd350b2a8"
       }
     ],
-    "used_designators": "Q1,aC20,aR18,dQ1-3,dR1-14,#PWR140,#PWR161,#PWR171-193,dC1-9,U1,dU1,bL4-5,J29",
+    "used_designators": "dL1-4,#FLG11-20,dR1-37,dJ1-2,#PWR140,#PWR161,#PWR168-300,dC1-32,dQ1-8,dU1-8,bJ3,J13-16,J29-32",
     "variants": []
   },
   "sheets": [
@@ -789,16 +784,8 @@
       "HEADER_PINS"
     ],
     [
-      "41730cf8-729d-4626-8918-930a31bc161c",
-      "TX"
-    ],
-    [
       "303cb209-0966-41c9-a4ba-f64f79dc9143",
-      "RX"
-    ],
-    [
-      "a45d834f-1ba6-482a-8dba-58c2197b6d45",
-      "HEADER_PINS"
+      "TX_RX"
     ],
     [
       "ad2caeb4-11eb-4e55-add7-897ec2d265cb",
