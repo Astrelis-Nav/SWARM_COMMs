@@ -5418,6 +5418,22 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Hirose" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DF40C-50DP-0.4V(51)" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d27f8892-f0f0-4efb-a72b-1ea7c97b634b")
 		)
@@ -5659,6 +5675,22 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Hirose" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DF40C-50DP-0.4V(51)" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8764cc6d-e8fd-4c93-af04-c0a1e762957f")
 		)
@@ -5897,6 +5929,22 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Hirose" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DF40C-50DP-0.4V(51)" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
