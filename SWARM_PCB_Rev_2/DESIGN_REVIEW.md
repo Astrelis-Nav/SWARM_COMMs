@@ -363,12 +363,12 @@ Items are sorted by priority. ✓ = resolved this session.
 | **Design-pending** | T2 | dL1/dL2 marked TBD — piezo impedance matching inductors, values require piezo characterisation | Schematic |
 | High | P5 | Update bR10 MPN to RC0603FR-07255KL (currently shows 187k part) | BOM |
 | High | P6 | Upsize polyfuse bF1 if full load exceeds 1.5A hold current | Schematic |
-| High | C1 | Replace aC3 (VCAP) with 1µF (currently 2.2µF — STM32F446 spec) | Schematic |
+| ✓ Done | C1 | aC3 (VCAP) changed to 1µF / GRM188R60J105KE15D | Schematic |
 | High | C2 | Verify/add HSE crystal (aY2) load capacitors ~15pF on OSC_IN/OSC_OUT | Schematic |
 | High | C3 | Fix aR18 MPN to RC0603FR-0733RL (currently populated with 10kΩ MPN) | BOM |
 | High | S1 | Add 10kΩ pull-up on cU2 (ASM330) CS pin to +3.3V_SENSOR | Schematic |
 | High | S2 | Add 10kΩ pull-up on cU4 (LSM6DSO32) CS pin to +3.3V_SENSOR | Schematic |
-| High | S3 | Reduce I2C pull-ups to 2.2kΩ if running at 400kHz (4-device bus) | Schematic |
+| ✓ Done | S3 | cR1/cR2 I2C pull-ups changed to 2.2kΩ / RC0603FR-072K2L | Schematic |
 | High | T3 | Replace dU7 library symbol with INA823DR symbol; verify gain resistor connections | Schematic |
 | High | T4 | Add bootstrap diode (fast Schottky) from VDD to each VB node on half-bridge | Schematic |
 | High | T5 | Verify INA240A2DR (gain=50, 20mΩ shunt) output range vs max motor current | Schematic |

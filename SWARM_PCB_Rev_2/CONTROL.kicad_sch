@@ -19935,7 +19935,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "1u"
 			(at 29.21 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19991,7 +19991,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R60J225KE15D"
+		(property "MPN" "GRM188R60J105KE15D"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
