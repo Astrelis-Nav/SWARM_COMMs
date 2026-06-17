@@ -220,7 +220,7 @@ Findings are grouped by sheet and severity. Items marked ✓ have been resolved.
 | C5 | **Medium** | VBAT (STM32F446 pin 1) decoupling not confirmed in wire tracing | Confirm 100nF cap directly on VBAT pin |
 | C6 | **Medium** | NRST filter capacitor not confirmed | Confirm 100nF cap on NRST to GND |
 | C7 | **Medium** | No series resistor on OSC_OUT for HSE — crystal overdrive protection | Add 0Ω DNP (or 100Ω) in series on OSC_OUT |
-| C8 | **Medium** | LED drive currents very low: aD1 purple ≈ 0.2mA via aR1=1kΩ; aD2 RGB blue channel ≈ 0.3mA — barely visible | Reduce series resistors to 100–220Ω |
+| C8 | **Info** | LED drive currents low by design (~0.2mA) — intentionally dim to minimise power draw ✓ | — |
 | C9 | **Medium** | SD card data lines have no series damping resistors — at SPI 25MHz, ringing likely | Add 22–33Ω series resistors on SCK and MOSI/MISO |
 | C10 | **Low** | SWO line has no series resistor — add 33–100Ω for EMI | Optional: add 33Ω on SWO_P |
 | C11 | **Low** | aFB1 uses R_0603_1608Metric footprint — ferrite bead should use inductor footprint | Change to L_0603_1608Metric footprint |
@@ -375,7 +375,7 @@ Items are sorted by priority. ✓ = resolved this session.
 | ✓ Done | C4 | LSE load caps not needed — STM32F446 has internal oscillator capacitors | — |
 | Medium | C5 | Confirm 100nF cap on STM32F446 VBAT pin | Schematic |
 | Medium | C6 | Confirm 100nF cap on STM32F446 NRST | Schematic |
-| Medium | C8 | Increase LED series resistors: aD1 and aD2 channels drive <0.5mA — nearly invisible | Schematic |
+| ✓ Done | C8 | LED drive current intentionally low — dim by design to save power | — |
 | Medium | S4 | Confirm cU2 VDD_IO (pin 5) connection to +3.3V_SENSOR | Schematic |
 | Medium | S5 | Add 10µF bulk cap on cU3 (MS5837) VDD | Schematic |
 | Medium | T6 | Add gate-source Zener clamps (15V) on dQ1–dQ4 | Schematic |
