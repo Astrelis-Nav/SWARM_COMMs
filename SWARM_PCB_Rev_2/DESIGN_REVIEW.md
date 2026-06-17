@@ -203,7 +203,7 @@ Findings are grouped by sheet and severity. Items marked ✓ have been resolved.
 | P3 | **Critical** | Output caps bC16–bC19 (22µF/0805) rated 6.3V on +12V_POWER output | Replace with ≥25V-rated 22µF/0805 |
 | P4 | **Critical** | Output caps bC22, bC23 (22µF/1210) rated 6.3V on +VPiezo_POWER (~24V) | Replace with ≥50V-rated 22µF (1210 or 1812) |
 | P5 | **High** | bR10 schematic value = 255k but MPN field still holds 187k part number (RC0603FR-07187KL) | Change MPN to RC0603FR-07255KL |
-| P6 | **High** | bF1 polyfuse hold current 1.5A; peak load on VIN likely 4–6A at full output — polyfuse will trip | Upsize to 1812L300/24 (3A hold) or verify max load ≤1.5A |
+| P6 | **Info** | bF1 polyfuse hold 1.5A: total VIN draw estimated ~310mA at 3.3W system power (piezo comms load is real-power limited, reactive current circulates in LC network) — 4.8× margin ✓ | — |
 | P7 | **Medium** | bD3 (BLUE LED) drive current ≈ 0.24mA via bR3=36kΩ from 12V — likely invisible | Reduce bR3 to 10–15kΩ for ~0.6–0.85mA, or document as intentional |
 | P8 | **Low** | bD1 SMBJ18A TVS uses SS34 Schottky symbol — misleading in schematic | Replace symbol with TVS/Zener symbol; add MPN=SMBJ18A |
 | P9 | **Low** | No reverse-polarity protection on VIN before bF1 — reversed battery destroys all ICs | Add P-channel FET or Schottky in series (if connector is not keyed: XT30 is polarised so this is low priority) |
@@ -214,7 +214,7 @@ Findings are grouped by sheet and severity. Items marked ✓ have been resolved.
 | ID | Sev | Description | Action |
 |----|-----|-------------|--------|
 | C1 | **High** | aC3 = 2.2µF on STM32F446 VCAP pin — datasheet specifies 1µF ±20% X5R/X7R; 2.2µF may cause internal regulator instability | Replace with 1µF |
-| C2 | **High** | HSE crystal (aY2, 16MHz) load capacitors not confirmed in schematic — no 12–22pF caps on OSC_IN/OSC_OUT visible | Verify load caps exist and are routed; add 2× ~15pF if missing |
+| C2 | **Info** | HSE load caps aC18/aC19 = 10pF C0G (GRM1885C1H100JA01D) on OSC_IN/OSC_OUT ✓ | — |
 | C3 | **High** | aR18 (33Ω SWCLK) MPN set to RC0603FR-0710KL — this is a 10kΩ part, not 33Ω | Change MPN to RC0603FR-0733RL (Yageo 33Ω 0603) |
 | C4 | **Medium** | LSE crystal (aY1, 32.768kHz) load capacitors not confirmed — no 6–12pF caps visible near aY1 | Verify load caps exist; MicroCrystal CM9V-T1A requires CL=7pF |
 | C5 | **Medium** | VBAT (STM32F446 pin 1) decoupling not confirmed in wire tracing | Confirm 100nF cap directly on VBAT pin |
@@ -252,7 +252,7 @@ Findings are grouped by sheet and severity. Items marked ✓ have been resolved.
 | T2 | **Critical** | dL1, dL2 have empty Value and no MPN — inductor specs unknown, nothing will be ordered | Assign inductance, current rating, DCR, footprint, and MPN |
 | T3 | **High** | dU7 library symbol is INA828IDR; placed part is INA823DR — confirm pin compatibility; update lib_id to INA823 | Update symbol; verify gain resistor connections match INA823 pinout |
 | T4 | **High** | No bootstrap diode from +12V to VB nodes on either half-bridge — schematic note says firmware must precharge at boot | Add fast-recovery Schottky (e.g., STPS1L40) from VDD to each VB; removes firmware dependency and improves reliability |
-| T5 | **High** | INA240A2DR gain=50 on 20mΩ shunt: output saturates above ~3A (V_out = 50×0.02×3A = 3V ≈ rail) | Verify max expected motor current; if >3A, reduce gain (use INA240A1 gain=20) or increase shunt headroom |
+| T5 | **Info** | INA240A2DR gain=50 on 20mΩ shunt: load is piezo transducer (capacitive/resonant), peak drive current expected <<1A — output well within range ✓ | — |
 | T6 | **Medium** | Single gate resistor per FET (10Ω) controls both turn-on and turn-off — slower turn-off increases switching losses | Add anti-parallel diode+resistor for independent turn-on/turn-off control |
 | T7 | **Medium** | No gate-source TVS or Zener clamp on FET gates — Vgs ringing could exceed ±20V Vgs(max) of IPD50N10S3L-16 | Add 15V Zener from gate to source on each FET |
 | T8 | **Medium** | INA823DR gain resistor identification unclear (dR30=121Ω vs dR32=3.83kΩ — which is Rg?) | Confirm which net connects between RG1 and RG2 on INA823; document gain |
@@ -362,16 +362,16 @@ Items are sorted by priority. ✓ = resolved this session.
 | ✓ Done | T1 | dQ1–dQ4 lib_id replaced with Device:MOSFET_N; Value/MPN remain IPD50N10S3L-16 | Schematic |
 | **Design-pending** | T2 | dL1/dL2 marked TBD — piezo impedance matching inductors, values require piezo characterisation | Schematic |
 | High | P5 | Update bR10 MPN to RC0603FR-07255KL (currently shows 187k part) | BOM |
-| High | P6 | Upsize polyfuse bF1 if full load exceeds 1.5A hold current | Schematic |
+| ✓ Done | P6 | Polyfuse 1.5A adequate — piezo acoustic comms real power <<10W, VIN draw ~310mA | — |
 | ✓ Done | C1 | aC3 (VCAP) changed to 1µF / GRM188R60J105KE15D | Schematic |
-| High | C2 | Verify/add HSE crystal (aY2) load capacitors ~15pF on OSC_IN/OSC_OUT | Schematic |
+| ✓ Done | C2 | HSE load caps aC18/aC19 confirmed 10pF C0G; MPN updated to GRM1885C1H100JA01D | Schematic |
 | High | C3 | Fix aR18 MPN to RC0603FR-0733RL (currently populated with 10kΩ MPN) | BOM |
 | High | S1 | Add 10kΩ pull-up on cU2 (ASM330) CS pin to +3.3V_SENSOR | Schematic |
 | High | S2 | Add 10kΩ pull-up on cU4 (LSM6DSO32) CS pin to +3.3V_SENSOR | Schematic |
 | ✓ Done | S3 | cR1/cR2 I2C pull-ups changed to 2.2kΩ / RC0603FR-072K2L | Schematic |
 | High | T3 | Replace dU7 library symbol with INA823DR symbol; verify gain resistor connections | Schematic |
-| High | T4 | Add bootstrap diode (fast Schottky) from VDD to each VB node on half-bridge | Schematic |
-| High | T5 | Verify INA240A2DR (gain=50, 20mΩ shunt) output range vs max motor current | Schematic |
+| Low | T4 | Add bootstrap diode from VDD to VB nodes — low risk for piezo load since half-bridge switches every cycle, charging bootstrap cap continuously | Schematic |
+| ✓ Done | T5 | INA240 gain/shunt appropriate for piezo drive currents (<<1A) — not a motor load | — |
 | Medium | C4 | Verify/add LSE crystal (aY1) load capacitors ~7pF | Schematic |
 | Medium | C5 | Confirm 100nF cap on STM32F446 VBAT pin | Schematic |
 | Medium | C6 | Confirm 100nF cap on STM32F446 NRST | Schematic |

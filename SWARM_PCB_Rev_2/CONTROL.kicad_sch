@@ -14289,7 +14289,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10p"
 			(at 104.394 184.912 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14345,7 +14345,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61A105KA61D"
+		(property "MPN" "GRM1885C1H100JA01D"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -22298,7 +22298,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10p"
 			(at 86.614 184.912 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22354,7 +22354,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61A105KA61D"
+		(property "MPN" "GRM1885C1H100JA01D"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
