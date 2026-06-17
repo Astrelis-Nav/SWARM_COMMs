@@ -81,7 +81,7 @@ and a set of Hirose DF40C board-to-board connectors for system integration.
 | 1 | aY2 | 16MHz | Crystal_SMD_SeikoEpson_FA238-4 | — |
 | 1 | bF1 | 1812L150/24MR | Fuse_1812_4532Metric | — |
 | 1 | bR11 | 182k | R_0603_1608Metric | — |
-| 1 | bR10 | **255k** | R_0603_1608Metric | — |
+| 1 | bR10 | **255k** | R_0603_1608Metric | RC0603FR-07255KL |
 | 6 | aR1,aR12,aR2,aR3 +2 | 1k | R_0603_1608Metric | — |
 | 7 | dC1,dC16,dC2,dC29 +3 | 1n | C_0603_1608Metric | — |
 | 8 | aC16,aC17,aC18,aC19 +4 | 1u | C_0603_1608Metric | — |
@@ -96,7 +96,7 @@ and a set of Hirose DF40C board-to-board connectors for system integration.
 | 2 | dR35,dR36 | 3.92k | R_0603_1608Metric | — |
 | 1 | aY1 | 32.768KHz | Crystal_SMD_MicroCrystal_CM9V- | — |
 | 1 | bR3 | 36k | R_0603_1608Metric | — |
-| 1 | aR18 | 33 | R_0603_1608Metric | — |
+| 1 | aR18 | 33 | R_0603_1608Metric | RC0603FR-0733RL |
 | 5 | aR10,aR11,bR2,cR1 +1 | 4.7k | R_0603_1608Metric | — |
 | 1 | bR5 | 43.2k | R_0603_1608Metric | — |
 | 4 | dR1,dR2,dR3,dR4 | 47k | R_0603_1608Metric | — |
@@ -202,7 +202,7 @@ Findings are grouped by sheet and severity. Items marked ✓ have been resolved.
 | P2 | **Critical** | Input caps bC1 (2.2µF), bC4, bC14, bC21 (10µF) rated 10V on 12–17V VIN rail | Replace with ≥25V-rated equivalents |
 | P3 | **Critical** | Output caps bC16–bC19 (22µF/0805) rated 6.3V on +12V_POWER output | Replace with ≥25V-rated 22µF/0805 |
 | P4 | **Critical** | Output caps bC22, bC23 (22µF/1210) rated 6.3V on +VPiezo_POWER (~24V) | Replace with ≥50V-rated 22µF (1210 or 1812) |
-| P5 | **High** | bR10 schematic value = 255k but MPN field still holds 187k part number (RC0603FR-07187KL) | Change MPN to RC0603FR-07255KL |
+| P5 | **Info** | bR10 MPN = RC0603FR-07255KL (255k) ✓ | — |
 | P6 | **Info** | bF1 polyfuse hold 1.5A: total VIN draw estimated ~310mA at 3.3W system power (piezo comms load is real-power limited, reactive current circulates in LC network) — 4.8× margin ✓ | — |
 | P7 | **Medium** | bD3 (BLUE LED) drive current ≈ 0.24mA via bR3=36kΩ from 12V — likely invisible | Reduce bR3 to 10–15kΩ for ~0.6–0.85mA, or document as intentional |
 | P8 | **Low** | bD1 SMBJ18A TVS uses SS34 Schottky symbol — misleading in schematic | Replace symbol with TVS/Zener symbol; add MPN=SMBJ18A |
@@ -215,7 +215,7 @@ Findings are grouped by sheet and severity. Items marked ✓ have been resolved.
 |----|-----|-------------|--------|
 | C1 | **High** | aC3 = 2.2µF on STM32F446 VCAP pin — datasheet specifies 1µF ±20% X5R/X7R; 2.2µF may cause internal regulator instability | Replace with 1µF |
 | C2 | **Info** | HSE load caps aC18/aC19 = 10pF C0G (GRM1885C1H100JA01D) on OSC_IN/OSC_OUT ✓ | — |
-| C3 | **High** | aR18 (33Ω SWCLK) MPN set to RC0603FR-0710KL — this is a 10kΩ part, not 33Ω | Change MPN to RC0603FR-0733RL (Yageo 33Ω 0603) |
+| C3 | **Info** | aR18 MPN = RC0603FR-0733RL (33Ω) ✓ | — |
 | C4 | **Info** | LSE load caps omitted intentionally — STM32F446 LSE oscillator has built-in internal load capacitors (~5pF each) ✓ | — |
 | C5 | **Info** | VBAT tied to +3.3V_CONTROL ✓; aC15 upgraded 10nF → 100nF (GRM188R71C104KA01D) to meet ST ≥100nF recommendation ✓ | — |
 | C6 | **Info** | NRST filter cap aC1 = 100nF (GRM188R71C104KA01D) confirmed ✓ | — |
@@ -303,7 +303,7 @@ Findings are grouped by sheet and severity. Items marked ✓ have been resolved.
 | bL2 | 15µH inductor |
 | bL3 | 22µH inductor |
 | dL1, dL2 | **No value** — see Finding T2 |
-| aR18 | 33Ω — MPN currently wrong (see Finding C3) |
+| aR18 | 33Ω — RC0603FR-0733RL ✓ |
 
 ### Missing MPNs — Connectors
 
@@ -361,11 +361,11 @@ Items are sorted by priority. ✓ = resolved this session.
 | **Critical** | P1–P4 | Fix capacitor voltage ratings: VIN/12V/VPiezo caps severely under-rated (6.3V caps on 12–24V rails) | BOM/Layout |
 | ✓ Done | T1 | dQ1–dQ4 lib_id replaced with Device:MOSFET_N; Value/MPN remain IPD50N10S3L-16 | Schematic |
 | **Design-pending** | T2 | dL1/dL2 marked TBD — piezo impedance matching inductors, values require piezo characterisation | Schematic |
-| High | P5 | Update bR10 MPN to RC0603FR-07255KL (currently shows 187k part) | BOM |
+| ✓ Done | P5 | bR10 MPN confirmed RC0603FR-07255KL (255k) ✓ | — |
 | ✓ Done | P6 | Polyfuse 1.5A adequate — piezo acoustic comms real power <<10W, VIN draw ~310mA | — |
 | ✓ Done | C1 | aC3 (VCAP) changed to 1µF / GRM188R60J105KE15D | Schematic |
 | ✓ Done | C2 | HSE load caps aC18/aC19 confirmed 10pF C0G; MPN updated to GRM1885C1H100JA01D | Schematic |
-| High | C3 | Fix aR18 MPN to RC0603FR-0733RL (currently populated with 10kΩ MPN) | BOM |
+| ✓ Done | C3 | aR18 MPN confirmed RC0603FR-0733RL (33Ω) ✓ | — |
 | High | S1 | Add 10kΩ pull-up on cU2 (ASM330) CS pin to +3.3V_SENSOR | Schematic |
 | High | S2 | Add 10kΩ pull-up on cU4 (LSM6DSO32) CS pin to +3.3V_SENSOR | Schematic |
 | ✓ Done | S3 | cR1/cR2 I2C pull-ups changed to 2.2kΩ / RC0603FR-072K2L | Schematic |
