@@ -68,9 +68,9 @@ and a set of Hirose DF40C board-to-board connectors for system integration.
 | 5 | dR10,dR15,dR16,dR21 +1 | 10 | R_0603_1608Metric | — |
 | 6 | dR12,dR13,dR25,dR26 +2 | 100 | R_0603_1608Metric | — |
 | 10 | bR1,bR6,bR7,bR9 +6 | 100k | R_0603_1608Metric | — |
-| 33 | aC1,aC10,aC11,aC12 +29 | 100n | C_0603_1608Metric | — |
+| 34 | aC1,aC10,aC11,aC12,aC15 +29 | 100n | C_0603_1608Metric | — |
 | 17 | aR13,aR14,aR15,aR16 +13 | 10k | R_0603_1608Metric | — |
-| 4 | aC15,bC25,dC27,dC28 | 10n | C_0603_1608Metric | — |
+| 3 | bC25,dC27,dC28 | 10n | C_0603_1608Metric | — |
 | 5 | aC14,aC5,aC8,cC4 +1 | 10u | C_0603_1608Metric | — |
 | 3 | bC14,bC21,bC4 | 10u | C_0805_2012Metric | — |
 | 1 | dC23 | 10u | C_0805_2012Metric_Pad1.18x1.45 | — |
@@ -217,8 +217,8 @@ Findings are grouped by sheet and severity. Items marked ✓ have been resolved.
 | C2 | **Info** | HSE load caps aC18/aC19 = 10pF C0G (GRM1885C1H100JA01D) on OSC_IN/OSC_OUT ✓ | — |
 | C3 | **High** | aR18 (33Ω SWCLK) MPN set to RC0603FR-0710KL — this is a 10kΩ part, not 33Ω | Change MPN to RC0603FR-0733RL (Yageo 33Ω 0603) |
 | C4 | **Info** | LSE load caps omitted intentionally — STM32F446 LSE oscillator has built-in internal load capacitors (~5pF each) ✓ | — |
-| C5 | **Medium** | VBAT (STM32F446 pin 1) decoupling not confirmed in wire tracing | Confirm 100nF cap directly on VBAT pin |
-| C6 | **Medium** | NRST filter capacitor not confirmed | Confirm 100nF cap on NRST to GND |
+| C5 | **Info** | VBAT tied to +3.3V_CONTROL ✓; aC15 upgraded 10nF → 100nF (GRM188R71C104KA01D) to meet ST ≥100nF recommendation ✓ | — |
+| C6 | **Info** | NRST filter cap aC1 = 100nF (GRM188R71C104KA01D) confirmed ✓ | — |
 | C7 | **Medium** | No series resistor on OSC_OUT for HSE — crystal overdrive protection | Add 0Ω DNP (or 100Ω) in series on OSC_OUT |
 | C8 | **Info** | LED drive currents low by design (~0.2mA) — intentionally dim to minimise power draw ✓ | — |
 | C9 | **Medium** | SD card data lines have no series damping resistors — at SPI 25MHz, ringing likely | Add 22–33Ω series resistors on SCK and MOSI/MISO |
@@ -373,8 +373,8 @@ Items are sorted by priority. ✓ = resolved this session.
 | Low | T4 | Add bootstrap diode from VDD to VB nodes — low risk for piezo load since half-bridge switches every cycle, charging bootstrap cap continuously | Schematic |
 | ✓ Done | T5 | INA240 gain/shunt appropriate for piezo drive currents (<<1A) — not a motor load | — |
 | ✓ Done | C4 | LSE load caps not needed — STM32F446 has internal oscillator capacitors | — |
-| Medium | C5 | Confirm 100nF cap on STM32F446 VBAT pin | Schematic |
-| Medium | C6 | Confirm 100nF cap on STM32F446 NRST | Schematic |
+| ✓ Done | C5 | VBAT tied to +3.3V_CONTROL; aC15 changed 10nF→100nF / GRM188R71C104KA01D | Schematic |
+| ✓ Done | C6 | NRST filter cap aC1 = 100nF confirmed | — |
 | ✓ Done | C8 | LED drive current intentionally low — dim by design to save power | — |
 | Medium | S4 | Confirm cU2 VDD_IO (pin 5) connection to +3.3V_SENSOR | Schematic |
 | Medium | S5 | Add 10µF bulk cap on cU3 (MS5837) VDD | Schematic |

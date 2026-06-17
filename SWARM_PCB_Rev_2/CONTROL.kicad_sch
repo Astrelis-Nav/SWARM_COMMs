@@ -17548,7 +17548,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "100n"
 			(at 26.924 177.292 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17604,7 +17604,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H103KA01D"
+		(property "MPN" "GRM188R71C104KA01D"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
