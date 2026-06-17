@@ -5133,7 +5133,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "Conn_02x25_Odd_Even"
 			(at 38.1 24.13 0)
 			(hide yes)
 			(show_name no)

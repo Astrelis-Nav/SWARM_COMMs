@@ -237,7 +237,7 @@ Findings are grouped by sheet and severity. Items marked ✓ have been resolved.
 | S1 | **High** | cU2 (ASM330LHHXTR) CS pin must be pulled HIGH to select I2C mode — pull-up not confirmed | Add 10kΩ pull-up on CS to +3.3V_SENSOR; tie MSCL/MSDA to GND if unused |
 | S2 | **High** | cU4 (LSM6DSO32TR) CS pin must be pulled HIGH for I2C mode — pull-up not confirmed | Add 10kΩ pull-up on CS to +3.3V_SENSOR |
 | S3 | **High** | I2C pull-ups cR1=cR2=4.7kΩ serve 4 devices — may violate 300ns tR max at 400kHz | Reduce to 2.2kΩ if running Fast Mode; confirm operating frequency |
-| S4 | **Medium** | cU2 VDD_IO (pin 5) connection not confirmed — must connect to +3.3V_SENSOR | Verify pin 5 is not floating |
+| S4 | **Info** | cU2 VDD_IO (pin 5) confirmed connected to +3.3V_SENSOR ✓; INT1 and INT2 wired separately ✓ | — |
 | S5 | **Medium** | cU3 (MS5837) missing 10µF bulk decoupling cap — datasheet requires 100nF + 10µF | Add 10µF cap on cU3 VDD |
 | S6 | **Medium** | cU2 and cU4 missing 1µF VDD bulk cap — STMicro app note requires 100nF + 1µF | Add 1µF per device |
 | S7 | **Low** | No series resistors on I2C SDA/SCL — 22–33Ω recommended for multi-device stub | Optional: add 22Ω on SCL/SDA |
@@ -257,7 +257,7 @@ Findings are grouped by sheet and severity. Items marked ✓ have been resolved.
 | T7 | **Medium** | No gate-source TVS or Zener clamp on FET gates — Vgs ringing could exceed ±20V Vgs(max) of IPD50N10S3L-16 | Add 15V Zener from gate to source on each FET |
 | T8 | **Medium** | INA823DR gain resistor identification unclear (dR30=121Ω vs dR32=3.83kΩ — which is Rg?) | Confirm which net connects between RG1 and RG2 on INA823; document gain |
 | T9 | **Medium** | Vref for INA823 uses unbuffered resistor divider (V_REF_HALF_TXRX from 4×47kΩ) — output impedance ~12kΩ affects accuracy | Buffer the mid-rail reference with a unity-gain op-amp |
-| T10 | **Medium** | dU1/dU2 UCC27211D VDD supply rail: must be 12V_TXRX, not 3.3V (UVLO = 8V) | Verify VDD pins connect to 12V_TXRX |
+| T10 | **Critical** | dU1/dU2 UCC27211D VDD/VSS supply rails SWAPPED: VDD (pin 1, 8–20V supply) connected to GND_TXRX; VSS (pin 7, GND ref) connected to 12V_TXRX. Would destroy chips at power-on. Fixed: swapped lib_id and Value on all 4 power symbols (at 68.58,59.69 / 83.82 for dU1; at 68.58,100.33 / 124.46 for dU2) ✓ | ✓ Fixed in TX_RX.kicad_sch |
 | T11 | **Info** | dR17 WSL2512R0200FEA shunt (20mΩ) rated 1W — verify RMS motor current <7A (7²×0.02 = 0.98W) | Document expected RMS current |
 | T12 | **Info** | dU1/dU2 HI/LI inputs are TTL-compatible — 3.3V MCU drive is sufficient ✓ | — |
 
@@ -265,7 +265,7 @@ Findings are grouped by sheet and severity. Items marked ✓ have been resolved.
 
 | ID | Sev | Description | Action |
 |----|-----|-------------|--------|
-| H1 | **Medium** | J1 connector in HEADER_PINS.kicad_sch has empty Value field; J2/J3/J4 correctly show Conn_02x25_Odd_Even | Populate J1 Value field |
+| H1 | **Info** | J1 connector in HEADER_PINS.kicad_sch had empty Value field; J2/J3/J4 correctly show Conn_02x25_Odd_Even. Fixed: Value set to "Conn_02x25_Odd_Even" ✓ | — |
 | H2 | **Low** | GND_HEADER and +3.3V_HEADER missing PWR_FLAG in top-level sheet — causes ERC warnings | Add two PWR_FLAG symbols on those nets in top-level |
 | H3 | **Info** | GND domain architecture documented in top-level schematic ✓ | — |
 
@@ -376,11 +376,12 @@ Items are sorted by priority. ✓ = resolved this session.
 | ✓ Done | C5 | VBAT tied to +3.3V_CONTROL; aC15 changed 10nF→100nF / GRM188R71C104KA01D | Schematic |
 | ✓ Done | C6 | NRST filter cap aC1 = 100nF confirmed | — |
 | ✓ Done | C8 | LED drive current intentionally low — dim by design to save power | — |
-| Medium | S4 | Confirm cU2 VDD_IO (pin 5) connection to +3.3V_SENSOR | Schematic |
+| ✓ Done | S4 | cU2 VDD_IO confirmed on +3.3V_SENSOR; INT1/INT2 wired separately ✓ | — |
+| ✓ Done | T10 | dU1/dU2 VDD/VSS swap corrected — lib_id + Value swapped on 4 power symbols in TX_RX.kicad_sch | Schematic |
+| ✓ Done | H1 | J1 Value populated: "Conn_02x25_Odd_Even" in HEADER_PINS.kicad_sch | Schematic |
 | Medium | S5 | Add 10µF bulk cap on cU3 (MS5837) VDD | Schematic |
 | Medium | T6 | Add gate-source Zener clamps (15V) on dQ1–dQ4 | Schematic |
 | Medium | T8 | Identify INA823DR gain resistor and document gain; buffer V_REF_HALF_TXRX | Schematic |
-| Medium | H1 | Populate J1 Value field in HEADER_PINS.kicad_sch | Schematic |
 | Medium | BOM | Assign MPNs to aU1, aU2, aU3, bU1, bU2, dQ1–dQ4, dU1–dU5, dU8, cU3 | BOM |
 | Medium | BOM | Assign MPNs to connectors: aJ2, aJ3, bJ1, bJ2, J1–J4 (on-PCB connectors are critical) | BOM |
 | Low | P7 | Reduce bR3 to increase bD3/bD4 LED brightness, or document as intentional | Schematic |

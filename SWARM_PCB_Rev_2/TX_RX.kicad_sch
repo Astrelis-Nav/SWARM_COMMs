@@ -11820,7 +11820,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:GND")
 		(at 68.58 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -11841,7 +11841,7 @@
 				)
 			)
 		)
-		(property "Value" "12V_TXRX"
+		(property "Value" "GND_TXRX"
 			(at 68.58 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14899,7 +14899,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:+3.3V")
 		(at 68.58 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -14920,7 +14920,7 @@
 				)
 			)
 		)
-		(property "Value" "GND_TXRX"
+		(property "Value" "12V_TXRX"
 			(at 68.58 87.376 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19393,7 +19393,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:+3.3V")
 		(at 68.58 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -19414,7 +19414,7 @@
 				)
 			)
 		)
-		(property "Value" "GND_TXRX"
+		(property "Value" "12V_TXRX"
 			(at 68.58 128.016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20772,7 +20772,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:GND")
 		(at 68.58 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -20793,7 +20793,7 @@
 				)
 			)
 		)
-		(property "Value" "12V_TXRX"
+		(property "Value" "GND_TXRX"
 			(at 68.58 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
