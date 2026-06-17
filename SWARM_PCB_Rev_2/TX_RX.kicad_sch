@@ -8372,20 +8372,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM1885C1H102JA01D" (at 0 0 0)
+		(property "MPN" "GRM1885C1H102JA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8623,20 +8629,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07100KL" (at 0 0 0)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8721,20 +8733,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM1885C1H102JA01D" (at 0 0 0)
+		(property "MPN" "GRM1885C1H102JA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8817,20 +8835,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments" (at 0 0 0)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "INA240A2DR" (at 0 0 0)
+		(property "MPN" "INA240A2DR"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "6"
@@ -8933,20 +8957,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R71C104KA01D" (at 0 0 0)
+		(property "MPN" "GRM188R71C104KA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9031,20 +9061,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R71C104KA01D" (at 0 0 0)
+		(property "MPN" "GRM188R71C104KA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9128,20 +9164,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710RL" (at 0 0 0)
+		(property "MPN" "RC0603FR-0710RL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9224,20 +9266,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-073K92L" (at 0 0 0)
+		(property "MPN" "RC0603FR-073K92L"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9398,20 +9446,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710RL" (at 0 0 0)
+		(property "MPN" "RC0603FR-0710RL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9724,20 +9778,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07100RL" (at 0 0 0)
+		(property "MPN" "RC0603FR-07100RL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9821,20 +9881,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07100KL" (at 0 0 0)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10073,20 +10139,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07100RL" (at 0 0 0)
+		(property "MPN" "RC0603FR-07100RL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10247,20 +10319,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "JST" (at 0 0 0)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "B3B-XH-AM" (at 0 0 0)
+		(property "MPN" "B3B-XH-AM"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10426,20 +10504,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07100RL" (at 0 0 0)
+		(property "MPN" "RC0603FR-07100RL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10952,20 +11036,26 @@
 				(justify bottom)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments" (at 0 0 0)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "UCC27211D" (at 0 0 0)
+		(property "MPN" "UCC27211D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11225,20 +11315,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM1885C1H102JA01D" (at 0 0 0)
+		(property "MPN" "GRM1885C1H102JA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11401,20 +11497,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Vishay" (at 0 0 0)
+		(property "Manufacturer" "Vishay"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "WSL2512R0200FEA" (at 0 0 0)
+		(property "MPN" "WSL2512R0200FEA"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11577,20 +11679,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R71C104KA01D" (at 0 0 0)
+		(property "MPN" "GRM188R71C104KA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11674,20 +11782,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07100KL" (at 0 0 0)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12035,7 +12149,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 128.524 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12047,7 +12161,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 127.3048 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -12080,20 +12194,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A476MQ8NRNC" (at 0 0 0)
+		(property "MPN" "GRM32ER71H106KA12"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12256,20 +12376,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM1885C1H102JA01D" (at 0 0 0)
+		(property "MPN" "GRM1885C1H102JA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12431,20 +12557,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R71C104KA01D" (at 0 0 0)
+		(property "MPN" "GRM188R71C104KA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12530,20 +12662,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL" (at 0 0 0)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12708,20 +12846,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Infineon Technologies" (at 0 0 0)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "IPD50N10S3L-16" (at 0 0 0)
+		(property "MPN" "IPD50N10S3L-16"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12887,20 +13031,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R71H103KA01D" (at 0 0 0)
+		(property "MPN" "GRM188R71H103KA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12984,20 +13134,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-071KL" (at 0 0 0)
+		(property "MPN" "RC0603FR-071KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13356,20 +13512,26 @@
 				(justify bottom)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments" (at 0 0 0)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "UCC27211D" (at 0 0 0)
+		(property "MPN" "UCC27211D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13547,20 +13709,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL" (at 0 0 0)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13646,20 +13814,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0747KL" (at 0 0 0)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13979,20 +14153,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Infineon Technologies" (at 0 0 0)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "IPD50N10S3L-16" (at 0 0 0)
+		(property "MPN" "IPD50N10S3L-16"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14161,20 +14341,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Infineon Technologies" (at 0 0 0)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "IPD50N10S3L-16" (at 0 0 0)
+		(property "MPN" "IPD50N10S3L-16"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14341,20 +14527,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R71C104KA01D" (at 0 0 0)
+		(property "MPN" "GRM188R71C104KA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14669,20 +14861,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07100RL" (at 0 0 0)
+		(property "MPN" "RC0603FR-07100RL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14844,20 +15042,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R71C104KA01D" (at 0 0 0)
+		(property "MPN" "GRM188R71C104KA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15018,20 +15222,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710RL" (at 0 0 0)
+		(property "MPN" "RC0603FR-0710RL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15115,20 +15325,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07100KL" (at 0 0 0)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15213,20 +15429,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07100KL" (at 0 0 0)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15773,20 +15995,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R71C104KA01D" (at 0 0 0)
+		(property "MPN" "GRM188R71C104KA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15874,20 +16102,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Infineon Technologies" (at 0 0 0)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "IPD50N10S3L-16" (at 0 0 0)
+		(property "MPN" "IPD50N10S3L-16"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15973,20 +16207,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL" (at 0 0 0)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16071,20 +16311,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R61A105KA61D" (at 0 0 0)
+		(property "MPN" "GRM188R61A105KA61D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16246,20 +16492,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Analog Devices" (at 0 0 0)
+		(property "Manufacturer" "Analog Devices"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "ADG7421FBCPZ-RL7" (at 0 0 0)
+		(property "MPN" "ADG7421FBCPZ-RL7"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16368,20 +16620,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0747KL" (at 0 0 0)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16695,20 +16953,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL" (at 0 0 0)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16873,20 +17137,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments" (at 0 0 0)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "OPA2322AIDGKR" (at 0 0 0)
+		(property "MPN" "OPA2322AIDGKR"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -16987,20 +17257,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-073K92L" (at 0 0 0)
+		(property "MPN" "RC0603FR-073K92L"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17240,20 +17516,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07953RL" (at 0 0 0)
+		(property "MPN" "RC0603FR-07953RL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17338,20 +17620,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R71C104KA01D" (at 0 0 0)
+		(property "MPN" "GRM188R71C104KA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17668,20 +17956,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07100RL" (at 0 0 0)
+		(property "MPN" "RC0603FR-07100RL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17767,20 +18061,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM1885C1H102JA01D" (at 0 0 0)
+		(property "MPN" "GRM1885C1H102JA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17865,20 +18165,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BR61A106KE18L" (at 0 0 0)
+		(property "MPN" "GRM21BR61A106KE18L"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18041,20 +18347,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07121RL" (at 0 0 0)
+		(property "MPN" "RC0603FR-07121RL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18127,7 +18439,7 @@
 				)
 			)
 		)
-		(property "Description" "35-uV Offset, 36-nV/rtHz Noise, Low-Power, Precision Instrumentation Amplifier"
+		(property "Description" "25-uV Offset, 7-nV/rtHz Noise, Precision Instrumentation Amplifier"
 			(at 245.11 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -18187,7 +18499,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "INA828IDR"
+		(property "MP" "INA823DR"
 			(at 245.11 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -18223,20 +18535,26 @@
 				(justify bottom)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments" (at 0 0 0)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "INA823DR" (at 0 0 0)
+		(property "MPN" "INA823DR"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18340,20 +18658,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R71C104KA01D" (at 0 0 0)
+		(property "MPN" "GRM188R71C104KA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18515,20 +18839,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-073K83L" (at 0 0 0)
+		(property "MPN" "RC0603FR-073K83L"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18613,20 +18943,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM1885C1H102JA01D" (at 0 0 0)
+		(property "MPN" "GRM1885C1H102JA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18865,20 +19201,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R61A105KA61D" (at 0 0 0)
+		(property "MPN" "GRM188R61A105KA61D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19502,20 +19844,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL" (at 0 0 0)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19601,20 +19949,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R71H103KA01D" (at 0 0 0)
+		(property "MPN" "GRM188R71H103KA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19699,20 +20053,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R71C104KA01D" (at 0 0 0)
+		(property "MPN" "GRM188R71C104KA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19797,20 +20157,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0747KL" (at 0 0 0)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19970,20 +20336,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710RL" (at 0 0 0)
+		(property "MPN" "RC0603FR-0710RL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20145,20 +20517,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R71C104KA01D" (at 0 0 0)
+		(property "MPN" "GRM188R71C104KA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20243,20 +20621,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments" (at 0 0 0)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "TLV9101IDCKR" (at 0 0 0)
+		(property "MPN" "TLV9101IDCKR"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20350,20 +20734,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BR61A105KA73L" (at 0 0 0)
+		(property "MPN" "GRM21BR61A105KA73L"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20681,20 +21071,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "JST" (at 0 0 0)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "B8B-PH-SM4-TB(LF)(SN)" (at 0 0 0)
+		(property "MPN" "B8B-PH-SM4-TB(LF)(SN)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "5"
@@ -20951,20 +21347,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM1885C1H102JA01D" (at 0 0 0)
+		(property "MPN" "GRM1885C1H102JA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21049,20 +21451,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM32ER61A106KA88L" (at 0 0 0)
+		(property "MPN" "GRM32ER71H106KA12"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21148,20 +21556,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-075K1L" (at 0 0 0)
+		(property "MPN" "RC0603FR-075K1L"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21246,20 +21660,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R71C104KA01D" (at 0 0 0)
+		(property "MPN" "GRM188R71C104KA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21498,20 +21918,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07100KL" (at 0 0 0)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21673,20 +22099,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R71C104KA01D" (at 0 0 0)
+		(property "MPN" "GRM188R71C104KA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21926,20 +22358,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0747KL" (at 0 0 0)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22024,20 +22462,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM32ER61A106KA88L" (at 0 0 0)
+		(property "MPN" "GRM32ER71H106KA12"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22275,20 +22719,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710RL" (at 0 0 0)
+		(property "MPN" "RC0603FR-0710RL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22681,20 +23131,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL" (at 0 0 0)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22779,20 +23235,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-075K9L" (at 0 0 0)
+		(property "MPN" "RC0603FR-075K9L"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22877,20 +23339,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BR61A105KA73L" (at 0 0 0)
+		(property "MPN" "GRM21BR61A105KA73L"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22974,20 +23442,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo" (at 0 0 0)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-07100RL" (at 0 0 0)
+		(property "MPN" "RC0603FR-07100RL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -23226,20 +23700,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R71C104KA01D" (at 0 0 0)
+		(property "MPN" "GRM188R71C104KA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -23401,20 +23881,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata" (at 0 0 0)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R71C104KA01D" (at 0 0 0)
+		(property "MPN" "GRM188R71C104KA01D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"

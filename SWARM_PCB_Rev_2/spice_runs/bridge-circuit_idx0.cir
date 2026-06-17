@@ -1,39 +1,30 @@
-* Auto-generated testbench for bridge circuit: h_bridge
-* Half-bridge: dQ3 (high, NMOS) / dQ4 (low, NMOS)
-* Model: generic FET models — real Vth/Rds depends on specific part
+* Testbench for bridge circuit: h_bridge
+* Tests low-side switch (dQ4) characteristic with pull-up load
+* Device: IPD50N10S3L-16 (Vth typ 2V, Rds(on) 16mΩ at Vgs=10V, Id=50A, Vds=100V)
 
-* Generic semiconductor models for Phase 1 simulation
-.model D_GENERIC D(IS=1e-14 N=1.05 BV=100 IBV=1e-10)
-.model D_SCHOTTKY D(IS=1e-6 N=1.05 BV=40 IBV=1e-8 RS=0.5)
-.model D_ZENER3V3 D(IS=1e-14 N=1.05 BV=3.3 IBV=5e-3)
-.model D_ZENER5V1 D(IS=1e-14 N=1.05 BV=5.1 IBV=5e-3)
-.model NPN_GENERIC NPN(IS=1e-14 BF=200 VAF=100 CJC=5p CJE=10p TF=0.3n)
-.model PNP_GENERIC PNP(IS=1e-14 BF=200 VAF=100 CJC=5p CJE=10p TF=0.6n)
-.model NMOS_GENERIC NMOS(VTO=1.5 KP=1e-2 LAMBDA=0.01)
-.model PMOS_GENERIC PMOS(VTO=-1.5 KP=5e-3 LAMBDA=0.01)
+* IPD50N10S3L-16 approximation
+* KP tuned: Rds(on) ≈ 1/(2*KP*(Vgs-Vth)) = 16mΩ at Vgs=10V, Vth=2V → KP=3.9 A/V²
+.model IPD50N10S3L16 NMOS(VTO=2.0 KP=3.9 LAMBDA=0.02 RD=0.008 RS=0.008)
 
+* Supply at actual operating voltage (12V_TXRX rail)
+VDD vdd 0 DC 12
 
-* Supply
-VDD vdd 0 DC 5
+* Pull-up load: simulates inductive/resistive load driven from VDD
+* Current path: VDD -> Rpull -> mid -> dQ4 -> GND
+Rpull vdd mid 100
 
-* Low-side FET: gate swept, drain to mid, source to ground
-MdQ4 mid lo_gate 0 0 NMOS_GENERIC L=1u W=100u
-* High-side kept off (gate tied to source/ground)
-MdQ3 vdd hi_gate mid mid NMOS_GENERIC L=1u W=100u
-Rhi_gnd hi_gate 0 100k
+* Low-side FET: drain at midpoint, source/body at GND, gate swept
+MdQ4 mid lo_gate 0 0 IPD50N10S3L16 L=1u W=1u
 
-* Load resistor at output
-Rload mid 0 100
-
-* Gate sweep source
+* Gate sweep source (UCC27211D drives to VDD = 12V)
 Vgate lo_gate 0 DC 0
 
 .control
-dc Vgate 0 5 0.05
+dc Vgate 0 12 0.05
 let id_lo = abs(i(VDD))
 meas dc vth_lo when id_lo=100u
-meas dc id_on find id_lo at=5
-echo "vth_lo=$&vth_lo id_on=$&id_on v_supply=5 topology=h_bridge" > C:/Users/samch/Documents/GitHub/SWARM_COMMs/SWARM_PCB_Rev_2/spice_runs/bridge-circuit_idx0.out
+meas dc id_on find id_lo at=10
+echo "vth_lo=$&vth_lo id_on=$&id_on v_supply=12 topology=h_bridge" > C:/Users/samch/Documents/GitHub/SWARM_COMMs/SWARM_PCB_Rev_2/spice_runs/bridge-circuit_idx0.out
 quit
 .endc
 

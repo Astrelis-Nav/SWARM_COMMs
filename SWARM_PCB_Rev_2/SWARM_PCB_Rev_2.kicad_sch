@@ -1686,6 +1686,17 @@
 		)
 		(uuid "780493c5-5a43-43db-a8e5-0a9a7b8de001")
 	)
+	(text "GND DOMAIN ARCHITECTURE\nEach subsystem has an isolated GND domain: GND_POWER, GND_CONTROL,\nGND_SENSOR, GND_TXRX, GND_HEADER. These domains are connected\nthrough the stacking connector pins (J25-J28). No single star point."
+		(exclude_from_sim no)
+		(at 82.55 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3f1c820-5d4e-4b91-8e7a-2c6d9f0e1b47")
+	)
 	(text "HEADER PINS"
 		(exclude_from_sim no)
 		(at 14.224 16.764 0)
