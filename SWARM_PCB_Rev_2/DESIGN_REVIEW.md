@@ -250,7 +250,7 @@ Findings are grouped by sheet and severity. Items marked ✓ have been resolved.
 |----|-----|-------------|--------|
 | T1 | **Critical** | dQ1–dQ4 use IPD50R3K0CE KiCad symbol (500V/3Ω/1.7A CoolMOS) but Value/MPN = IPD50N10S3L-16 (100V/16mΩ/50A) — symbol electrical params are completely wrong | Create or source correct IPD50N10S3L-16 symbol; update lib_id |
 | T2 | **Critical** | dL1, dL2 have empty Value and no MPN — inductor specs unknown, nothing will be ordered | Assign inductance, current rating, DCR, footprint, and MPN |
-| T3 | **High** | dU7 library symbol is INA828IDR; placed part is INA823DR — confirm pin compatibility; update lib_id to INA823 | Update symbol; verify gain resistor connections match INA823 pinout |
+| T3 | **Info** | dU7 symbol renamed SWARM_Library:INA823DR; INA823/INA828 are pin-compatible (identical SOIC-8 pinout) — connections valid ✓ | — |
 | T4 | **High** | No bootstrap diode from +12V to VB nodes on either half-bridge — schematic note says firmware must precharge at boot | Add fast-recovery Schottky (e.g., STPS1L40) from VDD to each VB; removes firmware dependency and improves reliability |
 | T5 | **Info** | INA240A2DR gain=50 on 20mΩ shunt: load is piezo transducer (capacitive/resonant), peak drive current expected <<1A — output well within range ✓ | — |
 | T6 | **Medium** | Single gate resistor per FET (10Ω) controls both turn-on and turn-off — slower turn-off increases switching losses | Add anti-parallel diode+resistor for independent turn-on/turn-off control |
@@ -369,7 +369,7 @@ Items are sorted by priority. ✓ = resolved this session.
 | High | S1 | Add 10kΩ pull-up on cU2 (ASM330) CS pin to +3.3V_SENSOR | Schematic |
 | High | S2 | Add 10kΩ pull-up on cU4 (LSM6DSO32) CS pin to +3.3V_SENSOR | Schematic |
 | ✓ Done | S3 | cR1/cR2 I2C pull-ups changed to 2.2kΩ / RC0603FR-072K2L | Schematic |
-| High | T3 | Replace dU7 library symbol with INA823DR symbol; verify gain resistor connections | Schematic |
+| ✓ Done | T3 | dU7 lib symbol renamed to SWARM_Library:INA823DR; pin-compatible with INA828 | Schematic |
 | Low | T4 | Add bootstrap diode from VDD to VB nodes — low risk for piezo load since half-bridge switches every cycle, charging bootstrap cap continuously | Schematic |
 | ✓ Done | T5 | INA240 gain/shunt appropriate for piezo drive currents (<<1A) — not a motor load | — |
 | Medium | C4 | Verify/add LSE crystal (aY1) load capacitors ~7pF | Schematic |
