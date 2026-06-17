@@ -216,7 +216,7 @@ Findings are grouped by sheet and severity. Items marked ✓ have been resolved.
 | C1 | **High** | aC3 = 2.2µF on STM32F446 VCAP pin — datasheet specifies 1µF ±20% X5R/X7R; 2.2µF may cause internal regulator instability | Replace with 1µF |
 | C2 | **Info** | HSE load caps aC18/aC19 = 10pF C0G (GRM1885C1H100JA01D) on OSC_IN/OSC_OUT ✓ | — |
 | C3 | **High** | aR18 (33Ω SWCLK) MPN set to RC0603FR-0710KL — this is a 10kΩ part, not 33Ω | Change MPN to RC0603FR-0733RL (Yageo 33Ω 0603) |
-| C4 | **Medium** | LSE crystal (aY1, 32.768kHz) load capacitors not confirmed — no 6–12pF caps visible near aY1 | Verify load caps exist; MicroCrystal CM9V-T1A requires CL=7pF |
+| C4 | **Info** | LSE load caps omitted intentionally — STM32F446 LSE oscillator has built-in internal load capacitors (~5pF each) ✓ | — |
 | C5 | **Medium** | VBAT (STM32F446 pin 1) decoupling not confirmed in wire tracing | Confirm 100nF cap directly on VBAT pin |
 | C6 | **Medium** | NRST filter capacitor not confirmed | Confirm 100nF cap on NRST to GND |
 | C7 | **Medium** | No series resistor on OSC_OUT for HSE — crystal overdrive protection | Add 0Ω DNP (or 100Ω) in series on OSC_OUT |
@@ -372,7 +372,7 @@ Items are sorted by priority. ✓ = resolved this session.
 | ✓ Done | T3 | dU7 lib symbol renamed to SWARM_Library:INA823DR; pin-compatible with INA828 | Schematic |
 | Low | T4 | Add bootstrap diode from VDD to VB nodes — low risk for piezo load since half-bridge switches every cycle, charging bootstrap cap continuously | Schematic |
 | ✓ Done | T5 | INA240 gain/shunt appropriate for piezo drive currents (<<1A) — not a motor load | — |
-| Medium | C4 | Verify/add LSE crystal (aY1) load capacitors ~7pF | Schematic |
+| ✓ Done | C4 | LSE load caps not needed — STM32F446 has internal oscillator capacitors | — |
 | Medium | C5 | Confirm 100nF cap on STM32F446 VBAT pin | Schematic |
 | Medium | C6 | Confirm 100nF cap on STM32F446 NRST | Schematic |
 | Medium | C8 | Increase LED series resistors: aD1 and aD2 channels drive <0.5mA — nearly invisible | Schematic |
