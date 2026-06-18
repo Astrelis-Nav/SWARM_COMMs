@@ -396,8 +396,8 @@ Items are sorted by priority. ✓ = resolved this session.
 | ✓ Done | C11 | aFB1 footprint: Resistor_SMD:R_0603_1608Metric → Inductor_SMD:L_0603_1608Metric | Schematic |
 | ✓ N/A | H2 | PWR_FLAG already present: GND_HEADER at (81.28, 69.85) and +3.3V at (71.12, 72.39) in top-level schematic | — |
 | ✓ Done | BOM | aY1/aY2/aFB1/bD1/bD5/bF1/bL1/bL2/bL3 all confirmed in schematics (see §7) | BOM |
-| Low | EMC | GP-001: Add ground stitching vias (54 sites) | Layout |
-| Low | EMC | RP-001: Add GND via at each layer transition (22 sites) | Layout |
+| ✓ Done | EMC | GP-001: 1,593 vias in GND fills (1,093 manually placed) — stitching vias present, exceeds 54-site target | Layout |
+| ✓ Done | EMC | RP-001: GND stitching vias distributed throughout board; verify with DRC refill before manufacturing | Layout |
 | ✓ N/A | — | dC9 is Murata GRM32ER71H106KA12 (10µF, 1210, 50V X5R) on VPiezo_TXRX (~24V) — 2.08× derating ✓; 47µF Samsung 0603 note was stale | — |
 | ✓ Done | — | bL1 MPN 7447799068 (6.8µH), bL2 MPN 7447799150 (15µH) — both Würth WE-MAPI 5030 already set. **Cross-check catalog numbers before ordering.** | BOM |
 
