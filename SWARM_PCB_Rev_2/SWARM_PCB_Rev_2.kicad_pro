@@ -62,23 +62,11 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|77700000|137735000|9275763d-197e-4694-9d71-68f88e581411|f1d7cbee-2b81-40d7-ac2c-222b671f2abe",
-          "Its fine"
-        ],
-        [
           "silk_edge_clearance|56455000|32095000|75278e31-9953-4db1-b1e5-9f9ec1549636|70a1b5c6-57c3-46d9-9430-b4d5d1af9f21",
           ""
         ],
         [
           "silk_edge_clearance|56499081|22904154|75278e31-9953-4db1-b1e5-9f9ec1549636|aad7ee52-cdad-4cd6-8bb9-03384e76d703",
-          ""
-        ],
-        [
-          "silk_edge_clearance|56499081|22904154|75278e31-9953-4db1-b1e5-9f9ec1549636|f5f400f5-1b51-4e27-a8e3-12a0a1ff57c8",
-          ""
-        ],
-        [
-          "silk_overlap|39173869|142623866|453dcef5-95fd-485f-891f-9d350b18e33e|5062fab6-4277-4aef-8ec4-5eebb573760b",
           ""
         ]
       ],
@@ -781,7 +769,7 @@
         "uuid": "d61c6b76-225f-4e7b-954b-419fd350b2a8"
       }
     ],
-    "used_designators": "aR18",
+    "used_designators": "#FLG17-20,bR16-19,J13,bL4,#PWR279-280,#PWR285-307,eJ2,bC26-33,bU4,bD6",
     "variants": []
   },
   "sheets": [
@@ -814,8 +802,16 @@
       "HEADER_PINS"
     ],
     [
+      "fc16bf42-0aea-4e30-b31f-f2ffcd7cd419",
+      "OUTPUT"
+    ],
+    [
       "303cb209-0966-41c9-a4ba-f64f79dc9143",
       "TX_RX"
+    ],
+    [
+      "c1222ebb-7ec9-45be-8869-d21f617be4b7",
+      "HEADER_PINS"
     ],
     [
       "ad2caeb4-11eb-4e55-add7-897ec2d265cb",
