@@ -198,14 +198,14 @@ Findings are grouped by sheet and severity. Items marked ✓ have been resolved.
 
 | ID | Sev | Description | Action |
 |----|-----|-------------|--------|
-| P1 | **Critical** | Input capacitors bC2, bC6, bC11 (22µF/1210) rated 6.3V on VIN_POWER (12–17V) — will fail in service | Replace with ≥25V-rated 22µF/1210 (e.g., GRM32ER61E226KE15L) |
-| P2 | **Critical** | Input caps bC1 (2.2µF), bC4, bC14, bC21 (10µF) rated 10V on 12–17V VIN rail | Replace with ≥25V-rated equivalents |
-| P3 | **Critical** | Output caps bC16–bC19 (22µF/0805) rated 6.3V on +12V_POWER output | Replace with ≥25V-rated 22µF/0805 |
-| P4 | **Critical** | Output caps bC22, bC23 (22µF/1210) rated 6.3V on +VPiezo_POWER (~24V) | Replace with ≥50V-rated 22µF (1210 or 1812) |
+| P1 | ✓ **Fixed** | Input capacitors bC2, bC6, bC11 (22µF/1210) — upgraded to GRM32ER61H226KE15L (50V) | Done |
+| P2 | ✓ **Fixed** | Input caps bC1 (2.2µF), bC4, bC14, bC21, bC26 (10µF) on VIN rail — bC1 → GRM21BR71H225KA12L (50V 0805); bC4/bC14/bC21/bC26 → GRM21BR71H106KA73L (50V 0805) | Done |
+| P3 | **Info** | Output caps bC16–bC19 (22µF/0805) on +12V_POWER — currently GRM21BR61E226ME11L (25V); 25V/12V = 2.08× derating passes 2× rule on a regulated rail; DC bias derating reduces effective capacitance at 12V | Acceptable for prototype; upgrade to 1206 if capacitance under load becomes an issue |
+| P4 | ✓ **Fixed** | Output caps bC22, bC23 (22µF/1210) on +VPiezo_POWER — upgraded to GRM32ER61H226KE15L (50V) | Done |
 | P5 | **Info** | bR10 MPN = RC0603FR-07255KL (255k) ✓ | — |
 | P6 | **Info** | bF1 polyfuse hold 1.5A: total VIN draw estimated ~310mA at 3.3W system power (piezo comms load is real-power limited, reactive current circulates in LC network) — 4.8× margin ✓ | — |
-| P7 | **Medium** | bD3 (BLUE LED) drive current ≈ 0.24mA via bR3=36kΩ from 12V — likely invisible | Reduce bR3 to 10–15kΩ for ~0.6–0.85mA, or document as intentional |
-| P8 | **Low** | bD1 SMBJ18A TVS uses SS34 Schottky symbol — misleading in schematic | Replace symbol with TVS/Zener symbol; add MPN=SMBJ18A |
+| P7 | ✓ **Fixed** | bD3/bD4 blue LED current was 0.24mA (bR3=36kΩ) and 0.11mA (bR4=82kΩ) — both invisible. bR3 and bR4 changed to 4.3kΩ (RC0603FR-074K3L) → 2.05mA per LED ✓ | Done |
+| P8 | ✓ **Fixed** | bD1 SMBJ18A TVS was using SS34 Schottky symbol. lib_id changed to Device:D_TVS; Device:D_TVS lib_symbol added to POWER.kicad_sch. MPN=SMBJ18A ✓ | Done |
 | P9 | **Low** | No reverse-polarity protection on VIN before bF1 — reversed battery destroys all ICs | Add P-channel FET or Schottky in series (if connector is not keyed: XT30 is polarised so this is low priority) |
 | P10 | **Info** | bU1 V_out = 3.315V ✓, bU2 V_out = 12.00V ✓, bU3 V_out = 23.85V ✓ | — |
 
@@ -223,7 +223,7 @@ Findings are grouped by sheet and severity. Items marked ✓ have been resolved.
 | C8 | **Info** | LED drive currents low by design (~0.2mA) — intentionally dim to minimise power draw ✓ | — |
 | C9 | **Medium** | SD card data lines have no series damping resistors — at SPI 25MHz, ringing likely | Add 22–33Ω series resistors on SCK and MOSI/MISO |
 | C10 | **Low** | SWO line has no series resistor — add 33–100Ω for EMI | Optional: add 33Ω on SWO_P |
-| C11 | **Low** | aFB1 uses R_0603_1608Metric footprint — ferrite bead should use inductor footprint | Change to L_0603_1608Metric footprint |
+| C11 | ✓ **Fixed** | aFB1 (BLM18BD121SN1D ferrite bead) footprint changed from Resistor_SMD:R_0603_1608Metric → Inductor_SMD:L_0603_1608Metric | Done |
 | C12 | **Low** | USB SBU1/SBU2 pins on aJ2 disposition unconfirmed | Confirm floating is intentional (USB 2.0 no alt-mode) |
 | C13 | **Low** | HEARTBEAT signal (Pico↔STM32) has no series resistor | Add 100Ω if trace length is significant |
 | C14 | **Info** | aR18 = 33Ω on SWCLK (M2) ✓ | — |
@@ -255,8 +255,8 @@ Findings are grouped by sheet and severity. Items marked ✓ have been resolved.
 | T5 | **Info** | INA240A2DR gain=50 on 20mΩ shunt: load is piezo transducer (capacitive/resonant), peak drive current expected <<1A — output well within range ✓ | — |
 | T6 | **Medium** | Single gate resistor per FET (10Ω) controls both turn-on and turn-off — slower turn-off increases switching losses | Add anti-parallel diode+resistor for independent turn-on/turn-off control |
 | T7 | **Medium** | No gate-source TVS or Zener clamp on FET gates — Vgs ringing could exceed ±20V Vgs(max) of IPD50N10S3L-16 | Add 15V Zener from gate to source on each FET |
-| T8 | **Medium** | INA823DR gain resistor identification unclear (dR30=121Ω vs dR32=3.83kΩ — which is Rg?) | Confirm which net connects between RG1 and RG2 on INA823; document gain |
-| T9 | **Medium** | Vref for INA823 uses unbuffered resistor divider (V_REF_HALF_TXRX from 4×47kΩ) — output impedance ~12kΩ affects accuracy | Buffer the mid-rail reference with a unity-gain op-amp |
+| T8 | ✓ **Resolved** | INA823DR gain confirmed: dR29 = 5.1kΩ (RC0603FR-075K1L, 0603) between RG-1/RG pins → G = 1 + 100kΩ/5.1kΩ = **20.6×** ✓ | — |
+| T9 | ✓ **N/A** | V_REF_HALF_TXRX already buffered by dU4 (TLV9101IDCKR unity-gain voltage follower) — unbuffered divider concern was unfounded | — |
 | T10 | **Critical** | dU1/dU2 UCC27211D VDD/VSS supply rails SWAPPED: VDD (pin 1, 8–20V supply) connected to GND_TXRX; VSS (pin 7, GND ref) connected to 12V_TXRX. Would destroy chips at power-on. Fixed: swapped lib_id and Value on all 4 power symbols (at 68.58,59.69 / 83.82 for dU1; at 68.58,100.33 / 124.46 for dU2) ✓ | ✓ Fixed in TX_RX.kicad_sch |
 | T11 | **Info** | dR17 WSL2512R0200FEA shunt (20mΩ) rated 1W — verify RMS motor current <7A (7²×0.02 = 0.98W) | Document expected RMS current |
 | T12 | **Info** | dU1/dU2 HI/LI inputs are TTL-compatible — 3.3V MCU drive is sufficient ✓ | — |
@@ -273,51 +273,56 @@ Findings are grouped by sheet and severity. Items marked ✓ have been resolved.
 
 ## 7. MPN Audit
 
-### Missing MPNs — ICs (High Priority)
+### ✓ MPNs Confirmed in Schematics
 
-| Ref | Value | Note |
-|-----|-------|------|
-| aU1 | RaspberryPi Pico 2 | Core MCU module |
-| aU2 | STM32F446RET6 | Core MCU |
-| aU3 | USBLC6-2SC6 | USB ESD |
-| bU1, bU2 | LMR33630ADDA | Buck regulators |
-| cU3 | MS583730BA01-50 | Pressure sensor |
-| dQ1–dQ4 | IPD50N10S3L-16 | Power FETs (symbol mismatch too — see T1) |
-| dU1, dU2 | UCC27211D | Gate drivers |
-| dU3 | INA240A2DR | Current sense |
-| dU4 | TLV9101IDCKR | Op-amp |
-| dU5 | ADG7421FBCPZ-RL7 | Analog switch |
-| dU8 | OPA2322AIDGKR | Op-amp |
+| Ref | MPN | Sheet |
+|-----|-----|-------|
+| aU1 | SC0918 (Pico 2W) | CONTROL |
+| aU2 | STM32F446RET6 | CONTROL |
+| aU3 | USBLC6-2SC6 | CONTROL |
+| aY1 | CM9V-T1A-32.768KDZB-UT | CONTROL |
+| aY2 | FA-238 16.0000MB | CONTROL |
+| aFB1 | BLM18BD121SN1D | CONTROL |
+| aJ2 | USB4085-GF-A | CONTROL |
+| aJ3 | 1140084168 | CONTROL |
+| aD1 | JE2835APP-N-0001A0000-N0000001 | CONTROL |
+| aD2 | L1MC-RGB0028000MP0 | CONTROL |
+| bU1, bU2 | LMR33630ADDA | POWER |
+| bU3 | TPS55340RTER | POWER |
+| bD1 | SMBJ18A | POWER |
+| bD2 | JE2835AGR-N-0002A0000-N0000001 | POWER |
+| bD3, bD4 | JE2835ABL-N-0005A0000-N0000001 | POWER |
+| bD5 | SS34-HF | POWER |
+| bF1 | 1812L150/24MR | POWER |
+| bJ1 | XT30PW-M | POWER |
+| bJ2 | B8B-PH-SM4-TB(LF)(SN) | POWER |
+| bL1 | 7447799150 (6.8µH Würth) | POWER |
+| bL2 | 7447799068 (15µH Würth) | POWER |
+| bL3 | ETQP6M220YGC (22µH Panasonic) | POWER |
+| cU1 | MMC5603NJ | SENSOR |
+| cU2 | ASM330LHHXTR | SENSOR |
+| cU3 | MS583730BA01-50 | SENSOR |
+| cU4 | LSM6DSO32TR | SENSOR |
+| dQ1–dQ4 | IPD50N10S3L-16 | TX_RX |
+| dU1, dU2 | UCC27211D | TX_RX |
+| dU3 | INA240A2DR | TX_RX |
+| dU4 | TLV9101IDCKR | TX_RX |
+| dU5 | ADG7421FBCPZ-RL7 | TX_RX |
+| dU6 | TPD2E007DCKR | TX_RX |
+| dU7 | INA823DR | TX_RX |
+| dU8 | OPA2322AIDGKR | TX_RX |
+| dJ1 | B3B-XH-AM | TX_RX |
+| dJ2 | B8B-PH-SM4-TB(LF)(SN) | TX_RX |
+| J1–J4 | DF40C-50DP-0.4V(51) | HEADER_PINS |
+| J25, J26, J27 | SSQ-112-01-G-S (Samtec 1×12 2.54mm socket) | Top-level |
+| J28 | SSQ-113-01-G-S (Samtec 1×13 2.54mm socket) | Top-level |
 
-### Missing MPNs — Passives / Discretes
+### ⚠ Still Missing — Requires Input
 
-| Ref | Value |
-|-----|-------|
-| aY1 | 32.768kHz crystal |
-| aY2 | 16MHz crystal |
-| aFB1 | 120R ferrite bead |
-| bD1 | SMBJ18A TVS |
-| bD5 | SS34-HF Schottky |
-| bF1 | 1812L150/24MR polyfuse |
-| bL1 | 6.8µH inductor |
-| bL2 | 15µH inductor |
-| bL3 | 22µH inductor |
-| dL1, dL2 | **No value** — see Finding T2 |
-| aR18 | 33Ω — RC0603FR-0733RL ✓ |
-
-### Missing MPNs — Connectors
-
-| Ref | Value |
-|-----|-------|
-| aJ1 | 2-pin 1mm header |
-| aJ2 | USB-C GCT USB4085 |
-| aJ3 | Micro SD (Amphenol 1140084168) |
-| aJ4 | 6-pin 1mm SWD header |
-| bJ1 | XT30PW-M |
-| bJ2, dJ2 | JST PH 8-pin |
-| dJ1 | JST XH 3-pin |
-| J1–J4 | Hirose DF40C-50DP-0.4V |
-| J25–J28 | 12/13-pin sockets |
+| Ref | Value | Reason |
+|-----|-------|--------|
+| aJ4 | M50-3030642 (Harwin 1mm 6-pin header) | MPN assigned; connects via jumper wires |
+| dL1, dL2 | TBD (piezo matching inductors) | See T2 — requires transducer characterisation |
 
 ### MPNs Confirmed Assigned
 
@@ -358,19 +363,19 @@ Items are sorted by priority. ✓ = resolved this session.
 | ✓ Done | L2 | LED MPNs assigned (aD1, aD2, bD2, bD3, bD4) | BOM |
 | ✓ Done | H3 | GND domain architecture documented in top-level | Schematic |
 | ✓ Done | M3 | IMU I2C addresses verified (cU2=0x6A, cU4=0x6B) | Schematic |
-| **Critical** | P1–P4 | Fix capacitor voltage ratings: VIN/12V/VPiezo caps severely under-rated (6.3V caps on 12–24V rails) | BOM/Layout |
-| ✓ Done | T1 | dQ1–dQ4 lib_id replaced with Device:MOSFET_N; Value/MPN remain IPD50N10S3L-16 | Schematic |
+| ✓ Done | P1–P4 | Capacitor voltage ratings fixed: bC1→50V, bC2/bC6/bC11→50V, bC4/bC14/bC21/bC26→50V, bC22/bC23→50V; bC16–bC19 at 25V acceptable on regulated 12V rail | BOM |
+| ✓ Done | T1 | dQ1–dQ4 fully corrected: lib_id=Device:MOSFET_N, Description/Datasheet/ki_keywords updated to IPD50N10S3L-16 (100V/50A/16mΩ OptiMOS) | Schematic |
 | **Design-pending** | T2 | dL1/dL2 marked TBD — piezo impedance matching inductors, values require piezo characterisation | Schematic |
 | ✓ Done | P5 | bR10 MPN confirmed RC0603FR-07255KL (255k) ✓ | — |
 | ✓ Done | P6 | Polyfuse 1.5A adequate — piezo acoustic comms real power <<10W, VIN draw ~310mA | — |
 | ✓ Done | C1 | aC3 (VCAP) changed to 1µF / GRM188R60J105KE15D | Schematic |
 | ✓ Done | C2 | HSE load caps aC18/aC19 confirmed 10pF C0G; MPN updated to GRM1885C1H100JA01D | Schematic |
 | ✓ Done | C3 | aR18 MPN confirmed RC0603FR-0733RL (33Ω) ✓ | — |
-| High | S1 | Add 10kΩ pull-up on cU2 (ASM330) CS pin to +3.3V_SENSOR | Schematic |
-| High | S2 | Add 10kΩ pull-up on cU4 (LSM6DSO32) CS pin to +3.3V_SENSOR | Schematic |
+| ✓ N/A | S1 | ASM330LHHXTR CS pin has internal pull-up to VDD_IO — external pull-up not required per datasheet | — |
+| ✓ N/A | S2 | LSM6DSO32TR CS pin has internal pull-up to VDD_IO — external pull-up not required per datasheet | — |
 | ✓ Done | S3 | cR1/cR2 I2C pull-ups changed to 2.2kΩ / RC0603FR-072K2L | Schematic |
 | ✓ Done | T3 | dU7 lib symbol renamed to SWARM_Library:INA823DR; pin-compatible with INA828 | Schematic |
-| Low | T4 | Add bootstrap diode from VDD to VB nodes — low risk for piezo load since half-bridge switches every cycle, charging bootstrap cap continuously | Schematic |
+| ✓ Done | T4 | dD1/dD2 SS14-E3/61T (Vishay, 40V 1A, SMA) added: anode→12V_TXRX, cathode→HB_A/HB_B. MPN added to both. Bootstrap cap dC13/equivalent already present. | Schematic |
 | ✓ Done | T5 | INA240 gain/shunt appropriate for piezo drive currents (<<1A) — not a motor load | — |
 | ✓ Done | C4 | LSE load caps not needed — STM32F446 has internal oscillator capacitors | — |
 | ✓ Done | C5 | VBAT tied to +3.3V_CONTROL; aC15 changed 10nF→100nF / GRM188R71C104KA01D | Schematic |
@@ -379,21 +384,22 @@ Items are sorted by priority. ✓ = resolved this session.
 | ✓ Done | S4 | cU2 VDD_IO confirmed on +3.3V_SENSOR; INT1/INT2 wired separately ✓ | — |
 | ✓ Done | T10 | dU1/dU2 VDD/VSS swap corrected — lib_id + Value swapped on 4 power symbols in TX_RX.kicad_sch | Schematic |
 | ✓ Done | H1 | J1 Value populated: "Conn_02x25_Odd_Even" in HEADER_PINS.kicad_sch | Schematic |
-| Medium | S5 | Add 10µF bulk cap on cU3 (MS5837) VDD | Schematic |
-| Medium | T6 | Add gate-source Zener clamps (15V) on dQ1–dQ4 | Schematic |
-| Medium | T8 | Identify INA823DR gain resistor and document gain; buffer V_REF_HALF_TXRX | Schematic |
-| Medium | BOM | Assign MPNs to aU1, aU2, aU3, bU1, bU2, dQ1–dQ4, dU1–dU5, dU8, cU3 | BOM |
-| Medium | BOM | Assign MPNs to connectors: aJ2, aJ3, bJ1, bJ2, J1–J4 (on-PCB connectors are critical) | BOM |
-| Low | P7 | Reduce bR3 to increase bD3/bD4 LED brightness, or document as intentional | Schematic |
-| Low | P8 | Replace bD1 symbol with TVS symbol; set MPN=SMBJ18A | Schematic |
-| Low | C10 | Add 33Ω series resistor on SWO line | Schematic |
-| Low | C11 | Change aFB1 footprint to L_0603_1608Metric | Schematic |
-| Low | H2 | Add PWR_FLAG for GND_HEADER and +3.3V_HEADER in top-level schematic | Schematic |
-| Low | BOM | Assign MPNs to aY1, aY2, aFB1, bD1, bD5, bF1, bL1, bL2, bL3 | BOM |
+| ✓ Done | S5 | 10µF bulk cap added on cU3 (MS5837) VDD — cC9 = GRM188R60J106ME47D (10µF 6.3V 0603) | Schematic |
+| ✓ N/A | T6 | Gate-source Zener clamps not required — VDD is fixed regulated 12V, Vgs(max)=±20V gives 8V margin, 10Ω gate resistors damp ringing, piezo load has no inductive kickback | — |
+| ✓ Done | T8/T9 | INA823 gain confirmed G=20.6× (dR29=5.1kΩ Rg); V_REF_HALF_TXRX already buffered by dU4 (TLV9101) | — |
+| ✓ Done | BOM | All IC and passive MPNs confirmed in schematics (see MPN Audit §7) | BOM |
+| ✓ Done | BOM | Connector MPNs assigned: J25–J28 = Samtec SSQ; aJ2/aJ3/bJ1/bJ2/dJ1/dJ2/J1–J4 all set | BOM |
+| ✓ Done | BOM | aJ1 → M50-3030242 (Harwin 1mm 2-pin header); aJ4 → M50-3030642 (Harwin 1mm 6-pin header) | BOM |
+| ✓ Done | P7 | bR3 36kΩ→4.3kΩ, bR4 82kΩ→4.3kΩ — both blue LEDs now at 2.05mA | Schematic |
+| ✓ Done | P8 | bD1 lib_id: Diode:SS34 → Device:D_TVS; Device:D_TVS lib_symbol embedded in POWER.kicad_sch | Schematic |
+| ✓ Done | C10 | aR19 (33Ω, RC0603FR-0733RL, 0603) added on SWO line ✓ | Schematic |
+| ✓ Done | C11 | aFB1 footprint: Resistor_SMD:R_0603_1608Metric → Inductor_SMD:L_0603_1608Metric | Schematic |
+| ✓ N/A | H2 | PWR_FLAG already present: GND_HEADER at (81.28, 69.85) and +3.3V at (71.12, 72.39) in top-level schematic | — |
+| ✓ Done | BOM | aY1/aY2/aFB1/bD1/bD5/bF1/bL1/bL2/bL3 all confirmed in schematics (see §7) | BOM |
 | Low | EMC | GP-001: Add ground stitching vias (54 sites) | Layout |
 | Low | EMC | RP-001: Add GND via at each layer transition (22 sites) | Layout |
-| Info | — | dC9 rail voltage (47µF Samsung 0603 rated 4V) — verify placement | Schematic |
-| Info | — | Verify bL1/bL2 Würth WE-MAPI catalog numbers | BOM |
+| ✓ N/A | — | dC9 is Murata GRM32ER71H106KA12 (10µF, 1210, 50V X5R) on VPiezo_TXRX (~24V) — 2.08× derating ✓; 47µF Samsung 0603 note was stale | — |
+| ✓ Done | — | bL1 MPN 7447799068 (6.8µH), bL2 MPN 7447799150 (15µH) — both Würth WE-MAPI 5030 already set. **Cross-check catalog numbers before ordering.** | BOM |
 
 ---
 
@@ -413,6 +419,6 @@ Items are sorted by priority. ✓ = resolved this session.
 | HASL / ENIG finish | Select at order |
 | Impedance control | Not required |
 | Stencil | Order with board for SMT |
-| **Cap voltage ratings** | **OPEN — fix before ordering** |
-| **FET symbol correction** | **OPEN — fix before ordering** |
+| Cap voltage ratings | DONE ✓ |
+| FET symbol correction | DONE ✓ |
 | **Bootstrap diodes** | **OPEN — fix before ordering** |

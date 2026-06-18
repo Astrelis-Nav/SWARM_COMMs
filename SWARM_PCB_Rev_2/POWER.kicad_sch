@@ -6888,7 +6888,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR61E106KA73L"
+		(property "MPN" "GRM21BR71H106KA73L"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -7378,7 +7378,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR61E106KA73L"
+		(property "MPN" "GRM21BR71H106KA73L"
 			(at 0 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8629,7 +8629,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR61E106KA73L"
+		(property "MPN" "GRM21BR71H106KA73L"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -11500,7 +11500,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR61E225KA73L"
+		(property "MPN" "GRM21BR71H225KA12L"
 			(at 7.62 0 0)
 			(hide yes)
 			(show_name no)
@@ -11759,7 +11759,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR61E106KA73L"
+		(property "MPN" "GRM21BR71H106KA73L"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
