@@ -1,0 +1,26 @@
+* Testbench for protection device: bD1 (SMBJ18A)
+* TVS protecting VIN_POWER (12V nominal)
+* SMBJ18A: Vr=18V, Vbr_min=20V at 1mA, Vc=29.2V at Ipp=58.8A
+* RS from datasheet: (29.2 - 20.0) / 58.8 = 0.156 ohm
+
+.model SMBJ18A D(IS=1e-6 N=1.0 BV=20 IBV=1m RS=0.156 CJO=450p)
+
+* TVS: anode to GND (node 0), cathode to protected net
+DbD1 0 VIN_POWER SMBJ18A
+
+* Series resistance representing surge source impedance
+Rsource VIN_SOURCE VIN_POWER 10
+
+* Voltage ramp on source node — sweep past Vbr and Vc
+Vramp VIN_SOURCE 0 DC 0
+
+.control
+dc Vramp 0 35 0.1
+let idiode = abs(i(Vramp))
+meas dc v_clamp_1mA when idiode=1m
+meas dc v_clamp_10mA when idiode=10m
+echo "v_clamp_1mA=$&v_clamp_1mA v_clamp_10mA=$&v_clamp_10mA rail_v=12" > C:/Users/samch/Documents/GitHub/SWARM_COMMs/SWARM_PCB_Rev_2/spice_runs/protection-device_idx0.out
+quit
+.endc
+
+.end
