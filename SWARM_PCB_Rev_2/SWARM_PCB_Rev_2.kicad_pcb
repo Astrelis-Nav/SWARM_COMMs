@@ -6617,20 +6617,6 @@
 			(uuid "0424ce62-fb17-4ae4-b71c-fada4bb7fffe")
 		)
 		(pad "" np_thru_hole circle
-			(at -3 -2.5 90)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "61888e29-b32a-4611-a457-fc153b4101e1")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 2.5 90)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "41351e31-1506-48c5-acef-798316952741")
-		)
-		(pad "" np_thru_hole circle
 			(at -3 2.5 90)
 			(size 0.5 0.5)
 			(drill 0.5)
@@ -16838,13 +16824,6 @@
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "1b02e6fe-c6c4-4427-8ead-e788614fbd9f")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 -2.5)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
 			(uuid "2a7e1a6c-8cf1-4996-b3b7-6a29c087e2ff")
 		)
 		(pad "" np_thru_hole circle
@@ -16853,13 +16832,6 @@
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "8854250b-7cbc-49e8-8e4e-a48a9d88947c")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 2.5)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "95bb8763-1339-459b-bd4c-cd327693d04a")
 		)
 		(pad "" np_thru_hole circle
 			(at -2.25 -2.5)
@@ -20457,25 +20429,11 @@
 			(uuid "1f97f2ef-3c1b-4004-969d-a21a5fa90902")
 		)
 		(pad "" np_thru_hole circle
-			(at -3 -2.5 90)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "a4952aa2-dfb1-43ff-8fe5-91e50b3d639a")
-		)
-		(pad "" np_thru_hole circle
 			(at -3 2.5 90)
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "51c54145-867a-4a64-9ae9-b051636e18d6")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 2.5 90)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "a1d0681b-01aa-42ad-bfe8-0811f84b317e")
 		)
 		(pad "" np_thru_hole circle
 			(at -2.25 -2.5 90)
@@ -29007,25 +28965,11 @@
 			(uuid "3e1e49ba-f8eb-4e70-b664-f659c1b9326e")
 		)
 		(pad "" np_thru_hole circle
-			(at -3 -2.5)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "84afb7a8-4528-46a0-a126-1355f141bc0e")
-		)
-		(pad "" np_thru_hole circle
 			(at -3 2.5)
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "b9c9741e-e129-4ad0-9c77-9a12b33fda69")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 2.5)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "dc38736a-e926-426a-9e73-40408d363249")
 		)
 		(pad "" np_thru_hole circle
 			(at -2.25 -2.5)
@@ -29476,13 +29420,6 @@
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "51bc985d-c447-44d6-aad5-97a714e0291d")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 -2.5)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
 			(uuid "b55743d6-5216-4a1a-918c-6fe096675731")
 		)
 		(pad "" np_thru_hole circle
@@ -29491,13 +29428,6 @@
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "6919e2b2-8721-4b0d-8aeb-d81478f7051b")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 2.5)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "abb997fd-ccf8-4240-a093-a8c1ab3e849e")
 		)
 		(pad "" np_thru_hole circle
 			(at -2.25 -2.5)
@@ -33605,13 +33535,6 @@
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "34c5a24c-90af-43c7-917d-b901443cd10f")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 -2.5 90)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
 			(uuid "55f7170f-be08-4203-9743-69e3ada089aa")
 		)
 		(pad "" np_thru_hole circle
@@ -33620,13 +33543,6 @@
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "20ed4009-9459-4a0b-a7dd-6eaf5a9991a2")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 2.5 90)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "a8073d05-6413-4986-9114-780144e4371f")
 		)
 		(pad "" np_thru_hole circle
 			(at -2.25 -2.5 90)
@@ -40797,13 +40713,6 @@
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "05cd72f9-7fe2-434a-8591-c9a10f173012")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 -2.5 90)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
 			(uuid "19ee5ebd-aef2-4950-8592-a3ae2158c6a7")
 		)
 		(pad "" np_thru_hole circle
@@ -40812,13 +40721,6 @@
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "13873f16-5115-47d9-b5ce-32e3b79f3fca")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 2.5 90)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "b2a59520-2287-44c0-ad4e-0554d05e90a8")
 		)
 		(pad "" np_thru_hole circle
 			(at -2.25 -2.5 90)
@@ -49393,21 +49295,7 @@
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "4f275d3b-e6f2-492a-b73d-3aebaead3751")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 -2.5)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
 			(uuid "ba653a0b-22f5-44fe-b3f8-078a05903f74")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 2.5)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "7797bd63-4fc4-42a6-9b1f-fa32ea1b43f2")
 		)
 		(pad "" np_thru_hole circle
 			(at -3 2.5)
@@ -54148,20 +54036,6 @@
 			(uuid "0049ce93-7a6f-424c-ad6e-a9e003bffd25")
 		)
 		(pad "" np_thru_hole circle
-			(at -3 -2.5 90)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "b7f81ba4-8d7b-45d2-be68-56feebc757b9")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 2.5 90)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "3354bc8e-4753-4a5b-b51f-5727e223ac85")
-		)
-		(pad "" np_thru_hole circle
 			(at -3 2.5 90)
 			(size 0.5 0.5)
 			(drill 0.5)
@@ -54431,13 +54305,6 @@
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "5cf44d50-18a0-4fe8-ba08-dbbfaea29af5")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 -2.5)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
 			(uuid "5fdad8f2-f87c-4ff7-a2e7-bece048799f9")
 		)
 		(pad "" np_thru_hole circle
@@ -54446,13 +54313,6 @@
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "3fdd5684-1836-49ac-81b6-8ef06a8eaba2")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 2.5)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "86c06353-0389-4bfd-ba35-8ab5fda23e90")
 		)
 		(pad "" np_thru_hole circle
 			(at -2.25 -2.5)
@@ -58680,25 +58540,11 @@
 			(uuid "008213ca-6735-4d5f-8ba5-b21ea4cff255")
 		)
 		(pad "" np_thru_hole circle
-			(at -3 -2.5)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "8e07ee2f-4ce2-43be-94ac-0bca6900d9ab")
-		)
-		(pad "" np_thru_hole circle
 			(at -3 2.5)
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "780344ae-62ab-47a1-b8e3-2de2ec4749b0")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 2.5)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "917935da-49a5-46ba-bd1e-a80244ad0ff2")
 		)
 		(pad "" np_thru_hole circle
 			(at -2.25 -2.5)
@@ -65794,25 +65640,11 @@
 			(uuid "8c01bb61-236f-4001-bf65-8f157559d8c7")
 		)
 		(pad "" np_thru_hole circle
-			(at -3 -2.5)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "9e006e2f-64ce-4bca-95a9-9e0f47dec3b5")
-		)
-		(pad "" np_thru_hole circle
 			(at -3 2.5)
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "6e5cf6a3-4383-4fe2-919e-01296e1f46ca")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 2.5)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "a3a018d1-c908-4997-864d-8b59fc98af8b")
 		)
 		(pad "" np_thru_hole circle
 			(at -2.25 -2.5)
@@ -85192,20 +85024,6 @@
 			(uuid "0ff1d19b-3706-4744-9b5d-8f74684febcd")
 		)
 		(pad "" np_thru_hole circle
-			(at -3 -2.5 90)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "ca94a106-93d1-41d9-9281-ee52de1131f5")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 2.5 90)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "1be309a3-a685-431a-9b4c-620224c90cbe")
-		)
-		(pad "" np_thru_hole circle
 			(at -3 2.5 90)
 			(size 0.5 0.5)
 			(drill 0.5)
@@ -90927,13 +90745,6 @@
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "2652fd58-23c5-4553-840f-62c1ff4ff91c")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 -2.5)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
 			(uuid "a11ea7a3-09fe-4531-884d-46c8e2772b59")
 		)
 		(pad "" np_thru_hole circle
@@ -90942,13 +90753,6 @@
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
 			(uuid "19e16b5d-d9a6-4390-8341-34cacd0787ec")
-		)
-		(pad "" np_thru_hole circle
-			(at -3 2.5)
-			(size 0.5 0.5)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "528a7cf3-f3d3-47d4-bdac-606ea0257692")
 		)
 		(pad "" np_thru_hole circle
 			(at -2.25 -2.5)
@@ -131081,7 +130885,7 @@
 		(uuid "cf1183ef-deaa-49b9-a90b-24136fc6e816")
 	)
 	(via
-		(at 85.296802 148.317121)
+		(at 85.296802 147.6)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -131702,7 +131506,7 @@
 		(uuid "3aad12ed-f22b-43a0-bd06-92ae5d9004be")
 	)
 	(via
-		(at 82.796802 148.317121)
+		(at 82.7 147.5)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -131961,7 +131765,7 @@
 		(uuid "55198860-57e4-4937-b469-23f9c7086486")
 	)
 	(via
-		(at 100.296802 148.317121)
+		(at 100.296802 148.1)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -132298,7 +132102,7 @@
 		(uuid "70a28fad-e3ee-4286-b41e-a2cc37a42b0d")
 	)
 	(via
-		(at 87.796802 148.317121)
+		(at 87.8 147.8)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -214359,7 +214163,7 @@
 				(xy 79.769555 25.664326) (xy 79.873607 25.715194) (xy 79.892224 25.717906) (xy 79.907493 25.724575)
 				(xy 79.908079 25.725066) (xy 79.909577 25.725509) (xy 79.923781 25.732027) (xy 79.976496 25.777869)
 				(xy 79.979932 25.783237) (xy 79.9995 25.850094) (xy 79.9995 31.925083) (xy 80.015157 31.96288) (xy 80.015158 31.962882)
-				(xy 80.037636 32.017149) (xy 84.482472 36.461985) (xy 84.574541 36.500121) (xy 84.674197 36.500121)
+				(xy 80.037636 32.017149) (xy 84.412005 36.391518) (xy 84.482472 36.461985) (xy 84.574541 36.500121)
 				(xy 84.914915 36.500121) (xy 84.947427 36.504795) (xy 84.949847 36.505142) (xy 84.975091 36.512555)
 				(xy 85.027837 36.543851) (xy 85.054087 36.570101) (xy 85.145413 36.622828) (xy 85.247273 36.650121)
 				(xy 85.247275 36.650121) (xy 85.352725 36.650121) (xy 85.352727 36.650121) (xy 85.454587 36.622828)
@@ -216069,8 +215873,8 @@
 				(xy 94.264674 55.616659) (xy 94.295804 55.609146) (xy 94.326541 55.600121) (xy 94.442733 55.600121)
 				(xy 94.477665 55.605142) (xy 94.502909 55.612555) (xy 94.555655 55.643851) (xy 98.950574 60.038769)
 				(xy 98.971723 60.06702) (xy 98.984331 60.090109) (xy 98.9995 60.149538) (xy 98.9995 64.74945) (xy 99.010388 64.775735)
-				(xy 99.023701 64.807875) (xy 99.037635 64.841517) (xy 99.037636 64.841518) (xy 104.933103 70.736985)
-				(xy 105.025172 70.775121) (xy 105.124828 70.775121) (xy 107.687515 70.775121) (xy 107.722447 70.780142)
+				(xy 99.023701 64.807875) (xy 99.037635 64.841517) (xy 99.037636 64.841518) (xy 104.862636 70.666518)
+				(xy 104.933103 70.736985) (xy 105.025172 70.775121) (xy 107.687515 70.775121) (xy 107.722447 70.780142)
 				(xy 107.735766 70.784053) (xy 107.794544 70.821827) (xy 107.82357 70.885382) (xy 107.823569 70.885384)
 				(xy 107.825528 70.899002) (xy 107.825496 70.934524) (xy 107.8245 70.941361) (xy 107.8245 70.941364)
 				(xy 107.8245 71.557881) (xy 107.834426 71.626012) (xy 107.834427 71.626014) (xy 107.871719 71.702298)
