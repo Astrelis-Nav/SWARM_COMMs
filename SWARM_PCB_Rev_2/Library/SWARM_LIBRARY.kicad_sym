@@ -4541,8 +4541,8 @@
 		)
 		(symbol "TPS55340RTER_0_0"
 			(rectangle
-				(start -10.16 -17.78)
-				(end 10.16 17.78)
+				(start -10.16 17.78)
+				(end 10.16 -17.78)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4732,62 +4732,6 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -12.7 180)
-				(length 5.08)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 -12.7 180)
-				(length 5.08)
-				(hide yes)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 -12.7 180)
-				(length 5.08)
-				(hide yes)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 15.24 -7.62 180)
 				(length 5.08)
 				(hide yes)
@@ -4855,6 +4799,62 @@
 					)
 				)
 				(number "17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TPS55340RTER_1_0"
+			(pin power_in line
+				(at 15.24 -12.7 180)
+				(length 5.08)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -12.7 180)
+				(length 5.08)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -12.7 180)
+				(length 5.08)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "13"
 					(effects
 						(font
 							(size 1.016 1.016)

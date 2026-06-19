@@ -60,16 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|56455000|32095000|75278e31-9953-4db1-b1e5-9f9ec1549636|70a1b5c6-57c3-46d9-9430-b4d5d1af9f21",
-          ""
-        ],
-        [
-          "silk_edge_clearance|56499081|22904154|75278e31-9953-4db1-b1e5-9f9ec1549636|aad7ee52-cdad-4cd6-8bb9-03384e76d703",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -84,10 +75,10 @@
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
-        "duplicate_footprints": "warning",
+        "duplicate_footprints": "ignore",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "warning",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
@@ -104,7 +95,7 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
@@ -131,7 +122,7 @@
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "tuning_profile_track_geometries": "ignore",
+        "tuning_profile_track_geometries": "warning",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -269,20 +260,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "multiple_net_names|1473200|355600|81c6bdd8-e8de-4da8-aa23-a2596583d103|4fbd277a-d763-4196-a4bb-6ebf2b4de567|/d61c6b76-225f-4e7b-954b-419fd350b2a8/303cb209-0966-41c9-a4ba-f64f79dc9143|/d61c6b76-225f-4e7b-954b-419fd350b2a8/303cb209-0966-41c9-a4ba-f64f79dc9143|/d61c6b76-225f-4e7b-954b-419fd350b2a8/303cb209-0966-41c9-a4ba-f64f79dc9143",
-        ""
-      ],
-      [
-        "multiple_net_names|546100|1282700|90c636e4-7831-4d31-9177-977fb5b3c3ec|aeea368b-86f6-4164-9c49-8a17baa3ed30|/d61c6b76-225f-4e7b-954b-419fd350b2a8/650025eb-067f-40e3-8b03-3f7becff6fc6|/d61c6b76-225f-4e7b-954b-419fd350b2a8/650025eb-067f-40e3-8b03-3f7becff6fc6|/d61c6b76-225f-4e7b-954b-419fd350b2a8/650025eb-067f-40e3-8b03-3f7becff6fc6",
-        ""
-      ],
-      [
-        "multiple_net_names|546100|1282700|deb0b0e1-e713-4d2d-a1d4-d8bb8568ba27|aeea368b-86f6-4164-9c49-8a17baa3ed30|/d61c6b76-225f-4e7b-954b-419fd350b2a8/650025eb-067f-40e3-8b03-3f7becff6fc6|/d61c6b76-225f-4e7b-954b-419fd350b2a8/650025eb-067f-40e3-8b03-3f7becff6fc6|/d61c6b76-225f-4e7b-954b-419fd350b2a8/650025eb-067f-40e3-8b03-3f7becff6fc6",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -468,8 +446,8 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
+      "footprint_filter": "warning",
+      "footprint_link_issues": "ignore",
       "four_way_junction": "ignore",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
@@ -494,8 +472,8 @@
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
-      "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "simulation_model_issue": "warning",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -769,7 +747,7 @@
         "uuid": "d61c6b76-225f-4e7b-954b-419fd350b2a8"
       }
     ],
-    "used_designators": "#FLG17-20,bR16-19,J13,bL4,#PWR279-280,#PWR285-307,eJ2,bC26-33,bU4,bD6",
+    "used_designators": "aR19,D1-2,dD2",
     "variants": []
   },
   "sheets": [

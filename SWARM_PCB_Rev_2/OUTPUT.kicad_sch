@@ -5,7 +5,9 @@
 	(uuid "6fe6262a-3b2d-46bd-95cd-cdd0acc1e7bb")
 	(paper "A4")
 	(title_block
-		(date "2026-05-27")
+		(title "OUTPUT")
+		(date "2026-06-19")
+		(rev "1")
 		(company "ASTRELIS NAV")
 		(comment 1 "By SAMANTHA CHONG")
 	)

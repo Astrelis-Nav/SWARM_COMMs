@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "SWARM PCB")
-		(date "2026-05-27")
+		(date "2026-06-19")
 		(rev "2")
 		(company "ASTRELIS NAV")
 		(comment 1 "By SAMANTHA CHONG")
@@ -4718,7 +4718,7 @@
 	)
 	(sheet
 		(at 210.82 17.78)
-		(size 69.85 40.64)
+		(size 69.85 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4744,7 +4744,7 @@
 			)
 		)
 		(property "Sheetfile" "CONTROL.kicad_sch"
-			(at 210.82 59.0046 0)
+			(at 210.82 43.7646 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4764,8 +4764,8 @@
 		)
 	)
 	(sheet
-		(at 210.82 128.27)
-		(size 69.85 33.02)
+		(at 210.82 107.95)
+		(size 69.85 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4780,7 +4780,7 @@
 		)
 		(uuid "303cb209-0966-41c9-a4ba-f64f79dc9143")
 		(property "Sheetname" "TX_RX"
-			(at 210.82 127.5584 0)
+			(at 210.82 107.2384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4791,7 +4791,7 @@
 			)
 		)
 		(property "Sheetfile" "TX_RX.kicad_sch"
-			(at 210.82 161.8746 0)
+			(at 210.82 132.6646 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5347,8 +5347,8 @@
 		)
 	)
 	(sheet
-		(at 210.82 66.04)
-		(size 71.12 24.13)
+		(at 210.82 48.26)
+		(size 69.85 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5363,7 +5363,7 @@
 		)
 		(uuid "650025eb-067f-40e3-8b03-3f7becff6fc6")
 		(property "Sheetname" "POWER"
-			(at 210.82 65.3284 0)
+			(at 210.82 47.5484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5374,7 +5374,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER.kicad_sch"
-			(at 210.82 90.7546 0)
+			(at 210.82 72.9746 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5394,8 +5394,8 @@
 		)
 	)
 	(sheet
-		(at 210.82 97.79)
-		(size 71.12 25.4)
+		(at 210.82 77.47)
+		(size 69.85 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5410,7 +5410,7 @@
 		)
 		(uuid "eb158cd5-dda4-4d5d-aa38-aff400388cd2")
 		(property "Sheetname" "SENSOR"
-			(at 210.82 97.0784 0)
+			(at 210.82 76.7584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5421,7 +5421,7 @@
 			)
 		)
 		(property "Sheetfile" "SENSOR.kicad_sch"
-			(at 210.82 123.7746 0)
+			(at 210.82 103.4546 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5441,8 +5441,8 @@
 		)
 	)
 	(sheet
-		(at 100.33 123.19)
-		(size 66.04 31.75)
+		(at 210.82 137.16)
+		(size 69.85 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5457,7 +5457,7 @@
 		)
 		(uuid "fc16bf42-0aea-4e30-b31f-f2ffcd7cd419")
 		(property "Sheetname" "OUTPUT"
-			(at 100.33 122.4784 0)
+			(at 210.82 136.4484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5468,7 +5468,7 @@
 			)
 		)
 		(property "Sheetfile" "OUTPUT.kicad_sch"
-			(at 100.33 155.5246 0)
+			(at 210.82 161.8746 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
