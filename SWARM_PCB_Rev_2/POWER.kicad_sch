@@ -3741,16 +3741,10 @@
 		(uuid "0094b5cb-b569-4ea0-87d5-6289606334c2")
 	)
 	(junction
-		(at 63.5 58.42)
+		(at 62.23 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "064e6acd-9600-4337-a579-592cf075493f")
-	)
-	(junction
-		(at 76.2 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08a9b7af-0595-4f28-9e2c-8a4fa49ce69a")
+		(uuid "03f5faef-0c6c-4f3c-bba3-25fd136c2255")
 	)
 	(junction
 		(at 204.47 35.56)
@@ -3895,6 +3889,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a61e53dc-06d0-4c49-b958-573f55a99b53")
+	)
+	(junction
+		(at 76.2 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a83f1fd6-8688-447e-8370-1f2f543e0222")
 	)
 	(junction
 		(at 20.32 58.42)
@@ -4434,7 +4434,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 60.96) (xy 63.5 60.96)
+			(xy 52.07 60.96) (xy 62.23 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4464,7 +4464,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 58.42) (xy 76.2 58.42)
+			(xy 69.85 58.42) (xy 76.2 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4794,16 +4794,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 58.42) (xy 63.5 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4db99072-cd03-40ff-86ec-5468c7e78367")
-	)
-	(wire
-		(pts
 			(xy 20.32 58.42) (xy 22.86 58.42)
 		)
 		(stroke
@@ -4824,7 +4814,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 60.96) (xy 63.5 58.42)
+			(xy 62.23 60.96) (xy 62.23 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5394,7 +5384,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 58.42) (xy 63.5 58.42)
+			(xy 62.23 58.42) (xy 60.96 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6113,7 +6103,7 @@
 		(uuid "71dd0c5e-a757-43f7-9617-3fd551e339fd")
 	)
 	(label "SW_5"
-		(at 52.07 96.52 0)
+		(at 53.34 96.52 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -13322,7 +13312,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 69.85 58.42 90)
+		(at 66.04 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13332,7 +13322,7 @@
 		(dnp no)
 		(uuid "706328c5-b3d1-45b7-89af-78d6c40571b5")
 		(property "Reference" "bL2"
-			(at 69.85 56.642 90)
+			(at 66.04 56.642 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13342,7 +13332,7 @@
 			)
 		)
 		(property "Value" "15u"
-			(at 69.85 59.436 90)
+			(at 66.04 59.436 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13353,7 +13343,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-5030"
-			(at 69.85 58.42 0)
+			(at 66.04 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13364,7 +13354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 58.42 0)
+			(at 66.04 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13375,7 +13365,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 69.85 58.42 0)
+			(at 66.04 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13386,7 +13376,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 3.81 0 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13397,7 +13387,7 @@
 			)
 		)
 		(property "MPN" "7447799150"
-			(at 3.81 0 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
