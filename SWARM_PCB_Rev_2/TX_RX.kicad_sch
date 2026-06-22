@@ -8604,17 +8604,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM1885C1H102JA01D"
 			(at 0 0 0)
 			(hide yes)
@@ -8861,17 +8850,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-07100KL"
 			(at 0 0 0)
 			(hide yes)
@@ -8965,17 +8943,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM1885C1H102JA01D"
 			(at 0 0 0)
 			(hide yes)
@@ -9058,17 +9025,6 @@
 		)
 		(property "Description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 50V/V, SOIC-8"
 			(at 163.83 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9189,17 +9145,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 -40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R71C104KA01D"
 			(at 0 -40.64 0)
 			(hide yes)
@@ -9284,17 +9229,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 92.71 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9396,17 +9330,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-0710RL"
 			(at 0 0 0)
 			(hide yes)
@@ -9489,17 +9412,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 102.87 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 -40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9678,17 +9590,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 99.06 -40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-0710RL"
 			(at 99.06 -40.64 0)
 			(hide yes)
@@ -9818,30 +9719,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
-			(at 171.45 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "SC70-3 Texas Instruments"
-			(at 171.45 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "OC_FARNELL" "-"
 			(at 171.45 113.03 0)
 			(hide yes)
@@ -9891,18 +9768,6 @@
 			)
 		)
 		(property "OC_NEWARK" "55R7554"
-			(at 171.45 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 171.45 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -10001,17 +9866,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 24.13 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10181,17 +10035,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 24.13 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10448,17 +10291,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 -36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-07100RL"
 			(at 0 -36.83 0)
 			(hide yes)
@@ -10619,17 +10451,6 @@
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 74.93 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at -152.4 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10804,17 +10625,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 153.67 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 -36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11261,18 +11071,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "SOIC-8 Texas Instruments"
-			(at 147.32 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Check_prices" "https://www.snapeda.com/parts/UCC27211D/Texas+Instruments/view-part/?ref=eda"
 			(at 147.32 71.12 0)
 			(hide yes)
@@ -11343,17 +11141,6 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 99.06 -40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "MPN" "UCC27211D"
@@ -11624,17 +11411,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM1885C1H102JA01D"
 			(at 0 0 0)
 			(hide yes)
@@ -11797,17 +11573,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 143.51 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11988,17 +11753,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at -1.27 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R71C104KA01D"
 			(at -1.27 76.2 0)
 			(hide yes)
@@ -12082,17 +11836,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 123.19 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 99.06 -40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12426,17 +12169,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM32ER71H106KA12"
 			(at 0 0 0)
 			(hide yes)
@@ -12599,17 +12331,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 78.74 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12789,17 +12510,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 99.06 -40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R71C104KA01D"
 			(at 99.06 -40.64 0)
 			(hide yes)
@@ -12885,17 +12595,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 220.98 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13066,17 +12765,6 @@
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
 			(at 44.45 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Infineon Technologies"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13293,17 +12981,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 -40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R71H103KA01D"
 			(at 0 -40.64 0)
 			(hide yes)
@@ -13387,17 +13064,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 176.53 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13690,18 +13356,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "SOIC-8 Texas Instruments"
-			(at 48.26 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Check_prices" "https://www.snapeda.com/parts/UCC27211D/Texas+Instruments/view-part/?ref=eda"
 			(at 48.26 71.12 0)
 			(hide yes)
@@ -13772,17 +13426,6 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "MPN" "UCC27211D"
@@ -13971,17 +13614,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at -99.06 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-0710KL"
 			(at -99.06 36.83 0)
 			(hide yes)
@@ -14067,17 +13699,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 20.32 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14412,17 +14033,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Infineon Technologies"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "IPD50N10S3L-16"
 			(at 0 0 0)
 			(hide yes)
@@ -14621,17 +14231,6 @@
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
 			(at 59.69 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Infineon Technologies"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14840,17 +14439,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 101.6 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15337,17 +14925,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 99.06 -40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-07100RL"
 			(at 99.06 -40.64 0)
 			(hide yes)
@@ -15432,17 +15009,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 276.86 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15621,17 +15187,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 99.06 -40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-0710RL"
 			(at 99.06 -40.64 0)
 			(hide yes)
@@ -15715,17 +15270,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 123.19 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 99.06 -40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15819,17 +15363,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 121.92 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at -1.27 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16394,17 +15927,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 99.06 -40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R71C104KA01D"
 			(at 99.06 -40.64 0)
 			(hide yes)
@@ -16489,17 +16011,6 @@
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
 			(at 44.45 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Infineon Technologies"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16636,17 +16147,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 -40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-0710KL"
 			(at 0 -40.64 0)
 			(hide yes)
@@ -16731,17 +16231,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 269.24 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16921,17 +16410,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Analog Devices"
-			(at -99.06 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "ADG7421FBCPZ-RL7"
 			(at -99.06 36.83 0)
 			(hide yes)
@@ -17040,17 +16518,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 83.82 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17382,17 +16849,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at -99.06 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-0710KL"
 			(at -99.06 36.83 0)
 			(hide yes)
@@ -17566,17 +17022,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 0 -40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "OPA2322AIDGKR"
 			(at 0 -40.64 0)
 			(hide yes)
@@ -17677,17 +17122,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 92.71 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 -40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17945,17 +17379,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 -40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-07953RL"
 			(at 0 -40.64 0)
 			(hide yes)
@@ -18040,17 +17463,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 87.63 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18385,17 +17797,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 99.06 -40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-07100RL"
 			(at 99.06 -40.64 0)
 			(hide yes)
@@ -18490,17 +17891,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 -40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM1885C1H102JA01D"
 			(at 0 -40.64 0)
 			(hide yes)
@@ -18585,17 +17975,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 95.25 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at -99.06 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18776,17 +18155,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 -40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-07121RL"
 			(at 0 -40.64 0)
 			(hide yes)
@@ -18892,30 +18260,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "SOIC-8 Texas Instruments"
-			(at 245.11 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 245.11 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA828IDR/Texas+Instruments/view-part/?ref=snap"
 			(at 245.11 138.43 0)
 			(hide yes)
@@ -18940,18 +18284,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Availability" "In Stock"
-			(at 245.11 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Check_prices" "https://www.snapeda.com/parts/INA828IDR/Texas+Instruments/view-part/?ref=eda"
 			(at 245.11 138.43 0)
 			(hide yes)
@@ -18962,17 +18294,6 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "MPN" "INA823DR"
@@ -19078,17 +18399,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 29.21 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at -99.06 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19268,17 +18578,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 -40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-073K83L"
 			(at 0 -40.64 0)
 			(hide yes)
@@ -19440,17 +18739,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 25.4 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19780,17 +19068,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 123.19 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 -40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20355,17 +19632,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at -99.06 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-0710KL"
 			(at -99.06 36.83 0)
 			(hide yes)
@@ -20451,17 +19717,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 34.29 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 -40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20564,17 +19819,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at -99.06 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R71C104KA01D"
 			(at -99.06 36.83 0)
 			(hide yes)
@@ -20659,17 +19903,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 83.82 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20838,17 +20071,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 172.72 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at -1.27 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21028,17 +20250,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at -1.27 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R71C104KA01D"
 			(at -1.27 77.47 0)
 			(hide yes)
@@ -21123,17 +20334,6 @@
 		)
 		(property "Description" ""
 			(at 128.27 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at -1.27 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21236,17 +20436,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 195.58 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 99.06 -40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21496,17 +20685,6 @@
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
 			(at 16.51 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at -38.1 -2.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21781,17 +20959,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 -40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM1885C1H102JA01D"
 			(at 0 -40.64 0)
 			(hide yes)
@@ -21876,17 +21043,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 110.49 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21990,17 +21146,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-075K1L"
 			(at 0 0 0)
 			(hide yes)
@@ -22085,17 +21230,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 201.93 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22352,17 +21486,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at -1.27 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-07100KL"
 			(at -1.27 76.2 0)
 			(hide yes)
@@ -22524,17 +21647,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 210.82 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22792,17 +21904,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-0747KL"
 			(at 0 0 0)
 			(hide yes)
@@ -22887,17 +21988,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 119.38 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23144,17 +22234,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 72.39 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23565,17 +22644,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-0710KL"
 			(at 0 0 0)
 			(hide yes)
@@ -23660,17 +22728,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 82.55 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 -40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23773,17 +22830,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM21BR61A105KA73L"
 			(at 0 0 0)
 			(hide yes)
@@ -23867,17 +22913,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 24.13 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24134,17 +23169,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R71C104KA01D"
 			(at 0 0 0)
 			(hide yes)
@@ -24306,17 +23330,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 34.29 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at -99.06 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

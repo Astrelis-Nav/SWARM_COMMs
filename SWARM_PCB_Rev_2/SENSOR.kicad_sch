@@ -3820,17 +3820,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Manufacturer" "MEMSIC"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "MMC5603NJ"
 			(at 0 0 0)
 			(hide yes)
@@ -4075,17 +4064,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 148.59 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 49.53 -12.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4342,17 +4320,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R71C104KA01D"
 			(at 0 0 0)
 			(hide yes)
@@ -4516,17 +4483,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 173.99 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5035,17 +4991,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "ASM330LHHXTR"
 			(at 0 0 0)
 			(hide yes)
@@ -5502,53 +5447,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "VFLGA-14 STMicroelectronics"
-			(at 43.18 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 43.18 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 43.18 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "LSM6DSO32TR"
 			(at 0 0 0)
 			(hide yes)
@@ -5823,17 +5721,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 90.17 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6783,17 +6670,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R60J225KE15D"
 			(at 0 0 0)
 			(hide yes)
@@ -6955,17 +6831,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 99.06 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7299,17 +7164,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R71C104KA01D"
 			(at 0 0 0)
 			(hide yes)
@@ -7394,17 +7248,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 99.06 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7661,17 +7504,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R71C104KA01D"
 			(at 0 0 0)
 			(hide yes)
@@ -7756,17 +7588,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 181.61 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8100,17 +7921,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R71C104KA01D"
 			(at 0 0 0)
 			(hide yes)
@@ -8195,17 +8005,6 @@
 		)
 		(property "Description" "Ultra-small, gel-filled, pressure sensor with stainless steel cap"
 			(at 115.57 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

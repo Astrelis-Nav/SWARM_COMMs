@@ -12662,17 +12662,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-075K1L"
 			(at 0 0 0)
 			(hide yes)
@@ -12766,17 +12755,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-071KL"
 			(at 0 0 0)
 			(hide yes)
@@ -12861,17 +12839,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 114.3 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13128,17 +13095,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-0710KL"
 			(at 0 0 0)
 			(hide yes)
@@ -13300,17 +13256,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 250.19 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13801,17 +13746,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R71C104KA01D"
 			(at 0 0 0)
 			(hide yes)
@@ -14059,17 +13993,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-075K1L"
 			(at 0 0 0)
 			(hide yes)
@@ -14154,17 +14077,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 45.72 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14335,17 +14247,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 104.14 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14860,17 +14761,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 30.48 -3.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-0733RL"
 			(at 30.48 -3.81 0)
 			(hide yes)
@@ -15041,17 +14931,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-074K7L"
 			(at 0 0 0)
 			(hide yes)
@@ -15136,17 +15015,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 19.05 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15249,17 +15117,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R61A105KA61D"
 			(at 0 0 0)
 			(hide yes)
@@ -15353,17 +15210,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R71C104KA01D"
 			(at 0 0 0)
 			(hide yes)
@@ -15448,17 +15294,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 63.5 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15704,17 +15539,6 @@
 		)
 		(property "Description" "Two pin crystal"
 			(at 95.25 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "MicroCrystal"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16230,17 +16054,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R71C104KA01D"
 			(at 0 0 0)
 			(hide yes)
@@ -16490,17 +16303,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-071KL"
 			(at 0 0 0)
 			(hide yes)
@@ -16585,17 +16387,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 181.61 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16929,17 +16720,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R60J106ME47D"
 			(at 0 0 0)
 			(hide yes)
@@ -17024,17 +16804,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 278.13 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17214,17 +16983,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-071KL"
 			(at 0 0 0)
 			(hide yes)
@@ -17318,17 +17076,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 30.48 6.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-0733RL"
 			(at 30.48 6.35 0)
 			(hide yes)
@@ -17413,17 +17160,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 20.32 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17603,17 +17339,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-071KL"
 			(at 0 0 0)
 			(hide yes)
@@ -17698,17 +17423,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 26.67 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17888,17 +17602,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-0710KL"
 			(at 0 0 0)
 			(hide yes)
@@ -18063,17 +17766,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 224.79 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18719,17 +18411,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "STM32F446RET6"
 			(at 0 0 0)
 			(hide yes)
@@ -19000,17 +18681,6 @@
 		)
 		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
 			(at 139.7 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Raspberry Pi"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19535,17 +19205,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R71C104KA01D"
 			(at 0 0 0)
 			(hide yes)
@@ -19874,17 +19533,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "USBLC6-2SC6"
 			(at 0 0 0)
 			(hide yes)
@@ -19990,17 +19638,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R71C104KA01D"
 			(at 0 0 0)
 			(hide yes)
@@ -20085,17 +19722,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 27.94 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20506,17 +20132,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM188R71C104KA01D"
 			(at 0 0 0)
 			(hide yes)
@@ -20764,17 +20379,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-071KL"
 			(at 0 0 0)
 			(hide yes)
@@ -20945,17 +20549,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-0710KL"
 			(at 0 0 0)
 			(hide yes)
@@ -21040,17 +20633,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 35.56 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21153,17 +20735,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "BLM18BD121SN1D"
 			(at 0 0 0)
 			(hide yes)
@@ -21249,17 +20820,6 @@
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 219.71 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "GCT"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21398,17 +20958,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 109.22 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21911,17 +21460,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Seiko Epson"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "FA-238 16.0000MB"
 			(at 0 0 0)
 			(hide yes)
@@ -22034,17 +21572,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 267.97 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22457,17 +21984,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "GRM1885C1H100JA01D"
 			(at 0 0 0)
 			(hide yes)
@@ -22550,17 +22066,6 @@
 		)
 		(property "Description" "Micro SD Card Socket"
 			(at 241.3 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Amphenol"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22829,17 +22334,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 26.67 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
