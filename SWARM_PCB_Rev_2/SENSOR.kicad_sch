@@ -2283,6 +2283,17 @@
 		)
 		(uuid "33bbba1f-47da-4f76-902a-fc2557bbfc63")
 	)
+	(text "SCL → PA7 — digital, bit-banged I2C clock (no hardware I2C support on this pin). GPIO open-drain output, external pull-up on bus.\n\nSDA → PA8 — digital, bit-banged I2C data (PA8 only supports I2C3_SCL in hardware, not SDA). GPIO open-drain output, external pull-up on bus.\n\n\nACC1_INT1 → PB0 — digital interrupt from Accelerometer 1 (ASM330LHHXTR), INT1. GPIO input + EXTI, edge per sensor config.\n\nACC1_INT2 → PC5 — digital interrupt from Accelerometer 1 (ASM330LHHXTR), INT2. GPIO input + EXTI.\n\nACC2_INT1 → PC4 — digital interrupt from Accelerometer 2 (LSM6DSO32TR), INT1. GPIO input + EXTI.\n\nACC2_INT2 → PC13 — digital interrupt from Accelerometer 2 (LSM6DSO32TR), INT2. GPIO input + EXTI."
+		(exclude_from_sim no)
+		(at 21.844 134.874 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+			(justify left)
+		)
+		(uuid "3b12d240-9a25-4e8f-ad6d-42a81985cd9d")
+	)
 	(text "DUPLICATE FOOTPRINTS BETWEEN BOARDS"
 		(exclude_from_sim no)
 		(at 259.588 98.044 0)

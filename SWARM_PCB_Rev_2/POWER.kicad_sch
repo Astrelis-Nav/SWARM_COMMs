@@ -3629,6 +3629,17 @@
 		)
 		(uuid "adb5f95c-64aa-4590-a634-ba154ed334e9")
 	)
+	(text "PG_3.3V → PB6 — digital, open-drain PG pin (pulled up via R6). LOW = 3.3V rail fault.\n\nPG_5V → PA10 — digital, open-drain PG pin (pulled up via R16). LOW = 5V rail fault.\n\nPG_12V → PB12 — digital, open-drain PG pin (pulled up via R9). LOW = 12V rail fault.\n\nPG_VPiezo → PB1 (ADC1_IN9) — analog, R11/R13 voltage divider sampling VPiezo rail. \nNo digital flag — fault = ADC reading outside expected range."
+		(exclude_from_sim no)
+		(at 134.366 138.684 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+			(justify left)
+		)
+		(uuid "bc8fe0ef-48c1-44f9-899d-e3bb219f135e")
+	)
 	(text "INPUT PROTECTION"
 		(exclude_from_sim no)
 		(at 172.974 15.494 0)
