@@ -38,3 +38,10 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+PCB Design/COMMs_Rev_2/RX_Rev_2/.history/
+PCB Design/COMMs_Rev_2/TX_Rev_2/.history/
+PCB Design/CONTROL_Rev_1/.history/
+PCB Design/OUTPUTs_Rev_1/.history/
+PCB Design/PWR_Rev_1/.history/
+PCB Design/SENSOR_Rev_1/.history/
+SWARM_PCB_Rev_2/.history/
