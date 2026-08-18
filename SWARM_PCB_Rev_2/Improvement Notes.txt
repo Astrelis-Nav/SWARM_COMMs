@@ -1,0 +1,1 @@
+Pico 2 EN - floating not tied to GND (or 3.3V like previously)
